@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:nattable="http://www.eclipse.org/papyrus/nattable/model" xmlns:nattableaxis="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxis" xmlns:nattableaxisprovider="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisprovider" xmlns:nattablecelleditor="http://www.eclipse.org/papyrus/nattable/model/table/nattablecelleditor" xmlns:nattablestyle="http://www.eclipse.org/papyrus/nattable/model/table/nattablestyle" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xsi:schemaLocation="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxis http://www.eclipse.org/papyrus/nattable/model#//nattableaxis http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisprovider http://www.eclipse.org/papyrus/nattable/model#//nattableaxisprovider http://www.eclipse.org/papyrus/nattable/model/table/nattablecelleditor http://www.eclipse.org/papyrus/nattable/model#//nattablecelleditor http://www.eclipse.org/papyrus/nattable/model/table/nattablestyle http://www.eclipse.org/papyrus/nattable/model#//nattablestyle">
+  <notation:Diagram xmi:id="_LIkAsNqjEee8kvK1yMzufA" type="UseCase" name="SysML 1.4 Use Case Diagram" measurementUnit="Pixel">
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_LIkAsdqjEee8kvK1yMzufA" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_LIkAstqjEee8kvK1yMzufA"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_LIkAs9qjEee8kvK1yMzufA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.useCase">
+      <owner href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    </styles>
+    <element href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+  </notation:Diagram>
+  <nattable:Table xmi:id="_LJQkQNqjEee8kvK1yMzufA" name="Generic Table" currentRowAxisProvider="_LJQkQtqjEee8kvK1yMzufA" currentColumnAxisProvider="_LJQkQdqjEee8kvK1yMzufA" tableKindId="org.eclipse.papyrus.uml.table.generic">
+    <eAnnotations xmi:id="_LJTAgNqjEee8kvK1yMzufA" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:id="_LJTAgdqjEee8kvK1yMzufA" key="version" value="1.3.0"/>
+    </eAnnotations>
+    <context href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <owner href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <tableConfiguration href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#/"/>
+    <columnAxisProvidersHistory xsi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_LJQkQdqjEee8kvK1yMzufA" description="This axis provider provides available columns according to the rows of the table (features of the object displayed on the other axis)" name="UML Feature axis provider"/>
+    <rowAxisProvidersHistory xsi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_LJQkQtqjEee8kvK1yMzufA" description="This axis provider contains the object dropped by the user into the table" name="DroppedElementAxisProvider"/>
+  </nattable:Table>
+  <notation:Diagram xmi:id="_LJl7cNqjEee8kvK1yMzufA" type="PapyrusUMLClassDiagram" name="SysML 1.4 Block Definition Diagram" measurementUnit="Pixel">
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_LJl7cdqjEee8kvK1yMzufA" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_LJl7ctqjEee8kvK1yMzufA"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_LJl7c9qjEee8kvK1yMzufA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.blockdefinition">
+      <owner href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    </styles>
+    <element href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+  </notation:Diagram>
+  <nattable:Table xmi:id="_LKHf4NqjEee8kvK1yMzufA" name="SysML 1.4 Requirement Tree Table" currentRowAxisProvider="_LKHf5dqjEee8kvK1yMzufA" currentColumnAxisProvider="_LKHf4tqjEee8kvK1yMzufA" tableKindId="org.eclipse.papyrus.sysml14.table.requirementTree">
+    <eAnnotations xmi:id="_LKKjMNqjEee8kvK1yMzufA" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:id="_LKKjMdqjEee8kvK1yMzufA" key="version" value="1.3.0"/>
+    </eAnnotations>
+    <styles xsi:type="nattablestyle:IntListValueStyle" xmi:id="_LKHf4dqjEee8kvK1yMzufA" name="hiddenCategoriesByDepth">
+      <intListValue>0</intListValue>
+      <intListValue>1</intListValue>
+      <intListValue>2</intListValue>
+      <intListValue>3</intListValue>
+      <intListValue>4</intListValue>
+    </styles>
+    <context href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <owner href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <tableConfiguration href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirementTree.nattableconfiguration#/"/>
+    <columnAxisProvidersHistory xsi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_LKHf4tqjEee8kvK1yMzufA" description="Provides the columns of the tables with a default configuration" name="Requirements Feature Columns Provider">
+      <axis xsi:type="nattableaxis:FeatureIdAxis" xmi:id="_LKHf49qjEee8kvK1yMzufA" element="property_of_stereotype:/SysML::Requirements::Requirement::id">
+        <manager href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirementTree.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.1"/>
+      </axis>
+      <axis xsi:type="nattableaxis:FeatureIdAxis" xmi:id="_LKHf5NqjEee8kvK1yMzufA" element="property_of_stereotype:/SysML::Requirements::Requirement::text">
+        <manager href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirementTree.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.1"/>
+      </axis>
+    </columnAxisProvidersHistory>
+    <rowAxisProvidersHistory xsi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_LKHf5dqjEee8kvK1yMzufA" description="This axis provider manages the rows, according to the wanted hierarchy" name="HierarchicalRowAxisManager" disconnectSlave="true"/>
+  </nattable:Table>
+  <nattable:Table xmi:id="_LKPbsNqjEee8kvK1yMzufA" name="Generic Tree Table" currentRowAxisProvider="_LKPbs9qjEee8kvK1yMzufA" currentColumnAxisProvider="_LKPbsdqjEee8kvK1yMzufA" tableKindId="org.eclipse.papyrus.uml.table.genericTree">
+    <eAnnotations xmi:id="_LKRQ4NqjEee8kvK1yMzufA" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:id="_LKRQ4dqjEee8kvK1yMzufA" key="version" value="1.3.0"/>
+    </eAnnotations>
+    <context href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <owner href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <tableConfiguration href="platform:/plugin/org.eclipse.papyrus.uml.nattable/configs/genericTreeTable.nattableconfiguration#/"/>
+    <columnAxisProvidersHistory xsi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_LKPbsdqjEee8kvK1yMzufA" description="This axis provider provides available columns according to the rows of the table (features of the object displayed on the other axis)" name="UML Feature axis provider">
+      <axis xsi:type="nattableaxis:EStructuralFeatureAxis" xmi:id="_LKPbstqjEee8kvK1yMzufA">
+        <manager href="platform:/plugin/org.eclipse.papyrus.uml.nattable/configs/genericTreeTable.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+        <element xsi:type="ecore:EAttribute" href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement/name"/>
+      </axis>
+    </columnAxisProvidersHistory>
+    <rowAxisProvidersHistory xsi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_LKPbs9qjEee8kvK1yMzufA" description="This axis provider manages the rows, according to the wanted hierarchy" name="HierarchicalRowAxisManager" disconnectSlave="true"/>
+  </nattable:Table>
+  <notation:Diagram xmi:id="_LMmMINqjEee8kvK1yMzufA" type="PapyrusUMLStateMachineDiagram" name="SysML 1.4 State Machine Diagram" measurementUnit="Pixel">
+    <children xsi:type="notation:Shape" xmi:id="_LMmMIdqjEee8kvK1yMzufA" type="StateMachine_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_LMmMItqjEee8kvK1yMzufA" type="StateMachine_NameLabel">
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_LMmMI9qjEee8kvK1yMzufA" width="700" height="20"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_LMmMJNqjEee8kvK1yMzufA" type="StateMachine_RegionCompartment">
+        <children xsi:type="notation:Shape" xmi:id="_LMmMJdqjEee8kvK1yMzufA" type="Region_Shape">
+          <eAnnotations xmi:id="_LMmMJtqjEee8kvK1yMzufA" source="RegionAnnotationKey">
+            <details xmi:id="_LMmMJ9qjEee8kvK1yMzufA" key="RegionZoneKey" value=""/>
+          </eAnnotations>
+          <children xsi:type="notation:BasicCompartment" xmi:id="_LMmMKNqjEee8kvK1yMzufA" type="Region_SubvertexCompartment">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_LMmMKdqjEee8kvK1yMzufA"/>
+          </children>
+          <element href="ECb-JusticeLeague.uml#_LMdpQNqjEee8kvK1yMzufA"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_LMmMKtqjEee8kvK1yMzufA" width="700" height="280"/>
+        </children>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_LMmMK9qjEee8kvK1yMzufA" y="20" width="700" height="280"/>
+      </children>
+      <element href="ECb-JusticeLeague.uml#_LLbHcNqjEee8kvK1yMzufA"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_LMmMLNqjEee8kvK1yMzufA" x="30" y="30" width="700" height="300"/>
+    </children>
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_LMmMLdqjEee8kvK1yMzufA" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_LMmMLtqjEee8kvK1yMzufA"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_LMmML9qjEee8kvK1yMzufA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.stateMachine">
+      <owner href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    </styles>
+    <element href="ECb-JusticeLeague.uml#_LLbHcNqjEee8kvK1yMzufA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_LOXtwNqjEee8kvK1yMzufA" type="CompositeStructure" name="SysML 1.4 Parametric Diagram" measurementUnit="Pixel">
+    <children xsi:type="notation:Shape" xmi:id="_LOaKANqjEee8kvK1yMzufA" type="Class_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_LOaxENqjEee8kvK1yMzufA" type="Class_NameLabel"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_LOaxEdqjEee8kvK1yMzufA" type="Class_FloatingNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_LOaxEtqjEee8kvK1yMzufA" y="15"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_LObYINqjEee8kvK1yMzufA" type="Class_StructureCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_LObYIdqjEee8kvK1yMzufA"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_LObYItqjEee8kvK1yMzufA"/>
+      </children>
+      <element href="ECb-JusticeLeague.uml#_LMwkMNqjEee8kvK1yMzufA"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_LOaKAdqjEee8kvK1yMzufA" x="40" y="40" width="500" height="250"/>
+    </children>
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_LOXtwdqjEee8kvK1yMzufA" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_LOXtwtqjEee8kvK1yMzufA"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_LOXtw9qjEee8kvK1yMzufA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.parametric">
+      <owner href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    </styles>
+    <element href="ECb-JusticeLeague.uml#_LMwkMNqjEee8kvK1yMzufA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_LPE4YNqjEee8kvK1yMzufA" type="PapyrusUMLActivityDiagram" name="SysML 1.4 Activity Diagram" measurementUnit="Pixel">
+    <children xsi:type="notation:Shape" xmi:id="_LPE4YdqjEee8kvK1yMzufA" type="Activity_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_LPE4YtqjEee8kvK1yMzufA" type="Activity_NameLabel"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_LPE4Y9qjEee8kvK1yMzufA" type="Activity_KeywordLabel"/>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_LPE4ZNqjEee8kvK1yMzufA" type="Activity_ParameterCompartment">
+        <styles xsi:type="notation:SortingStyle" xmi:id="_LPE4ZdqjEee8kvK1yMzufA"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_LPE4ZtqjEee8kvK1yMzufA"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_LPE4Z9qjEee8kvK1yMzufA"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_LPE4aNqjEee8kvK1yMzufA" type="Activity_PreconditionCompartment">
+        <styles xsi:type="notation:SortingStyle" xmi:id="_LPE4adqjEee8kvK1yMzufA"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_LPE4atqjEee8kvK1yMzufA"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_LPE4a9qjEee8kvK1yMzufA"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_LPE4bNqjEee8kvK1yMzufA" type="Activity_PostconditionCompartment">
+        <styles xsi:type="notation:SortingStyle" xmi:id="_LPE4bdqjEee8kvK1yMzufA"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_LPE4btqjEee8kvK1yMzufA"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_LPE4b9qjEee8kvK1yMzufA"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_LPE4cNqjEee8kvK1yMzufA" type="Activity_ActivityNodeCompartment">
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_LPE4cdqjEee8kvK1yMzufA"/>
+      </children>
+      <element href="ECb-JusticeLeague.uml#_LO0ZsNqjEee8kvK1yMzufA"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_LPE4ctqjEee8kvK1yMzufA"/>
+    </children>
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_LPE4c9qjEee8kvK1yMzufA" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_LPE4dNqjEee8kvK1yMzufA"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_LPE4ddqjEee8kvK1yMzufA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.activity">
+      <owner href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    </styles>
+    <element href="ECb-JusticeLeague.uml#_LO0ZsNqjEee8kvK1yMzufA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_LPkAkNqjEee8kvK1yMzufA" type="PapyrusUMLSequenceDiagram" name="SysML 1.4 Sequence Diagram" measurementUnit="Pixel">
+    <children xsi:type="notation:Shape" xmi:id="_LPkAkdqjEee8kvK1yMzufA" type="Interaction_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_LPkAktqjEee8kvK1yMzufA" type="Interaction_NameLabel"/>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_LPkAk9qjEee8kvK1yMzufA" type="Interaction_SubfragmentCompartment">
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_LPkAlNqjEee8kvK1yMzufA"/>
+      </children>
+      <element href="ECb-JusticeLeague.uml#_LPXzUNqjEee8kvK1yMzufA"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_LPkAldqjEee8kvK1yMzufA"/>
+    </children>
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_LPkAltqjEee8kvK1yMzufA" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_LPkAl9qjEee8kvK1yMzufA"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_LPkAmNqjEee8kvK1yMzufA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.sequence">
+      <owner href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    </styles>
+    <element href="ECb-JusticeLeague.uml#_LPXzUNqjEee8kvK1yMzufA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_LPqHMNqjEee8kvK1yMzufA" type="PapyrusUMLClassDiagram" name="SysML 1.4 Package Diagram" measurementUnit="Pixel">
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_LPqHMdqjEee8kvK1yMzufA" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_LPqHMtqjEee8kvK1yMzufA"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_LPqHM9qjEee8kvK1yMzufA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.package">
+      <owner href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    </styles>
+    <element href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_LPwN0NqjEee8kvK1yMzufA" type="PapyrusUMLClassDiagram" name="SysML 1.4 Requirement Diagram" measurementUnit="Pixel">
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_LPwN0dqjEee8kvK1yMzufA" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_LPwN0tqjEee8kvK1yMzufA"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_LPwN09qjEee8kvK1yMzufA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.requirement">
+      <owner href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    </styles>
+    <element href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+  </notation:Diagram>
+  <nattable:Table xmi:id="_LP2UcNqjEee8kvK1yMzufA" name="SysML 1.4 Allocation Table" currentRowAxisProvider="_LP2UddqjEee8kvK1yMzufA" currentColumnAxisProvider="_LP2UcdqjEee8kvK1yMzufA" tableKindId="org.eclipse.papyrus.sysml14.table.allocation">
+    <eAnnotations xmi:id="_LP3ikNqjEee8kvK1yMzufA" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:id="_LP3ikdqjEee8kvK1yMzufA" key="version" value="1.3.0"/>
+    </eAnnotations>
+    <context href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <owner href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <tableConfiguration href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.allocation/resources/allocation.nattableconfiguration#/"/>
+    <columnAxisProvidersHistory xsi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_LP2UcdqjEee8kvK1yMzufA" description="This provider provides the default columns for the SysML Allocation Table" name="SysMLAllocationFeatureProvider">
+      <axis xsi:type="nattableaxis:EStructuralFeatureAxis" xmi:id="_LP2UctqjEee8kvK1yMzufA">
+        <manager href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.allocation/resources/allocation.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+        <element xsi:type="ecore:EAttribute" href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement/name"/>
+      </axis>
+      <axis xsi:type="nattableaxis:EStructuralFeatureAxis" xmi:id="_LP2Uc9qjEee8kvK1yMzufA">
+        <manager href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.allocation/resources/allocation.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+        <element xsi:type="ecore:EReference" href="http://www.eclipse.org/uml2/5.0.0/UML#//Dependency/client"/>
+      </axis>
+      <axis xsi:type="nattableaxis:EStructuralFeatureAxis" xmi:id="_LP2UdNqjEee8kvK1yMzufA">
+        <manager href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.allocation/resources/allocation.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+        <element xsi:type="ecore:EReference" href="http://www.eclipse.org/uml2/5.0.0/UML#//Dependency/supplier"/>
+      </axis>
+    </columnAxisProvidersHistory>
+    <rowAxisProvidersHistory xsi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_LP2UddqjEee8kvK1yMzufA" description="This row providers allows to display all Allocation in a Table" name="SysMLAllocationProvider" disconnectSlave="true"/>
+  </nattable:Table>
+  <nattable:Table xmi:id="_LP7M8NqjEee8kvK1yMzufA" name="View Table" currentRowAxisProvider="_LP7M9tqjEee8kvK1yMzufA" currentColumnAxisProvider="_LP7M8dqjEee8kvK1yMzufA" tableKindId="org.eclipse.papyrus.uml.table.view">
+    <eAnnotations xmi:id="_LP8bENqjEee8kvK1yMzufA" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:id="_LP8bEdqjEee8kvK1yMzufA" key="version" value="1.3.0"/>
+    </eAnnotations>
+    <context href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <owner href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <tableConfiguration href="platform:/plugin/org.eclipse.papyrus.infra.nattable.views.config/resources/viewpage.nattableconfiguration#/"/>
+    <columnAxisProvidersHistory xsi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_LP7M8dqjEee8kvK1yMzufA" description="Provides the features of the views" name="Papyrus Views feature provider">
+      <axis xsi:type="nattableaxis:FeatureIdAxis" xmi:id="_LP7M8tqjEee8kvK1yMzufA" element="nattable_editor_pages:/name">
+        <manager href="platform:/plugin/org.eclipse.papyrus.infra.nattable.views.config/resources/viewpage.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+      </axis>
+      <axis xsi:type="nattableaxis:FeatureIdAxis" xmi:id="_LP7M89qjEee8kvK1yMzufA" element="nattable_editor_pages:/context">
+        <manager href="platform:/plugin/org.eclipse.papyrus.infra.nattable.views.config/resources/viewpage.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+      </axis>
+      <axis xsi:type="nattableaxis:FeatureIdAxis" xmi:id="_LP7M9NqjEee8kvK1yMzufA" element="nattable_editor_pages:/isOpen">
+        <manager href="platform:/plugin/org.eclipse.papyrus.infra.nattable.views.config/resources/viewpage.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+      </axis>
+      <axis xsi:type="nattableaxis:FeatureIdAxis" xmi:id="_LP7M9dqjEee8kvK1yMzufA" element="nattable_editor_pages:/type">
+        <manager href="platform:/plugin/org.eclipse.papyrus.infra.nattable.views.config/resources/viewpage.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+      </axis>
+    </columnAxisProvidersHistory>
+    <rowAxisProvidersHistory xsi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_LP7M9tqjEee8kvK1yMzufA"/>
+  </nattable:Table>
+  <nattable:Table xmi:id="_LQEW4NqjEee8kvK1yMzufA" name="Class Tree Table" currentRowAxisProvider="_LQEW49qjEee8kvK1yMzufA" currentColumnAxisProvider="_LQEW4dqjEee8kvK1yMzufA" tableKindId="org.eclipse.papyrus.uml.table.classTree">
+    <eAnnotations xmi:id="_LQFlANqjEee8kvK1yMzufA" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:id="_LQFlAdqjEee8kvK1yMzufA" key="version" value="1.3.0"/>
+    </eAnnotations>
+    <context href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <owner href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <tableConfiguration href="platform:/plugin/org.eclipse.papyrus.uml.nattable.clazz.config/configs/class_synchronized_tree.nattableconfiguration#/"/>
+    <columnAxisProvidersHistory xsi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_LQEW4dqjEee8kvK1yMzufA" description="This axis provider provides available columns according to the rows of the table (features of the object displayed on the other axis)" name="UML Feature axis provider">
+      <axis xsi:type="nattableaxis:EStructuralFeatureAxis" xmi:id="_LQEW4tqjEee8kvK1yMzufA">
+        <manager href="platform:/plugin/org.eclipse.papyrus.uml.nattable.clazz.config/configs/class_synchronized_tree.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+        <element xsi:type="ecore:EAttribute" href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement/name"/>
+      </axis>
+    </columnAxisProvidersHistory>
+    <rowAxisProvidersHistory xsi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_LQEW49qjEee8kvK1yMzufA" description="This axis provider manages the rows, according to the wanted hierarchy" name="HierarchicalRowaAxisManager" disconnectSlave="true"/>
+  </nattable:Table>
+  <nattable:Table xmi:id="_LQKdgNqjEee8kvK1yMzufA" name="Relationship Generic Matrix" currentRowAxisProvider="_LQKdg9qjEee8kvK1yMzufA" currentColumnAxisProvider="_LQKdgtqjEee8kvK1yMzufA" tableKindId="org.eclipse.papyrus.uml.table.matrix">
+    <eAnnotations xmi:id="_LQMSsNqjEee8kvK1yMzufA" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:id="_LQMSsdqjEee8kvK1yMzufA" key="version" value="1.3.0"/>
+    </eAnnotations>
+    <styles xsi:type="nattablestyle:IntListValueStyle" xmi:id="_LQKdgdqjEee8kvK1yMzufA" name="hiddenCategoriesByDepth">
+      <intListValue>1</intListValue>
+    </styles>
+    <context href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <owner href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <tableConfiguration href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#/"/>
+    <columnAxisProvidersHistory xsi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_LQKdgtqjEee8kvK1yMzufA" description="This axis provider manages the columns, according to the wanted hierarchy" name="HierarchicalColumnsAxisManager" disconnectSlave="true"/>
+    <rowAxisProvidersHistory xsi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_LQKdg9qjEee8kvK1yMzufA" description="This axis provider manages the rows, according to the wanted hierarchy" name="HierarchicalRowAxisManager" disconnectSlave="true"/>
+    <ownedCellEditorConfigurations xsi:type="nattablecelleditor:GenericRelationshipMatrixCellEditorConfiguration" xmi:id="_LQLEkNqjEee8kvK1yMzufA" cellEditorId="GenericRelationshipMatrixEditorConfiguration"/>
+  </nattable:Table>
+  <notation:Diagram xmi:id="_LRHfwNqjEee8kvK1yMzufA" type="CompositeStructure" name="SysML 1.4 Internal Block Diagram" measurementUnit="Pixel">
+    <children xsi:type="notation:Shape" xmi:id="_LRIG0NqjEee8kvK1yMzufA" type="Class_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_LRIG0tqjEee8kvK1yMzufA" type="Class_NameLabel"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_LRIG09qjEee8kvK1yMzufA" type="Class_FloatingNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_LRIG1NqjEee8kvK1yMzufA" y="15"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_LRIG1dqjEee8kvK1yMzufA" type="Class_StructureCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_LRIG1tqjEee8kvK1yMzufA"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_LRIG19qjEee8kvK1yMzufA"/>
+      </children>
+      <element href="ECb-JusticeLeague.uml#_LQSZUNqjEee8kvK1yMzufA"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_LRIG0dqjEee8kvK1yMzufA" x="40" y="40" width="500" height="250"/>
+    </children>
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_LRHfwdqjEee8kvK1yMzufA" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_LRHfwtqjEee8kvK1yMzufA"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_LRHfw9qjEee8kvK1yMzufA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.internalblock">
+      <owner href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    </styles>
+    <element href="ECb-JusticeLeague.uml#_LQSZUNqjEee8kvK1yMzufA"/>
+  </notation:Diagram>
+  <nattable:Table xmi:id="_LRaasNqjEee8kvK1yMzufA" name="Stereotype Display Tree Table" currentRowAxisProvider="_LRaavdqjEee8kvK1yMzufA" currentColumnAxisProvider="_LRaastqjEee8kvK1yMzufA" tableKindId="org.eclipse.papyrus.uml.table.stereotypeDisplayTree">
+    <eAnnotations xmi:id="_LRbo0NqjEee8kvK1yMzufA" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:id="_LRbo0dqjEee8kvK1yMzufA" key="version" value="1.3.0"/>
+    </eAnnotations>
+    <styles xsi:type="nattablestyle:IntListValueStyle" xmi:id="_LRaasdqjEee8kvK1yMzufA" name="hiddenCategoriesByDepth">
+      <intListValue>1</intListValue>
+      <intListValue>2</intListValue>
+      <intListValue>3</intListValue>
+    </styles>
+    <context href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <owner href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <tableConfiguration href="platform:/plugin/org.eclipse.papyrus.uml.nattable.stereotype.display/config/stereotype.nattableconfiguration#/"/>
+    <columnAxisProvidersHistory xsi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_LRaastqjEee8kvK1yMzufA" description="This axis provider provides available columns according to the columns of the table ( features of the object displayed on the other axis)" name="Stereotype display properties axis provider">
+      <axis xsi:type="nattableaxis:FeatureIdAxis" xmi:id="_LRaas9qjEee8kvK1yMzufA" alias="Name Depth" element="stereotype_display_properties:/nameDepth">
+        <styles xsi:type="nattablestyle:IntValueStyle" xmi:id="_LRaatNqjEee8kvK1yMzufA" name="axisWidth" intValue="17"/>
+        <manager href="platform:/plugin/org.eclipse.papyrus.uml.nattable.stereotype.display/config/stereotype.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+      </axis>
+      <axis xsi:type="nattableaxis:FeatureIdAxis" xmi:id="_LRaatdqjEee8kvK1yMzufA" alias="Visible" element="stereotype_display_properties:/isDisplayed">
+        <styles xsi:type="nattablestyle:IntValueStyle" xmi:id="_LRaattqjEee8kvK1yMzufA" name="axisWidth" intValue="17"/>
+        <manager href="platform:/plugin/org.eclipse.papyrus.uml.nattable.stereotype.display/config/stereotype.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+      </axis>
+      <axis xsi:type="nattableaxis:FeatureIdAxis" xmi:id="_LRaat9qjEee8kvK1yMzufA" alias="In Braces" element="stereotype_display_properties:/isDisplayedInBraces">
+        <styles xsi:type="nattablestyle:IntValueStyle" xmi:id="_LRaauNqjEee8kvK1yMzufA" name="axisWidth" intValue="22"/>
+        <manager href="platform:/plugin/org.eclipse.papyrus.uml.nattable.stereotype.display/config/stereotype.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+      </axis>
+      <axis xsi:type="nattableaxis:FeatureIdAxis" xmi:id="_LRaaudqjEee8kvK1yMzufA" alias="In Comment" element="stereotype_display_properties:/isDisplayedInComment">
+        <styles xsi:type="nattablestyle:IntValueStyle" xmi:id="_LRaautqjEee8kvK1yMzufA" name="axisWidth" intValue="22"/>
+        <manager href="platform:/plugin/org.eclipse.papyrus.uml.nattable.stereotype.display/config/stereotype.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+      </axis>
+      <axis xsi:type="nattableaxis:FeatureIdAxis" xmi:id="_LRaau9qjEee8kvK1yMzufA" alias="In Compartment" element="stereotype_display_properties:/isDisplayedInCompartment">
+        <styles xsi:type="nattablestyle:IntValueStyle" xmi:id="_LRaavNqjEee8kvK1yMzufA" name="axisWidth" intValue="22"/>
+        <manager href="platform:/plugin/org.eclipse.papyrus.uml.nattable.stereotype.display/config/stereotype.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+      </axis>
+    </columnAxisProvidersHistory>
+    <rowAxisProvidersHistory xsi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_LRaavdqjEee8kvK1yMzufA" description="This axis provider manages the rows, according to the wanted hierarchy" name="HierarchicalRowAxisManager" disconnectSlave="true"/>
+  </nattable:Table>
+  <nattable:Table xmi:id="_LRfTMNqjEee8kvK1yMzufA" name="SysML 1.4 Requirement Table" currentRowAxisProvider="_LRfTNNqjEee8kvK1yMzufA" currentColumnAxisProvider="_LRfTMdqjEee8kvK1yMzufA" tableKindId="org.eclipse.papyrus.sysml14.table.requirement">
+    <eAnnotations xmi:id="_LRf6QNqjEee8kvK1yMzufA" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:id="_LRf6QdqjEee8kvK1yMzufA" key="version" value="1.3.0"/>
+    </eAnnotations>
+    <context href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <owner href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <tableConfiguration href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirement.nattableconfiguration#/"/>
+    <columnAxisProvidersHistory xsi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_LRfTMdqjEee8kvK1yMzufA" description="Provides the columns of the tables with a default configuration" name="Requirements Feature Columns Provider">
+      <axis xsi:type="nattableaxis:FeatureIdAxis" xmi:id="_LRfTMtqjEee8kvK1yMzufA" element="property_of_stereotype:/SysML::Requirements::Requirement::id">
+        <manager href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirement.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.1"/>
+      </axis>
+      <axis xsi:type="nattableaxis:FeatureIdAxis" xmi:id="_LRfTM9qjEee8kvK1yMzufA" element="property_of_stereotype:/SysML::Requirements::Requirement::text">
+        <manager href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirement.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.1"/>
+      </axis>
+    </columnAxisProvidersHistory>
+    <rowAxisProvidersHistory xsi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_LRfTNNqjEee8kvK1yMzufA" description="Provides the requirements directly owned by the context of the table" name="Requirement Axis Provider" disconnectSlave="true"/>
+  </nattable:Table>
+</xmi:XMI>
