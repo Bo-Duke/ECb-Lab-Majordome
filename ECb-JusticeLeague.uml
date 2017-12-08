@@ -47,7 +47,7 @@
       <message xmi:type="uml:Message" xmi:id="_7Uf4oNwvEeejAOHk8WtzmQ" name="Générer conseil" messageSort="asynchCall" receiveEvent="_7Uht0NwvEeejAOHk8WtzmQ" sendEvent="_7UhGwNwvEeejAOHk8WtzmQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_LQSZUNqjEee8kvK1yMzufA" name="Block2"/>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_kVw0YNwhEeejAOHk8WtzmQ" name="Batman"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_kVw0YNwhEeejAOHk8WtzmQ" name="Utilisateur"/>
     <packagedElement xmi:type="uml:Actor" xmi:id="_q0VaUNwhEeejAOHk8WtzmQ" name="Capteurs"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_6re5MNwhEeejAOHk8WtzmQ" name="Acquérir information"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_76_ZQNwhEeejAOHk8WtzmQ" name="Faire prévision">
