@@ -786,7 +786,7 @@
         <children xsi:type="notation:Shape" xmi:id="_qFB88NwkEeejAOHk8WtzmQ" type="Lifeline_Shape">
           <children xsi:type="notation:DecorationNode" xmi:id="_qFCkANwkEeejAOHk8WtzmQ" type="Lifeline_NameLabel"/>
           <element href="ECb-JusticeLeague.uml#_qFAu0NwkEeejAOHk8WtzmQ"/>
-          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_qFB88dwkEeejAOHk8WtzmQ" x="14" y="10" height="700"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_qFB88dwkEeejAOHk8WtzmQ" x="6" y="10" height="700"/>
         </children>
         <children xsi:type="notation:Shape" xmi:id="_yVYpkNwkEeejAOHk8WtzmQ" type="Lifeline_Shape">
           <children xsi:type="notation:DecorationNode" xmi:id="_yVYpktwkEeejAOHk8WtzmQ" type="Lifeline_NameLabel"/>
@@ -798,12 +798,12 @@
             <layoutConstraint xsi:type="notation:Bounds" xmi:id="_OWdAQdwoEeejAOHk8WtzmQ" x="334" y="286" width="20" height="41"/>
           </children>
           <element href="ECb-JusticeLeague.uml#_yVW0YNwkEeejAOHk8WtzmQ"/>
-          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_yVYpkdwkEeejAOHk8WtzmQ" x="194" y="10" width="121" height="700"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_yVYpkdwkEeejAOHk8WtzmQ" x="202" y="10" width="121" height="700"/>
         </children>
         <children xsi:type="notation:Shape" xmi:id="_z9vugNwkEeejAOHk8WtzmQ" type="Lifeline_Shape">
           <children xsi:type="notation:DecorationNode" xmi:id="_z9vugtwkEeejAOHk8WtzmQ" type="Lifeline_NameLabel"/>
           <element href="ECb-JusticeLeague.uml#_z9tSQNwkEeejAOHk8WtzmQ"/>
-          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_z9vugdwkEeejAOHk8WtzmQ" x="414" y="10" height="700"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_z9vugdwkEeejAOHk8WtzmQ" x="429" y="10" height="700"/>
         </children>
         <layoutConstraint xsi:type="notation:Bounds" xmi:id="_LPkAlNqjEee8kvK1yMzufA"/>
       </children>
@@ -911,22 +911,8 @@
       <styles xsi:type="notation:LineStyle" xmi:id="_dRd8J9wqEeejAOHk8WtzmQ"/>
       <element href="ECb-JusticeLeague.uml#_dRX1gNwqEeejAOHk8WtzmQ"/>
       <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_dRd8ItwqEeejAOHk8WtzmQ" points="[0, 0, 400, 0]$[-400, 0, 0, 0]"/>
-      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_dRpiUNwqEeejAOHk8WtzmQ" id="(0.5,0.6371428571428571)"/>
-      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_dRpiUdwqEeejAOHk8WtzmQ" id="(0.5,0.6371428571428571)"/>
-    </edges>
-    <edges xsi:type="notation:Connector" xmi:id="_gWwSENwqEeejAOHk8WtzmQ" type="Message_AsynchEdge" source="_z9vugNwkEeejAOHk8WtzmQ" target="_z9vugNwkEeejAOHk8WtzmQ">
-      <children xsi:type="notation:DecorationNode" xmi:id="_gWwSE9wqEeejAOHk8WtzmQ" type="Message_AsynchNameLabel">
-        <layoutConstraint xsi:type="notation:Location" xmi:id="_gWwSFNwqEeejAOHk8WtzmQ" x="-3" y="-88"/>
-      </children>
-      <children xsi:type="notation:DecorationNode" xmi:id="_gWwSFdwqEeejAOHk8WtzmQ" type="Message_AsynchStereotypeLabel">
-        <layoutConstraint xsi:type="notation:Location" xmi:id="_gWwSFtwqEeejAOHk8WtzmQ" x="1" y="-33"/>
-      </children>
-      <styles xsi:type="notation:FontStyle" xmi:id="_gWwSEdwqEeejAOHk8WtzmQ"/>
-      <styles xsi:type="notation:LineStyle" xmi:id="_gWwSF9wqEeejAOHk8WtzmQ"/>
-      <element href="ECb-JusticeLeague.uml#_gWpkYNwqEeejAOHk8WtzmQ"/>
-      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_gWwSEtwqEeejAOHk8WtzmQ" points="[0, -60, 0, -120]$[62, -60, 62, -120]$[62, 60, 62, 0]$[0, 60, 0, 0]"/>
-      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_gW8fUNwqEeejAOHk8WtzmQ" id="(0.5,0.6942857142857143)"/>
-      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_gW8fUdwqEeejAOHk8WtzmQ" id="(0.5,0.8657142857142858)"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_dRpiUNwqEeejAOHk8WtzmQ" id="(0.5,0.6085714285714285)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_dRpiUdwqEeejAOHk8WtzmQ" id="(0.5,0.6085714285714285)"/>
     </edges>
     <edges xsi:type="notation:Connector" xmi:id="_mT3wwNwqEeejAOHk8WtzmQ" type="Message_AsynchEdge" source="_z9vugNwkEeejAOHk8WtzmQ" target="_qFB88NwkEeejAOHk8WtzmQ">
       <children xsi:type="notation:DecorationNode" xmi:id="_mT4X0NwqEeejAOHk8WtzmQ" type="Message_AsynchNameLabel">
@@ -939,8 +925,22 @@
       <styles xsi:type="notation:LineStyle" xmi:id="_mT4X1NwqEeejAOHk8WtzmQ"/>
       <element href="ECb-JusticeLeague.uml#_mTyRMNwqEeejAOHk8WtzmQ"/>
       <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_mT3wwtwqEeejAOHk8WtzmQ" points="[0, 0, 400, 0]$[-400, 0, 0, 0]"/>
-      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_mUFzMNwqEeejAOHk8WtzmQ" id="(0.5,0.9228571428571428)"/>
-      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_mUFzMdwqEeejAOHk8WtzmQ" id="(0.5,0.9228571428571428)"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_mUFzMNwqEeejAOHk8WtzmQ" id="(0.5,0.8857142857142857)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_mUFzMdwqEeejAOHk8WtzmQ" id="(0.5,0.8857142857142857)"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_7Un0cNwvEeejAOHk8WtzmQ" type="Message_AsynchEdge" source="_z9vugNwkEeejAOHk8WtzmQ" target="_z9vugNwkEeejAOHk8WtzmQ">
+      <children xsi:type="notation:DecorationNode" xmi:id="_7Un0c9wvEeejAOHk8WtzmQ" type="Message_AsynchNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_7Un0dNwvEeejAOHk8WtzmQ" x="1" y="-61"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_7Un0ddwvEeejAOHk8WtzmQ" type="Message_AsynchStereotypeLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_7Un0dtwvEeejAOHk8WtzmQ" x="1" y="-33"/>
+      </children>
+      <styles xsi:type="notation:FontStyle" xmi:id="_7Un0cdwvEeejAOHk8WtzmQ"/>
+      <styles xsi:type="notation:LineStyle" xmi:id="_7Un0d9wvEeejAOHk8WtzmQ"/>
+      <element href="ECb-JusticeLeague.uml#_7Uf4oNwvEeejAOHk8WtzmQ"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_7Un0ctwvEeejAOHk8WtzmQ" points="[0, 0, 0, -91]$[62, 0, 62, -91]$[62, 53, 62, -38]$[0, 53, 0, -38]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_7VMcMNwvEeejAOHk8WtzmQ" id="(0.5,0.7285714285714285)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_7VNDQNwvEeejAOHk8WtzmQ" id="(0.5,0.7957142857142857)"/>
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_LPqHMNqjEee8kvK1yMzufA" type="PapyrusUMLClassDiagram" name="SysML 1.4 Package Diagram" measurementUnit="Pixel">
@@ -952,12 +952,364 @@
     <element href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
   </notation:Diagram>
   <notation:Diagram xmi:id="_LPwN0NqjEee8kvK1yMzufA" type="PapyrusUMLClassDiagram" name="SysML 1.4 Requirement Diagram" measurementUnit="Pixel">
+    <children xsi:type="notation:Shape" xmi:id="_WkISsNwwEeejAOHk8WtzmQ" type="Class_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_WkISstwwEeejAOHk8WtzmQ" type="Class_NameLabel"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_WkISs9wwEeejAOHk8WtzmQ" type="Class_FloatingNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_WkIStNwwEeejAOHk8WtzmQ" y="15"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_WkIStdwwEeejAOHk8WtzmQ" type="Class_AttributeCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_WkISttwwEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_WkISt9wwEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_WkISuNwwEeejAOHk8WtzmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_WkISudwwEeejAOHk8WtzmQ"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_WkISutwwEeejAOHk8WtzmQ" type="Class_OperationCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_WkISu9wwEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_WkISvNwwEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_WkISvdwwEeejAOHk8WtzmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_WkISvtwwEeejAOHk8WtzmQ"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_WkISv9wwEeejAOHk8WtzmQ" type="Class_NestedClassifierCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_WkISwNwwEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_WkISwdwwEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_WkISwtwwEeejAOHk8WtzmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_WkISw9wwEeejAOHk8WtzmQ"/>
+      </children>
+      <element href="ECb-JusticeLeague.uml#_WjpxkNwwEeejAOHk8WtzmQ"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_WkISsdwwEeejAOHk8WtzmQ" x="500" y="60" width="261" height="121"/>
+    </children>
+    <children xsi:type="notation:Shape" xmi:id="_WkLWD9wwEeejAOHk8WtzmQ" type="StereotypeComment">
+      <styles xsi:type="notation:TitleStyle" xmi:id="_WkLWENwwEeejAOHk8WtzmQ"/>
+      <styles xsi:type="notation:EObjectValueStyle" xmi:id="_WkLWEtwwEeejAOHk8WtzmQ" name="BASE_ELEMENT">
+        <eObjectValue href="ECb-JusticeLeague.uml#_WjpxkNwwEeejAOHk8WtzmQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_WkLWEdwwEeejAOHk8WtzmQ" x="200"/>
+    </children>
+    <children xsi:type="notation:Shape" xmi:id="_fv3pgNwwEeejAOHk8WtzmQ" type="Class_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_fv3pgtwwEeejAOHk8WtzmQ" type="Class_NameLabel"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_fv3pg9wwEeejAOHk8WtzmQ" type="Class_FloatingNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_fv3phNwwEeejAOHk8WtzmQ" y="15"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_fv4QkNwwEeejAOHk8WtzmQ" type="Class_AttributeCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_fv4QkdwwEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_fv4QktwwEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_fv4Qk9wwEeejAOHk8WtzmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_fv4QlNwwEeejAOHk8WtzmQ"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_fv4QldwwEeejAOHk8WtzmQ" type="Class_OperationCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_fv4QltwwEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_fv4Ql9wwEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_fv4QmNwwEeejAOHk8WtzmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_fv4QmdwwEeejAOHk8WtzmQ"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_fv4QmtwwEeejAOHk8WtzmQ" type="Class_NestedClassifierCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_fv4Qm9wwEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_fv4QnNwwEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_fv4QndwwEeejAOHk8WtzmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_fv4QntwwEeejAOHk8WtzmQ"/>
+      </children>
+      <element href="ECb-JusticeLeague.uml#_fvoY8NwwEeejAOHk8WtzmQ"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_fv3pgdwwEeejAOHk8WtzmQ" x="260" y="240" width="141" height="121"/>
+    </children>
+    <children xsi:type="notation:Shape" xmi:id="_fv7T79wwEeejAOHk8WtzmQ" type="StereotypeComment">
+      <styles xsi:type="notation:TitleStyle" xmi:id="_fv7T8NwwEeejAOHk8WtzmQ"/>
+      <styles xsi:type="notation:EObjectValueStyle" xmi:id="_fv7T8twwEeejAOHk8WtzmQ" name="BASE_ELEMENT">
+        <eObjectValue href="ECb-JusticeLeague.uml#_fvoY8NwwEeejAOHk8WtzmQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_fv7T8dwwEeejAOHk8WtzmQ" x="200"/>
+    </children>
+    <children xsi:type="notation:Shape" xmi:id="_hmqMANwwEeejAOHk8WtzmQ" type="Class_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_hmqMAtwwEeejAOHk8WtzmQ" type="Class_NameLabel"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_hmqMA9wwEeejAOHk8WtzmQ" type="Class_FloatingNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_hmqMBNwwEeejAOHk8WtzmQ" y="15"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_hmqMBdwwEeejAOHk8WtzmQ" type="Class_AttributeCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_hmqMBtwwEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_hmqMB9wwEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_hmqMCNwwEeejAOHk8WtzmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_hmqMCdwwEeejAOHk8WtzmQ"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_hmqMCtwwEeejAOHk8WtzmQ" type="Class_OperationCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_hmqMC9wwEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_hmqMDNwwEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_hmqMDdwwEeejAOHk8WtzmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_hmqMDtwwEeejAOHk8WtzmQ"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_hmqMD9wwEeejAOHk8WtzmQ" type="Class_NestedClassifierCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_hmqMENwwEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_hmqMEdwwEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_hmqMEtwwEeejAOHk8WtzmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_hmqME9wwEeejAOHk8WtzmQ"/>
+      </children>
+      <element href="ECb-JusticeLeague.uml#_hma7cNwwEeejAOHk8WtzmQ"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_hmqMAdwwEeejAOHk8WtzmQ" x="460" y="240" width="141" height="121"/>
+    </children>
+    <children xsi:type="notation:Shape" xmi:id="_hmtPV9wwEeejAOHk8WtzmQ" type="StereotypeComment">
+      <styles xsi:type="notation:TitleStyle" xmi:id="_hmtPWNwwEeejAOHk8WtzmQ"/>
+      <styles xsi:type="notation:EObjectValueStyle" xmi:id="_hmtPWtwwEeejAOHk8WtzmQ" name="BASE_ELEMENT">
+        <eObjectValue href="ECb-JusticeLeague.uml#_hma7cNwwEeejAOHk8WtzmQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_hmtPWdwwEeejAOHk8WtzmQ" x="200"/>
+    </children>
+    <children xsi:type="notation:Shape" xmi:id="_jdJMgNwwEeejAOHk8WtzmQ" type="Class_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_jdJMgtwwEeejAOHk8WtzmQ" type="Class_NameLabel"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_jdJMg9wwEeejAOHk8WtzmQ" type="Class_FloatingNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_jdJMhNwwEeejAOHk8WtzmQ" y="15"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_jdJMhdwwEeejAOHk8WtzmQ" type="Class_AttributeCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_jdJMhtwwEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_jdJMh9wwEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_jdJMiNwwEeejAOHk8WtzmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_jdJMidwwEeejAOHk8WtzmQ"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_jdJMitwwEeejAOHk8WtzmQ" type="Class_OperationCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_jdJMi9wwEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_jdJMjNwwEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_jdJMjdwwEeejAOHk8WtzmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_jdJMjtwwEeejAOHk8WtzmQ"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_jdJMj9wwEeejAOHk8WtzmQ" type="Class_NestedClassifierCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_jdJMkNwwEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_jdJMkdwwEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_jdJMktwwEeejAOHk8WtzmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_jdJMk9wwEeejAOHk8WtzmQ"/>
+      </children>
+      <element href="ECb-JusticeLeague.uml#_jc578NwwEeejAOHk8WtzmQ"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_jdJMgdwwEeejAOHk8WtzmQ" x="660" y="240" width="141" height="121"/>
+    </children>
+    <children xsi:type="notation:Shape" xmi:id="_jdMP39wwEeejAOHk8WtzmQ" type="StereotypeComment">
+      <styles xsi:type="notation:TitleStyle" xmi:id="_jdMP4NwwEeejAOHk8WtzmQ"/>
+      <styles xsi:type="notation:EObjectValueStyle" xmi:id="_jdMP4twwEeejAOHk8WtzmQ" name="BASE_ELEMENT">
+        <eObjectValue href="ECb-JusticeLeague.uml#_jc578NwwEeejAOHk8WtzmQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_jdMP4dwwEeejAOHk8WtzmQ" x="200"/>
+    </children>
+    <children xsi:type="notation:Shape" xmi:id="_km5p4NwwEeejAOHk8WtzmQ" type="Class_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_km5p4twwEeejAOHk8WtzmQ" type="Class_NameLabel"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_km5p49wwEeejAOHk8WtzmQ" type="Class_FloatingNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_km5p5NwwEeejAOHk8WtzmQ" y="15"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_km5p5dwwEeejAOHk8WtzmQ" type="Class_AttributeCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_km5p5twwEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_km5p59wwEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_km5p6NwwEeejAOHk8WtzmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_km5p6dwwEeejAOHk8WtzmQ"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_km5p6twwEeejAOHk8WtzmQ" type="Class_OperationCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_km5p69wwEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_km5p7NwwEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_km5p7dwwEeejAOHk8WtzmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_km5p7twwEeejAOHk8WtzmQ"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_km5p79wwEeejAOHk8WtzmQ" type="Class_NestedClassifierCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_km5p8NwwEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_km5p8dwwEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_km5p8twwEeejAOHk8WtzmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_km5p89wwEeejAOHk8WtzmQ"/>
+      </children>
+      <element href="ECb-JusticeLeague.uml#_kmrAYNwwEeejAOHk8WtzmQ"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_km5p4dwwEeejAOHk8WtzmQ" x="860" y="240" width="141" height="121"/>
+    </children>
+    <children xsi:type="notation:Shape" xmi:id="_km8GNdwwEeejAOHk8WtzmQ" type="StereotypeComment">
+      <styles xsi:type="notation:TitleStyle" xmi:id="_km8GNtwwEeejAOHk8WtzmQ"/>
+      <styles xsi:type="notation:EObjectValueStyle" xmi:id="_km8GONwwEeejAOHk8WtzmQ" name="BASE_ELEMENT">
+        <eObjectValue href="ECb-JusticeLeague.uml#_kmrAYNwwEeejAOHk8WtzmQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_km8GN9wwEeejAOHk8WtzmQ" x="200"/>
+    </children>
+    <children xsi:type="notation:Shape" xmi:id="_nlQRYNwwEeejAOHk8WtzmQ" type="Class_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_nlQRYtwwEeejAOHk8WtzmQ" type="Class_NameLabel"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_nlQRY9wwEeejAOHk8WtzmQ" type="Class_FloatingNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_nlQRZNwwEeejAOHk8WtzmQ" y="15"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_nlQRZdwwEeejAOHk8WtzmQ" type="Class_AttributeCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_nlQRZtwwEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_nlQRZ9wwEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_nlQRaNwwEeejAOHk8WtzmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_nlQRadwwEeejAOHk8WtzmQ"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_nlQRatwwEeejAOHk8WtzmQ" type="Class_OperationCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_nlQRa9wwEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_nlQRbNwwEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_nlQRbdwwEeejAOHk8WtzmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_nlQRbtwwEeejAOHk8WtzmQ"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_nlQRb9wwEeejAOHk8WtzmQ" type="Class_NestedClassifierCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_nlQRcNwwEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_nlQRcdwwEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_nlQRctwwEeejAOHk8WtzmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_nlQRc9wwEeejAOHk8WtzmQ"/>
+      </children>
+      <element href="ECb-JusticeLeague.uml#_nlBA0NwwEeejAOHk8WtzmQ"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_nlQRYdwwEeejAOHk8WtzmQ" x="540" y="420" width="185"/>
+    </children>
+    <children xsi:type="notation:Shape" xmi:id="_nlTUu9wwEeejAOHk8WtzmQ" type="StereotypeComment">
+      <styles xsi:type="notation:TitleStyle" xmi:id="_nlTUvNwwEeejAOHk8WtzmQ"/>
+      <styles xsi:type="notation:EObjectValueStyle" xmi:id="_nlTUvtwwEeejAOHk8WtzmQ" name="BASE_ELEMENT">
+        <eObjectValue href="ECb-JusticeLeague.uml#_nlBA0NwwEeejAOHk8WtzmQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_nlTUvdwwEeejAOHk8WtzmQ" x="200"/>
+    </children>
     <styles xsi:type="notation:StringValueStyle" xmi:id="_LPwN0dqjEee8kvK1yMzufA" name="diagram_compatibility_version" stringValue="1.3.0"/>
     <styles xsi:type="notation:DiagramStyle" xmi:id="_LPwN0tqjEee8kvK1yMzufA"/>
     <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_LPwN09qjEee8kvK1yMzufA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.requirement">
       <owner href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
     </styles>
     <element href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <edges xsi:type="notation:Connector" xmi:id="_WkLWE9wwEeejAOHk8WtzmQ" type="StereotypeCommentLink" source="_WkISsNwwEeejAOHk8WtzmQ" target="_WkLWD9wwEeejAOHk8WtzmQ">
+      <styles xsi:type="notation:FontStyle" xmi:id="_WkLWFNwwEeejAOHk8WtzmQ"/>
+      <styles xsi:type="notation:EObjectValueStyle" xmi:id="_WkLWGNwwEeejAOHk8WtzmQ" name="BASE_ELEMENT">
+        <eObjectValue href="ECb-JusticeLeague.uml#_WjpxkNwwEeejAOHk8WtzmQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_WkLWFdwwEeejAOHk8WtzmQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_WkLWFtwwEeejAOHk8WtzmQ"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_WkLWF9wwEeejAOHk8WtzmQ"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_fv7T89wwEeejAOHk8WtzmQ" type="StereotypeCommentLink" source="_fv3pgNwwEeejAOHk8WtzmQ" target="_fv7T79wwEeejAOHk8WtzmQ">
+      <styles xsi:type="notation:FontStyle" xmi:id="_fv7T9NwwEeejAOHk8WtzmQ"/>
+      <styles xsi:type="notation:EObjectValueStyle" xmi:id="_fv7T-NwwEeejAOHk8WtzmQ" name="BASE_ELEMENT">
+        <eObjectValue href="ECb-JusticeLeague.uml#_fvoY8NwwEeejAOHk8WtzmQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_fv7T9dwwEeejAOHk8WtzmQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_fv7T9twwEeejAOHk8WtzmQ"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_fv7T99wwEeejAOHk8WtzmQ"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_hmtPW9wwEeejAOHk8WtzmQ" type="StereotypeCommentLink" source="_hmqMANwwEeejAOHk8WtzmQ" target="_hmtPV9wwEeejAOHk8WtzmQ">
+      <styles xsi:type="notation:FontStyle" xmi:id="_hmtPXNwwEeejAOHk8WtzmQ"/>
+      <styles xsi:type="notation:EObjectValueStyle" xmi:id="_hmtPYNwwEeejAOHk8WtzmQ" name="BASE_ELEMENT">
+        <eObjectValue href="ECb-JusticeLeague.uml#_hma7cNwwEeejAOHk8WtzmQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_hmtPXdwwEeejAOHk8WtzmQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_hmtPXtwwEeejAOHk8WtzmQ"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_hmtPX9wwEeejAOHk8WtzmQ"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_jdMP49wwEeejAOHk8WtzmQ" type="StereotypeCommentLink" source="_jdJMgNwwEeejAOHk8WtzmQ" target="_jdMP39wwEeejAOHk8WtzmQ">
+      <styles xsi:type="notation:FontStyle" xmi:id="_jdMP5NwwEeejAOHk8WtzmQ"/>
+      <styles xsi:type="notation:EObjectValueStyle" xmi:id="_jdMP6NwwEeejAOHk8WtzmQ" name="BASE_ELEMENT">
+        <eObjectValue href="ECb-JusticeLeague.uml#_jc578NwwEeejAOHk8WtzmQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_jdMP5dwwEeejAOHk8WtzmQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_jdMP5twwEeejAOHk8WtzmQ"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_jdMP59wwEeejAOHk8WtzmQ"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_km8tMNwwEeejAOHk8WtzmQ" type="StereotypeCommentLink" source="_km5p4NwwEeejAOHk8WtzmQ" target="_km8GNdwwEeejAOHk8WtzmQ">
+      <styles xsi:type="notation:FontStyle" xmi:id="_km8tMdwwEeejAOHk8WtzmQ"/>
+      <styles xsi:type="notation:EObjectValueStyle" xmi:id="_km8tNdwwEeejAOHk8WtzmQ" name="BASE_ELEMENT">
+        <eObjectValue href="ECb-JusticeLeague.uml#_kmrAYNwwEeejAOHk8WtzmQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_km8tMtwwEeejAOHk8WtzmQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_km8tM9wwEeejAOHk8WtzmQ"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_km8tNNwwEeejAOHk8WtzmQ"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_nlTUv9wwEeejAOHk8WtzmQ" type="StereotypeCommentLink" source="_nlQRYNwwEeejAOHk8WtzmQ" target="_nlTUu9wwEeejAOHk8WtzmQ">
+      <styles xsi:type="notation:FontStyle" xmi:id="_nlTUwNwwEeejAOHk8WtzmQ"/>
+      <styles xsi:type="notation:EObjectValueStyle" xmi:id="_nlTUxNwwEeejAOHk8WtzmQ" name="BASE_ELEMENT">
+        <eObjectValue href="ECb-JusticeLeague.uml#_nlBA0NwwEeejAOHk8WtzmQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_nlTUwdwwEeejAOHk8WtzmQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_nlTUwtwwEeejAOHk8WtzmQ"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_nlTUw9wwEeejAOHk8WtzmQ"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_XhuG4NwxEeejAOHk8WtzmQ" type="Element_ContainmentEdge" source="_WkISsNwwEeejAOHk8WtzmQ" target="_fv3pgNwwEeejAOHk8WtzmQ">
+      <styles xsi:type="notation:FontStyle" xmi:id="_XhuG4dwxEeejAOHk8WtzmQ"/>
+      <element xsi:nil="true"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_XhuG4twxEeejAOHk8WtzmQ" points="[500, 120, -643984, -643984]$[360, 240, -643984, -643984]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_XiKLwNwxEeejAOHk8WtzmQ" id="(0.0,0.49586776859504134)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_XiKLwdwxEeejAOHk8WtzmQ" id="(0.7092198581560284,0.0)"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_ZQpG0NwxEeejAOHk8WtzmQ" type="Element_ContainmentEdge" source="_WkISsNwwEeejAOHk8WtzmQ" target="_hmqMANwwEeejAOHk8WtzmQ">
+      <styles xsi:type="notation:FontStyle" xmi:id="_ZQpG0dwxEeejAOHk8WtzmQ"/>
+      <element xsi:nil="true"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_ZQpG0twxEeejAOHk8WtzmQ" points="[540, 181, -643984, -643984]$[540, 240, -643984, -643984]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_ZQ6zoNwxEeejAOHk8WtzmQ" id="(0.1532567049808429,1.0)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_ZQ6zodwxEeejAOHk8WtzmQ" id="(0.5673758865248227,0.0)"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_Zz7aENwxEeejAOHk8WtzmQ" type="Element_ContainmentEdge" source="_WkISsNwwEeejAOHk8WtzmQ" target="_jdJMgNwwEeejAOHk8WtzmQ">
+      <styles xsi:type="notation:FontStyle" xmi:id="_Zz7aEdwxEeejAOHk8WtzmQ"/>
+      <element xsi:nil="true"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_Zz7aEtwxEeejAOHk8WtzmQ" points="[680, 181, -643984, -643984]$[680, 240, -643984, -643984]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_Z0jsMNwxEeejAOHk8WtzmQ" id="(0.6896551724137931,1.0)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_Z0jsMdwxEeejAOHk8WtzmQ" id="(0.14184397163120568,0.0)"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_aSaF0NwxEeejAOHk8WtzmQ" type="Element_ContainmentEdge" source="_WkISsNwwEeejAOHk8WtzmQ" target="_km5p4NwwEeejAOHk8WtzmQ">
+      <styles xsi:type="notation:FontStyle" xmi:id="_aSaF0dwxEeejAOHk8WtzmQ"/>
+      <element xsi:nil="true"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_aSaF0twxEeejAOHk8WtzmQ" points="[740, 181, -643984, -643984]$[900, 240, -643984, -643984]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_aSsZsNwxEeejAOHk8WtzmQ" id="(0.9195402298850575,1.0)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_aSsZsdwxEeejAOHk8WtzmQ" id="(0.28368794326241137,0.0)"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_qKVAwNwxEeejAOHk8WtzmQ" type="Dependency_Edge" source="_nlQRYNwwEeejAOHk8WtzmQ" target="_fv3pgNwwEeejAOHk8WtzmQ">
+      <children xsi:type="notation:DecorationNode" xmi:id="_qKVAw9wxEeejAOHk8WtzmQ" type="Dependency_NameLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_zQi-YNwxEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_qKVAxNwxEeejAOHk8WtzmQ" x="-1" y="38"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_qKVAxdwxEeejAOHk8WtzmQ" type="Dependency_StereotypeLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_zQsvYNwxEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_qKVAxtwxEeejAOHk8WtzmQ" x="1" y="59"/>
+      </children>
+      <styles xsi:type="notation:FontStyle" xmi:id="_qKVAwdwxEeejAOHk8WtzmQ"/>
+      <element href="ECb-JusticeLeague.uml#_qKTyoNwxEeejAOHk8WtzmQ"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_qKVAwtwxEeejAOHk8WtzmQ" points="[480, 440, -643984, -643984]$[360, 361, -643984, -643984]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_qKtbQNwxEeejAOHk8WtzmQ" id="(0.0,0.2)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_qKtbQdwxEeejAOHk8WtzmQ" id="(0.7092198581560284,1.0)"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_sF6jsNwxEeejAOHk8WtzmQ" type="Dependency_Edge" source="_nlQRYNwwEeejAOHk8WtzmQ" target="_hmqMANwwEeejAOHk8WtzmQ">
+      <children xsi:type="notation:DecorationNode" xmi:id="_sF6js9wxEeejAOHk8WtzmQ" type="Dependency_NameLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_zQ2gYNwxEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_sF6jtNwxEeejAOHk8WtzmQ" y="40"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_sF6jtdwxEeejAOHk8WtzmQ" type="Dependency_StereotypeLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_zRARYNwxEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_sF6jttwxEeejAOHk8WtzmQ" y="60"/>
+      </children>
+      <styles xsi:type="notation:FontStyle" xmi:id="_sF6jsdwxEeejAOHk8WtzmQ"/>
+      <element href="ECb-JusticeLeague.uml#_sF5VkNwxEeejAOHk8WtzmQ"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_sF6jstwxEeejAOHk8WtzmQ" points="[540, 420, -643984, -643984]$[540, 361, -643984, -643984]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_sGVacNwxEeejAOHk8WtzmQ" id="(0.10810810810810811,0.0)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_sGVacdwxEeejAOHk8WtzmQ" id="(0.7092198581560284,1.0)"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_s0JisNwxEeejAOHk8WtzmQ" type="Dependency_Edge" source="_nlQRYNwwEeejAOHk8WtzmQ" target="_jdJMgNwwEeejAOHk8WtzmQ">
+      <children xsi:type="notation:DecorationNode" xmi:id="_s0Jis9wxEeejAOHk8WtzmQ" type="Dependency_NameLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_zRKCYNwxEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_s0JitNwxEeejAOHk8WtzmQ" x="1" y="38"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_s0JitdwxEeejAOHk8WtzmQ" type="Dependency_StereotypeLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_zRTzYNwxEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_s0JittwxEeejAOHk8WtzmQ" x="1" y="58"/>
+      </children>
+      <styles xsi:type="notation:FontStyle" xmi:id="_s0JisdwxEeejAOHk8WtzmQ"/>
+      <element href="ECb-JusticeLeague.uml#_s0IUkNwxEeejAOHk8WtzmQ"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_s0JistwxEeejAOHk8WtzmQ" points="[640, 420, -643984, -643984]$[660, 340, -643984, -643984]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_s0lnkNwxEeejAOHk8WtzmQ" id="(0.8648648648648649,0.0)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_s0lnkdwxEeejAOHk8WtzmQ" id="(0.28368794326241137,1.0)"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_tUVeoNwxEeejAOHk8WtzmQ" type="Dependency_Edge" source="_nlQRYNwwEeejAOHk8WtzmQ" target="_km5p4NwwEeejAOHk8WtzmQ">
+      <children xsi:type="notation:DecorationNode" xmi:id="_tUVeo9wxEeejAOHk8WtzmQ" type="Dependency_NameLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_zRc9UNwxEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_tUVepNwxEeejAOHk8WtzmQ" x="-1" y="39"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_tUVepdwxEeejAOHk8WtzmQ" type="Dependency_StereotypeLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_zRnVYNwxEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_tUVeptwxEeejAOHk8WtzmQ" x="1" y="58"/>
+      </children>
+      <styles xsi:type="notation:FontStyle" xmi:id="_tUVeodwxEeejAOHk8WtzmQ"/>
+      <element href="ECb-JusticeLeague.uml#_tUUQgNwxEeejAOHk8WtzmQ"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_tUVeotwxEeejAOHk8WtzmQ" points="[665, 440, -643984, -643984]$[880, 361, -643984, -643984]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_tUw8cNwxEeejAOHk8WtzmQ" id="(1.0,0.2)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_tUw8cdwxEeejAOHk8WtzmQ" id="(0.14184397163120568,1.0)"/>
+    </edges>
   </notation:Diagram>
   <nattable:Table xmi:id="_LP2UcNqjEee8kvK1yMzufA" name="SysML 1.4 Allocation Table" currentRowAxisProvider="_LP2UddqjEee8kvK1yMzufA" currentColumnAxisProvider="_LP2UcdqjEee8kvK1yMzufA" tableKindId="org.eclipse.papyrus.sysml14.table.allocation">
     <eAnnotations xmi:id="_LP3ikNqjEee8kvK1yMzufA" source="http://www.eclipse.org/papyrus/infra/nattable/version">
