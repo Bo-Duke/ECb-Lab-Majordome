@@ -433,6 +433,28 @@
     <children xmi:type="notation:Shape" xmi:id="_LPkAkdqjEee8kvK1yMzufA" type="Interaction_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_LPkAktqjEee8kvK1yMzufA" type="Interaction_NameLabel"/>
       <children xmi:type="notation:BasicCompartment" xmi:id="_LPkAk9qjEee8kvK1yMzufA" type="Interaction_SubfragmentCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_qFB88NwkEeejAOHk8WtzmQ" type="Lifeline_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_qFCkANwkEeejAOHk8WtzmQ" type="Lifeline_NameLabel"/>
+          <element xmi:type="uml:Lifeline" href="ECb-JusticeLeague.uml#_qFAu0NwkEeejAOHk8WtzmQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qFB88dwkEeejAOHk8WtzmQ" x="14" y="10" height="700"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_yVYpkNwkEeejAOHk8WtzmQ" type="Lifeline_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_yVYpktwkEeejAOHk8WtzmQ" type="Lifeline_NameLabel"/>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_yVbs4NwkEeejAOHk8WtzmQ" type="compartment_shape_display">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_yVbs4dwkEeejAOHk8WtzmQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yVbs4twkEeejAOHk8WtzmQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_OWdAQNwoEeejAOHk8WtzmQ" type="ActionExecutionSpecification_Shape">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OWdAQdwoEeejAOHk8WtzmQ" x="334" y="286" width="20" height="41"/>
+          </children>
+          <element xmi:type="uml:Lifeline" href="ECb-JusticeLeague.uml#_yVW0YNwkEeejAOHk8WtzmQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yVYpkdwkEeejAOHk8WtzmQ" x="194" y="10" width="121" height="700"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_z9vugNwkEeejAOHk8WtzmQ" type="Lifeline_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_z9vugtwkEeejAOHk8WtzmQ" type="Lifeline_NameLabel"/>
+          <element xmi:type="uml:Lifeline" href="ECb-JusticeLeague.uml#_z9tSQNwkEeejAOHk8WtzmQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_z9vugdwkEeejAOHk8WtzmQ" x="414" y="10" height="700"/>
+        </children>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LPkAlNqjEee8kvK1yMzufA"/>
       </children>
       <element xmi:type="uml:Interaction" href="ECb-JusticeLeague.uml#_LPXzUNqjEee8kvK1yMzufA"/>
@@ -444,6 +466,132 @@
       <owner xmi:type="uml:Model" href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
     </styles>
     <element xmi:type="uml:Interaction" href="ECb-JusticeLeague.uml#_LPXzUNqjEee8kvK1yMzufA"/>
+    <edges xmi:type="notation:Connector" xmi:id="_xb3gQNwnEeejAOHk8WtzmQ" type="Message_AsynchEdge" source="_z9vugNwkEeejAOHk8WtzmQ" target="_yVYpkNwkEeejAOHk8WtzmQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_xb4HUNwnEeejAOHk8WtzmQ" type="Message_AsynchNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xb4HUdwnEeejAOHk8WtzmQ" x="-2" y="13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_xb4HUtwnEeejAOHk8WtzmQ" type="Message_AsynchStereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xb4HU9wnEeejAOHk8WtzmQ" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_xb3gQdwnEeejAOHk8WtzmQ"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_xb4HVNwnEeejAOHk8WtzmQ"/>
+      <element xmi:type="uml:Message" href="ECb-JusticeLeague.uml#_xbz14NwnEeejAOHk8WtzmQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xb3gQtwnEeejAOHk8WtzmQ" points="[0, 0, 210, 0]$[-210, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xcZEsNwnEeejAOHk8WtzmQ" id="(0.5,0.09428571428571429)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xcZEsdwnEeejAOHk8WtzmQ" id="(0.5,0.09428571428571429)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_6V2_wNwnEeejAOHk8WtzmQ" type="Message_AsynchEdge" source="_yVYpkNwkEeejAOHk8WtzmQ" target="_z9vugNwkEeejAOHk8WtzmQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_6V2_w9wnEeejAOHk8WtzmQ" type="Message_AsynchNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_6V2_xNwnEeejAOHk8WtzmQ" x="1" y="-13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_6V2_xdwnEeejAOHk8WtzmQ" type="Message_AsynchStereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_6V2_xtwnEeejAOHk8WtzmQ" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_6V2_wdwnEeejAOHk8WtzmQ"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_6V2_x9wnEeejAOHk8WtzmQ"/>
+      <element xmi:type="uml:Message" href="ECb-JusticeLeague.uml#_6VOGkNwnEeejAOHk8WtzmQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6V2_wtwnEeejAOHk8WtzmQ" points="[0, 0, -210, 0]$[210, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6V_ioNwnEeejAOHk8WtzmQ" id="(0.5,0.18)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6V_iodwnEeejAOHk8WtzmQ" id="(0.5,0.18)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_Al4MUNwoEeejAOHk8WtzmQ" type="Message_AsynchEdge" source="_z9vugNwkEeejAOHk8WtzmQ" target="_qFB88NwkEeejAOHk8WtzmQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Al4MU9woEeejAOHk8WtzmQ" type="Message_AsynchNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Al4zYNwoEeejAOHk8WtzmQ" x="107" y="13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Al4zYdwoEeejAOHk8WtzmQ" type="Message_AsynchStereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Al4zYtwoEeejAOHk8WtzmQ" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_Al4MUdwoEeejAOHk8WtzmQ"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_Al4zY9woEeejAOHk8WtzmQ"/>
+      <element xmi:type="uml:Message" href="ECb-JusticeLeague.uml#_Al0h8NwoEeejAOHk8WtzmQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Al4MUtwoEeejAOHk8WtzmQ" points="[0, 0, 400, 0]$[-400, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AmCkYNwoEeejAOHk8WtzmQ" id="(0.5,0.26571428571428574)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AmCkYdwoEeejAOHk8WtzmQ" id="(0.5,0.26571428571428574)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_RAin8NwoEeejAOHk8WtzmQ" type="Message_AsynchEdge" source="_z9vugNwkEeejAOHk8WtzmQ" target="_z9vugNwkEeejAOHk8WtzmQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_RAin89woEeejAOHk8WtzmQ" type="Message_AsynchNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_RAin9NwoEeejAOHk8WtzmQ" x="-3" y="-57"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_RAin9dwoEeejAOHk8WtzmQ" type="Message_AsynchStereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_RAin9twoEeejAOHk8WtzmQ" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_RAin8dwoEeejAOHk8WtzmQ"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_RAin99woEeejAOHk8WtzmQ"/>
+      <element xmi:type="uml:Message" href="ECb-JusticeLeague.uml#_RAchUNwoEeejAOHk8WtzmQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RAin8twoEeejAOHk8WtzmQ" points="[0, 0, 0, -160]$[62, 0, 62, -160]$[62, 60, 62, -100]$[0, 60, 0, -100]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RAtnENwoEeejAOHk8WtzmQ" id="(0.5,0.32285714285714284)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RAtnEdwoEeejAOHk8WtzmQ" id="(0.5,0.4085714285714286)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_dABRsNwoEeejAOHk8WtzmQ" type="Message_AsynchEdge" source="_z9vugNwkEeejAOHk8WtzmQ" target="_qFB88NwkEeejAOHk8WtzmQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_dABRs9woEeejAOHk8WtzmQ" type="Message_AsynchNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_dABRtNwoEeejAOHk8WtzmQ" x="100" y="13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_dABRtdwoEeejAOHk8WtzmQ" type="Message_AsynchStereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_dABRttwoEeejAOHk8WtzmQ" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_dABRsdwoEeejAOHk8WtzmQ"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_dABRt9woEeejAOHk8WtzmQ"/>
+      <element xmi:type="uml:Message" href="ECb-JusticeLeague.uml#_c_7yINwoEeejAOHk8WtzmQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dABRstwoEeejAOHk8WtzmQ" points="[0, 0, 400, 0]$[-400, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dAP7MNwoEeejAOHk8WtzmQ" id="(0.5,0.4657142857142857)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dAP7MdwoEeejAOHk8WtzmQ" id="(0.5,0.4657142857142857)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_iw2A0NwoEeejAOHk8WtzmQ" type="Message_AsynchEdge" source="_z9vugNwkEeejAOHk8WtzmQ" target="_z9vugNwkEeejAOHk8WtzmQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_iw2A09woEeejAOHk8WtzmQ" type="Message_AsynchNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iw2A1NwoEeejAOHk8WtzmQ" x="-3" y="-112"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_iw2A1dwoEeejAOHk8WtzmQ" type="Message_AsynchStereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iw2A1twoEeejAOHk8WtzmQ" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_iw2A0dwoEeejAOHk8WtzmQ"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_iw2A19woEeejAOHk8WtzmQ"/>
+      <element xmi:type="uml:Message" href="ECb-JusticeLeague.uml#_iwxIUNwoEeejAOHk8WtzmQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_iw2A0twoEeejAOHk8WtzmQ" points="[0, 20, 0, -40]$[70, 20, 70, -40]$[70, 60, 70, 0]$[0, 60, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ixAY4NwoEeejAOHk8WtzmQ" id="(0.5,0.5228571428571429)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ixA_8NwoEeejAOHk8WtzmQ" id="(0.5,0.58)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_dRd8INwqEeejAOHk8WtzmQ" type="Message_AsynchEdge" source="_z9vugNwkEeejAOHk8WtzmQ" target="_qFB88NwkEeejAOHk8WtzmQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_dRd8I9wqEeejAOHk8WtzmQ" type="Message_AsynchNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_dRd8JNwqEeejAOHk8WtzmQ" x="100" y="13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_dRd8JdwqEeejAOHk8WtzmQ" type="Message_AsynchStereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_dRd8JtwqEeejAOHk8WtzmQ" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_dRd8IdwqEeejAOHk8WtzmQ"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_dRd8J9wqEeejAOHk8WtzmQ"/>
+      <element xmi:type="uml:Message" href="ECb-JusticeLeague.uml#_dRX1gNwqEeejAOHk8WtzmQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dRd8ItwqEeejAOHk8WtzmQ" points="[0, 0, 400, 0]$[-400, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dRpiUNwqEeejAOHk8WtzmQ" id="(0.5,0.6371428571428571)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dRpiUdwqEeejAOHk8WtzmQ" id="(0.5,0.6371428571428571)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_gWwSENwqEeejAOHk8WtzmQ" type="Message_AsynchEdge" source="_z9vugNwkEeejAOHk8WtzmQ" target="_z9vugNwkEeejAOHk8WtzmQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_gWwSE9wqEeejAOHk8WtzmQ" type="Message_AsynchNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_gWwSFNwqEeejAOHk8WtzmQ" x="-3" y="-88"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_gWwSFdwqEeejAOHk8WtzmQ" type="Message_AsynchStereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_gWwSFtwqEeejAOHk8WtzmQ" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_gWwSEdwqEeejAOHk8WtzmQ"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_gWwSF9wqEeejAOHk8WtzmQ"/>
+      <element xmi:type="uml:Message" href="ECb-JusticeLeague.uml#_gWpkYNwqEeejAOHk8WtzmQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gWwSEtwqEeejAOHk8WtzmQ" points="[0, -60, 0, -120]$[62, -60, 62, -120]$[62, 60, 62, 0]$[0, 60, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gW8fUNwqEeejAOHk8WtzmQ" id="(0.5,0.6942857142857143)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gW8fUdwqEeejAOHk8WtzmQ" id="(0.5,0.8657142857142858)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_mT3wwNwqEeejAOHk8WtzmQ" type="Message_AsynchEdge" source="_z9vugNwkEeejAOHk8WtzmQ" target="_qFB88NwkEeejAOHk8WtzmQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_mT4X0NwqEeejAOHk8WtzmQ" type="Message_AsynchNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_mT4X0dwqEeejAOHk8WtzmQ" x="109" y="13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_mT4X0twqEeejAOHk8WtzmQ" type="Message_AsynchStereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_mT4X09wqEeejAOHk8WtzmQ" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_mT3wwdwqEeejAOHk8WtzmQ"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_mT4X1NwqEeejAOHk8WtzmQ"/>
+      <element xmi:type="uml:Message" href="ECb-JusticeLeague.uml#_mTyRMNwqEeejAOHk8WtzmQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mT3wwtwqEeejAOHk8WtzmQ" points="[0, 0, 400, 0]$[-400, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mUFzMNwqEeejAOHk8WtzmQ" id="(0.5,0.9228571428571428)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mUFzMdwqEeejAOHk8WtzmQ" id="(0.5,0.9228571428571428)"/>
+    </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_LPqHMNqjEee8kvK1yMzufA" type="PapyrusUMLClassDiagram" name="SysML 1.4 Package Diagram" measurementUnit="Pixel">
     <styles xmi:type="notation:StringValueStyle" xmi:id="_LPqHMdqjEee8kvK1yMzufA" name="diagram_compatibility_version" stringValue="1.3.0"/>
