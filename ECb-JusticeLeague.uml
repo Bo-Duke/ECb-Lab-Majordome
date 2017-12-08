@@ -14,6 +14,67 @@
     <packagedElement xmi:type="uml:Activity" xmi:id="_LO0ZsNqjEee8kvK1yMzufA" name="Activity1"/>
     <packagedElement xmi:type="uml:Interaction" xmi:id="_LPXzUNqjEee8kvK1yMzufA" name="Interaction1"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_LQSZUNqjEee8kvK1yMzufA" name="Block2"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_kVw0YNwhEeejAOHk8WtzmQ" name="Batman"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_q0VaUNwhEeejAOHk8WtzmQ" name="Capteurs"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_6re5MNwhEeejAOHk8WtzmQ" name="Acquérir information"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_76_ZQNwhEeejAOHk8WtzmQ" name="Faire prévision">
+      <include xmi:type="uml:Include" xmi:id="_omk3YNwjEeejAOHk8WtzmQ" addition="_DO5EsNwiEeejAOHk8WtzmQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_8p-mMNwhEeejAOHk8WtzmQ" name="Générer conseil">
+      <include xmi:type="uml:Include" xmi:id="_o9AaYNwjEeejAOHk8WtzmQ" addition="_DO5EsNwiEeejAOHk8WtzmQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_DO5EsNwiEeejAOHk8WtzmQ" name="Traiter information">
+      <include xmi:type="uml:Include" xmi:id="_nuIMcNwjEeejAOHk8WtzmQ" addition="_6re5MNwhEeejAOHk8WtzmQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Mvf4QNwiEeejAOHk8WtzmQ" memberEnd="_MvgfUtwiEeejAOHk8WtzmQ _MvhGYNwiEeejAOHk8WtzmQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MvgfUNwiEeejAOHk8WtzmQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MvgfUdwiEeejAOHk8WtzmQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_MvgfUtwiEeejAOHk8WtzmQ" name="acquérir information" type="_6re5MNwhEeejAOHk8WtzmQ" association="_Mvf4QNwiEeejAOHk8WtzmQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_MvhGYNwiEeejAOHk8WtzmQ" name="capteurs" type="_q0VaUNwhEeejAOHk8WtzmQ" association="_Mvf4QNwiEeejAOHk8WtzmQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_UAy7oNwiEeejAOHk8WtzmQ" name="Générer graphique">
+      <include xmi:type="uml:Include" xmi:id="_m-7kINwjEeejAOHk8WtzmQ" addition="_DO5EsNwiEeejAOHk8WtzmQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_utN68NwiEeejAOHk8WtzmQ" name="Afficher"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_wQRCENwiEeejAOHk8WtzmQ" memberEnd="_wQRCE9wiEeejAOHk8WtzmQ _wQRpINwiEeejAOHk8WtzmQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wQRCEdwiEeejAOHk8WtzmQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wQRCEtwiEeejAOHk8WtzmQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_wQRCE9wiEeejAOHk8WtzmQ" name="générer graphique" type="_UAy7oNwiEeejAOHk8WtzmQ" association="_wQRCENwiEeejAOHk8WtzmQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_wQRpINwiEeejAOHk8WtzmQ" name="afficher" type="_utN68NwiEeejAOHk8WtzmQ" association="_wQRCENwiEeejAOHk8WtzmQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_xPWggNwiEeejAOHk8WtzmQ" memberEnd="_xPXHktwiEeejAOHk8WtzmQ _xPXHk9wiEeejAOHk8WtzmQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xPXHkNwiEeejAOHk8WtzmQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xPXHkdwiEeejAOHk8WtzmQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_xPXHktwiEeejAOHk8WtzmQ" name="afficher" type="_utN68NwiEeejAOHk8WtzmQ" association="_xPWggNwiEeejAOHk8WtzmQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_xPXHk9wiEeejAOHk8WtzmQ" name="faire prévision" type="_76_ZQNwhEeejAOHk8WtzmQ" association="_xPWggNwiEeejAOHk8WtzmQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_xwjJENwiEeejAOHk8WtzmQ" memberEnd="_xwjwIdwiEeejAOHk8WtzmQ _xwjwItwiEeejAOHk8WtzmQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xwjJEdwiEeejAOHk8WtzmQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xwjwINwiEeejAOHk8WtzmQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_xwjwIdwiEeejAOHk8WtzmQ" name="afficher" type="_utN68NwiEeejAOHk8WtzmQ" association="_xwjJENwiEeejAOHk8WtzmQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_xwjwItwiEeejAOHk8WtzmQ" name="générer conseil" type="_8p-mMNwhEeejAOHk8WtzmQ" association="_xwjJENwiEeejAOHk8WtzmQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_8DO50NwiEeejAOHk8WtzmQ" memberEnd="_8DPg4twiEeejAOHk8WtzmQ _8DPg49wiEeejAOHk8WtzmQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8DPg4NwiEeejAOHk8WtzmQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8DPg4dwiEeejAOHk8WtzmQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_8DPg4twiEeejAOHk8WtzmQ" name="batman" type="_kVw0YNwhEeejAOHk8WtzmQ" association="_8DO50NwiEeejAOHk8WtzmQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_8DPg49wiEeejAOHk8WtzmQ" name="afficher" type="_utN68NwiEeejAOHk8WtzmQ" association="_8DO50NwiEeejAOHk8WtzmQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_D-4hwNwjEeejAOHk8WtzmQ" name="Indiquer la santé">
+      <include xmi:type="uml:Include" xmi:id="_oUqA8NwjEeejAOHk8WtzmQ" addition="_DO5EsNwiEeejAOHk8WtzmQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1x30ANwjEeejAOHk8WtzmQ" memberEnd="_1x4bENwjEeejAOHk8WtzmQ _1x4bEdwjEeejAOHk8WtzmQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1x30AdwjEeejAOHk8WtzmQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1x30AtwjEeejAOHk8WtzmQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_1x4bENwjEeejAOHk8WtzmQ" name="afficher" type="_utN68NwiEeejAOHk8WtzmQ" association="_1x30ANwjEeejAOHk8WtzmQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_1x4bEdwjEeejAOHk8WtzmQ" name="indiquer la santé" type="_D-4hwNwjEeejAOHk8WtzmQ" association="_1x30ANwjEeejAOHk8WtzmQ"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_K-QOINqjEee8kvK1yMzufA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_K-bNQNqjEee8kvK1yMzufA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
