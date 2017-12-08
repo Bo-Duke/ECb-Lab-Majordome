@@ -108,6 +108,52 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_1x4bENwjEeejAOHk8WtzmQ" name="afficher" type="_utN68NwiEeejAOHk8WtzmQ" association="_1x30ANwjEeejAOHk8WtzmQ"/>
       <ownedEnd xmi:type="uml:Property" xmi:id="_1x4bEdwjEeejAOHk8WtzmQ" name="indiquer la santé" type="_D-4hwNwjEeejAOHk8WtzmQ" association="_1x30ANwjEeejAOHk8WtzmQ"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_AOktUNwtEeejAOHk8WtzmQ" name="Système">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_qm_rctwtEeejAOHk8WtzmQ" name="écran" type="_kc6u0NwtEeejAOHk8WtzmQ" aggregation="composite" association="_qm_EYNwtEeejAOHk8WtzmQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qm_rc9wtEeejAOHk8WtzmQ"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qnASgNwtEeejAOHk8WtzmQ" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_q_lKktwtEeejAOHk8WtzmQ" name="capteur" type="_bMIf8NwtEeejAOHk8WtzmQ" aggregation="composite" association="_q_kjgNwtEeejAOHk8WtzmQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_q_lKk9wtEeejAOHk8WtzmQ"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_q_lKlNwtEeejAOHk8WtzmQ" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_rmYr4twtEeejAOHk8WtzmQ" name="alarme" type="_YSD7gNwtEeejAOHk8WtzmQ" aggregation="composite" association="_rmYE0NwtEeejAOHk8WtzmQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rmYr49wtEeejAOHk8WtzmQ"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rmYr5NwtEeejAOHk8WtzmQ" value="1"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_Qvb3kNwtEeejAOHk8WtzmQ" name="genererGraphe"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_RAd9MNwtEeejAOHk8WtzmQ" name="genererEstimation"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_RgfhENwtEeejAOHk8WtzmQ" name="genererConseil"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_YSD7gNwtEeejAOHk8WtzmQ" name="Alarme">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ZrArcNwtEeejAOHk8WtzmQ" name="signal"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_bMIf8NwtEeejAOHk8WtzmQ" name="Capteur">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_fMUX4NwtEeejAOHk8WtzmQ" name="nom"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_gx8R4NwtEeejAOHk8WtzmQ" name="valeur"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_i8GcUNwtEeejAOHk8WtzmQ" name="getValeur"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_kc6u0NwtEeejAOHk8WtzmQ" name="Écran">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_lteXwNwtEeejAOHk8WtzmQ" name="afficher"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_qm_EYNwtEeejAOHk8WtzmQ" memberEnd="_qm_rctwtEeejAOHk8WtzmQ _qnASgdwtEeejAOHk8WtzmQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qm_rcNwtEeejAOHk8WtzmQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qm_rcdwtEeejAOHk8WtzmQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_qnASgdwtEeejAOHk8WtzmQ" name="système" type="_AOktUNwtEeejAOHk8WtzmQ" association="_qm_EYNwtEeejAOHk8WtzmQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_q_kjgNwtEeejAOHk8WtzmQ" memberEnd="_q_lKktwtEeejAOHk8WtzmQ _q_lKldwtEeejAOHk8WtzmQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_q_lKkNwtEeejAOHk8WtzmQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_q_lKkdwtEeejAOHk8WtzmQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_q_lKldwtEeejAOHk8WtzmQ" name="système" type="_AOktUNwtEeejAOHk8WtzmQ" association="_q_kjgNwtEeejAOHk8WtzmQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_rmYE0NwtEeejAOHk8WtzmQ" memberEnd="_rmYr4twtEeejAOHk8WtzmQ _rmYr5dwtEeejAOHk8WtzmQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rmYr4NwtEeejAOHk8WtzmQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rmYr4dwtEeejAOHk8WtzmQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_rmYr5dwtEeejAOHk8WtzmQ" name="système" type="_AOktUNwtEeejAOHk8WtzmQ" association="_rmYE0NwtEeejAOHk8WtzmQ"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_K-QOINqjEee8kvK1yMzufA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_K-bNQNqjEee8kvK1yMzufA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -171,4 +217,8 @@
   </uml:Model>
   <Blocks:Block xmi:id="_LNiAQNqjEee8kvK1yMzufA" base_Class="_LMwkMNqjEee8kvK1yMzufA"/>
   <Blocks:Block xmi:id="_LQw6cNqjEee8kvK1yMzufA" base_Class="_LQSZUNqjEee8kvK1yMzufA"/>
+  <Blocks:Block xmi:id="_AOsCENwtEeejAOHk8WtzmQ" base_Class="_AOktUNwtEeejAOHk8WtzmQ"/>
+  <Blocks:Block xmi:id="_YSKpMNwtEeejAOHk8WtzmQ" base_Class="_YSD7gNwtEeejAOHk8WtzmQ"/>
+  <Blocks:Block xmi:id="_bMN_gNwtEeejAOHk8WtzmQ" base_Class="_bMIf8NwtEeejAOHk8WtzmQ"/>
+  <Blocks:Block xmi:id="_kdFG4NwtEeejAOHk8WtzmQ" base_Class="_kc6u0NwtEeejAOHk8WtzmQ"/>
 </xmi:XMI>

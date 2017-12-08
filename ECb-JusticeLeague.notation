@@ -1,760 +1,1114 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:nattable="http://www.eclipse.org/papyrus/nattable/model" xmlns:nattableaxis="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxis" xmlns:nattableaxisconfiguration="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisconfiguration" xmlns:nattableaxisprovider="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisprovider" xmlns:nattablecelleditor="http://www.eclipse.org/papyrus/nattable/model/table/nattablecelleditor" xmlns:nattableconfiguration="http://www.eclipse.org/papyrus/nattable/model/nattableconfiguration" xmlns:nattablestyle="http://www.eclipse.org/papyrus/nattable/model/table/nattablestyle" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxis http://www.eclipse.org/papyrus/nattable/model#//nattableaxis http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisconfiguration http://www.eclipse.org/papyrus/nattable/model#//nattableaxisconfiguration http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisprovider http://www.eclipse.org/papyrus/nattable/model#//nattableaxisprovider http://www.eclipse.org/papyrus/nattable/model/table/nattablecelleditor http://www.eclipse.org/papyrus/nattable/model#//nattablecelleditor http://www.eclipse.org/papyrus/nattable/model/nattableconfiguration http://www.eclipse.org/papyrus/nattable/model#//nattableconfiguration http://www.eclipse.org/papyrus/nattable/model/table/nattablestyle http://www.eclipse.org/papyrus/nattable/model#//nattablestyle">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:nattable="http://www.eclipse.org/papyrus/nattable/model" xmlns:nattableaxis="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxis" xmlns:nattableaxisprovider="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisprovider" xmlns:nattablecelleditor="http://www.eclipse.org/papyrus/nattable/model/table/nattablecelleditor" xmlns:nattablestyle="http://www.eclipse.org/papyrus/nattable/model/table/nattablestyle" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xsi:schemaLocation="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxis http://www.eclipse.org/papyrus/nattable/model#//nattableaxis http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisprovider http://www.eclipse.org/papyrus/nattable/model#//nattableaxisprovider http://www.eclipse.org/papyrus/nattable/model/table/nattablecelleditor http://www.eclipse.org/papyrus/nattable/model#//nattablecelleditor http://www.eclipse.org/papyrus/nattable/model/table/nattablestyle http://www.eclipse.org/papyrus/nattable/model#//nattablestyle">
   <notation:Diagram xmi:id="_LIkAsNqjEee8kvK1yMzufA" type="UseCase" name="Use Case Diagram" measurementUnit="Pixel">
-    <children xmi:type="notation:Shape" xmi:id="_kV_d4NwhEeejAOHk8WtzmQ" type="Actor_Shape">
-      <children xmi:type="notation:DecorationNode" xmi:id="_kWIAwNwhEeejAOHk8WtzmQ" type="Actor_NameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_kWIn0NwhEeejAOHk8WtzmQ" y="15"/>
+    <children xsi:type="notation:Shape" xmi:id="_kV_d4NwhEeejAOHk8WtzmQ" type="Actor_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_kWIAwNwhEeejAOHk8WtzmQ" type="Actor_NameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_kWIn0NwhEeejAOHk8WtzmQ" y="15"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_kWIn0dwhEeejAOHk8WtzmQ" type="Actor_StereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_kWIn0twhEeejAOHk8WtzmQ" x="20" y="100"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_kWIn0dwhEeejAOHk8WtzmQ" type="Actor_StereotypeLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_kWIn0twhEeejAOHk8WtzmQ" x="20" y="100"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_kWIn09whEeejAOHk8WtzmQ" type="Actor_QualifiedNameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_kWIn1NwhEeejAOHk8WtzmQ" x="20" y="80"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_kWIn09whEeejAOHk8WtzmQ" type="Actor_QualifiedNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_kWIn1NwhEeejAOHk8WtzmQ" x="20" y="80"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_kWJO4NwhEeejAOHk8WtzmQ" type="Actor_FloatingNameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_kWJO4dwhEeejAOHk8WtzmQ" y="15"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_kWJO4NwhEeejAOHk8WtzmQ" type="Actor_FloatingNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_kWJO4dwhEeejAOHk8WtzmQ" y="15"/>
       </children>
-      <element xmi:type="uml:Actor" href="ECb-JusticeLeague.uml#_kVw0YNwhEeejAOHk8WtzmQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kV_d4dwhEeejAOHk8WtzmQ" x="60" y="220"/>
+      <element href="ECb-JusticeLeague.uml#_kVw0YNwhEeejAOHk8WtzmQ"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_kV_d4dwhEeejAOHk8WtzmQ" x="60" y="220"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_q0ZEsNwhEeejAOHk8WtzmQ" type="Actor_Shape">
-      <children xmi:type="notation:DecorationNode" xmi:id="_q0ZEstwhEeejAOHk8WtzmQ" type="Actor_NameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_q0ZEs9whEeejAOHk8WtzmQ" y="15"/>
+    <children xsi:type="notation:Shape" xmi:id="_q0ZEsNwhEeejAOHk8WtzmQ" type="Actor_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_q0ZEstwhEeejAOHk8WtzmQ" type="Actor_NameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_q0ZEs9whEeejAOHk8WtzmQ" y="15"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_q0ZEtNwhEeejAOHk8WtzmQ" type="Actor_StereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_q0ZEtdwhEeejAOHk8WtzmQ" x="20" y="100"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_q0ZEtNwhEeejAOHk8WtzmQ" type="Actor_StereotypeLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_q0ZEtdwhEeejAOHk8WtzmQ" x="20" y="100"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_q0ZEttwhEeejAOHk8WtzmQ" type="Actor_QualifiedNameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_q0ZEt9whEeejAOHk8WtzmQ" x="20" y="80"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_q0ZEttwhEeejAOHk8WtzmQ" type="Actor_QualifiedNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_q0ZEt9whEeejAOHk8WtzmQ" x="20" y="80"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_q0ZEuNwhEeejAOHk8WtzmQ" type="Actor_FloatingNameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_q0ZEudwhEeejAOHk8WtzmQ" y="15"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_q0ZEuNwhEeejAOHk8WtzmQ" type="Actor_FloatingNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_q0ZEudwhEeejAOHk8WtzmQ" y="15"/>
       </children>
-      <element xmi:type="uml:Actor" href="ECb-JusticeLeague.uml#_q0VaUNwhEeejAOHk8WtzmQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q0ZEsdwhEeejAOHk8WtzmQ" x="980" y="220"/>
+      <element href="ECb-JusticeLeague.uml#_q0VaUNwhEeejAOHk8WtzmQ"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_q0ZEsdwhEeejAOHk8WtzmQ" x="980" y="220"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_6rguYNwhEeejAOHk8WtzmQ" type="UseCase_Shape">
-      <children xmi:type="notation:DecorationNode" xmi:id="_6rhVcNwhEeejAOHk8WtzmQ" type="UseCase_NameLabel"/>
-      <children xmi:type="notation:DecorationNode" xmi:id="_6rhVcdwhEeejAOHk8WtzmQ" type="UseCase_FloatingNameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_6rhVctwhEeejAOHk8WtzmQ" y="15"/>
+    <children xsi:type="notation:Shape" xmi:id="_6rguYNwhEeejAOHk8WtzmQ" type="UseCase_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_6rhVcNwhEeejAOHk8WtzmQ" type="UseCase_NameLabel"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_6rhVcdwhEeejAOHk8WtzmQ" type="UseCase_FloatingNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_6rhVctwhEeejAOHk8WtzmQ" y="15"/>
       </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_6rhVc9whEeejAOHk8WtzmQ" type="UseCase_ExtensionPointCompartment">
-        <styles xmi:type="notation:SortingStyle" xmi:id="_6rhVdNwhEeejAOHk8WtzmQ"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_6rhVddwhEeejAOHk8WtzmQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6rhVdtwhEeejAOHk8WtzmQ"/>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_6rhVc9whEeejAOHk8WtzmQ" type="UseCase_ExtensionPointCompartment">
+        <styles xsi:type="notation:SortingStyle" xmi:id="_6rhVdNwhEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_6rhVddwhEeejAOHk8WtzmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_6rhVdtwhEeejAOHk8WtzmQ"/>
       </children>
-      <element xmi:type="uml:UseCase" href="ECb-JusticeLeague.uml#_6re5MNwhEeejAOHk8WtzmQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6rguYdwhEeejAOHk8WtzmQ" x="780" y="240"/>
+      <element href="ECb-JusticeLeague.uml#_6re5MNwhEeejAOHk8WtzmQ"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_6rguYdwhEeejAOHk8WtzmQ" x="780" y="240"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_77BOcNwhEeejAOHk8WtzmQ" type="UseCase_Shape">
-      <children xmi:type="notation:DecorationNode" xmi:id="_77BOctwhEeejAOHk8WtzmQ" type="UseCase_NameLabel"/>
-      <children xmi:type="notation:DecorationNode" xmi:id="_77BOc9whEeejAOHk8WtzmQ" type="UseCase_FloatingNameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_77BOdNwhEeejAOHk8WtzmQ" y="15"/>
+    <children xsi:type="notation:Shape" xmi:id="_77BOcNwhEeejAOHk8WtzmQ" type="UseCase_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_77BOctwhEeejAOHk8WtzmQ" type="UseCase_NameLabel"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_77BOc9whEeejAOHk8WtzmQ" type="UseCase_FloatingNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_77BOdNwhEeejAOHk8WtzmQ" y="15"/>
       </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_77B1gNwhEeejAOHk8WtzmQ" type="UseCase_ExtensionPointCompartment">
-        <styles xmi:type="notation:SortingStyle" xmi:id="_77B1gdwhEeejAOHk8WtzmQ"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_77B1gtwhEeejAOHk8WtzmQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_77B1g9whEeejAOHk8WtzmQ"/>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_77B1gNwhEeejAOHk8WtzmQ" type="UseCase_ExtensionPointCompartment">
+        <styles xsi:type="notation:SortingStyle" xmi:id="_77B1gdwhEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_77B1gtwhEeejAOHk8WtzmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_77B1g9whEeejAOHk8WtzmQ"/>
       </children>
-      <element xmi:type="uml:UseCase" href="ECb-JusticeLeague.uml#_76_ZQNwhEeejAOHk8WtzmQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_77BOcdwhEeejAOHk8WtzmQ" x="380" y="280"/>
+      <element href="ECb-JusticeLeague.uml#_76_ZQNwhEeejAOHk8WtzmQ"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_77BOcdwhEeejAOHk8WtzmQ" x="380" y="280"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_8p_0UNwhEeejAOHk8WtzmQ" type="UseCase_Shape">
-      <children xmi:type="notation:DecorationNode" xmi:id="_8qAbYNwhEeejAOHk8WtzmQ" type="UseCase_NameLabel"/>
-      <children xmi:type="notation:DecorationNode" xmi:id="_8qAbYdwhEeejAOHk8WtzmQ" type="UseCase_FloatingNameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_8qAbYtwhEeejAOHk8WtzmQ" y="15"/>
+    <children xsi:type="notation:Shape" xmi:id="_8p_0UNwhEeejAOHk8WtzmQ" type="UseCase_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_8qAbYNwhEeejAOHk8WtzmQ" type="UseCase_NameLabel"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_8qAbYdwhEeejAOHk8WtzmQ" type="UseCase_FloatingNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_8qAbYtwhEeejAOHk8WtzmQ" y="15"/>
       </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_8qAbY9whEeejAOHk8WtzmQ" type="UseCase_ExtensionPointCompartment">
-        <styles xmi:type="notation:SortingStyle" xmi:id="_8qAbZNwhEeejAOHk8WtzmQ"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_8qAbZdwhEeejAOHk8WtzmQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8qAbZtwhEeejAOHk8WtzmQ"/>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_8qAbY9whEeejAOHk8WtzmQ" type="UseCase_ExtensionPointCompartment">
+        <styles xsi:type="notation:SortingStyle" xmi:id="_8qAbZNwhEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_8qAbZdwhEeejAOHk8WtzmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_8qAbZtwhEeejAOHk8WtzmQ"/>
       </children>
-      <element xmi:type="uml:UseCase" href="ECb-JusticeLeague.uml#_8p-mMNwhEeejAOHk8WtzmQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8p_0UdwhEeejAOHk8WtzmQ" x="380" y="360"/>
+      <element href="ECb-JusticeLeague.uml#_8p-mMNwhEeejAOHk8WtzmQ"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_8p_0UdwhEeejAOHk8WtzmQ" x="380" y="360"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_DO6S0NwiEeejAOHk8WtzmQ" type="UseCase_Shape">
-      <children xmi:type="notation:DecorationNode" xmi:id="_DO6S0twiEeejAOHk8WtzmQ" type="UseCase_NameLabel"/>
-      <children xmi:type="notation:DecorationNode" xmi:id="_DO6S09wiEeejAOHk8WtzmQ" type="UseCase_FloatingNameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_DO6S1NwiEeejAOHk8WtzmQ" y="15"/>
+    <children xsi:type="notation:Shape" xmi:id="_DO6S0NwiEeejAOHk8WtzmQ" type="UseCase_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_DO6S0twiEeejAOHk8WtzmQ" type="UseCase_NameLabel"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_DO6S09wiEeejAOHk8WtzmQ" type="UseCase_FloatingNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_DO6S1NwiEeejAOHk8WtzmQ" y="15"/>
       </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_DO6S1dwiEeejAOHk8WtzmQ" type="UseCase_ExtensionPointCompartment">
-        <styles xmi:type="notation:SortingStyle" xmi:id="_DO6S1twiEeejAOHk8WtzmQ"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_DO6S19wiEeejAOHk8WtzmQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DO6S2NwiEeejAOHk8WtzmQ"/>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_DO6S1dwiEeejAOHk8WtzmQ" type="UseCase_ExtensionPointCompartment">
+        <styles xsi:type="notation:SortingStyle" xmi:id="_DO6S1twiEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_DO6S19wiEeejAOHk8WtzmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_DO6S2NwiEeejAOHk8WtzmQ"/>
       </children>
-      <element xmi:type="uml:UseCase" href="ECb-JusticeLeague.uml#_DO5EsNwiEeejAOHk8WtzmQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DO6S0dwiEeejAOHk8WtzmQ" x="600" y="240"/>
+      <element href="ECb-JusticeLeague.uml#_DO5EsNwiEeejAOHk8WtzmQ"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_DO6S0dwiEeejAOHk8WtzmQ" x="600" y="240"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_UA0JwNwiEeejAOHk8WtzmQ" type="UseCase_Shape">
-      <children xmi:type="notation:DecorationNode" xmi:id="_UA0JwtwiEeejAOHk8WtzmQ" type="UseCase_NameLabel"/>
-      <children xmi:type="notation:DecorationNode" xmi:id="_UA0Jw9wiEeejAOHk8WtzmQ" type="UseCase_FloatingNameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_UA0JxNwiEeejAOHk8WtzmQ" y="15"/>
+    <children xsi:type="notation:Shape" xmi:id="_UA0JwNwiEeejAOHk8WtzmQ" type="UseCase_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_UA0JwtwiEeejAOHk8WtzmQ" type="UseCase_NameLabel"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_UA0Jw9wiEeejAOHk8WtzmQ" type="UseCase_FloatingNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_UA0JxNwiEeejAOHk8WtzmQ" y="15"/>
       </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_UA0JxdwiEeejAOHk8WtzmQ" type="UseCase_ExtensionPointCompartment">
-        <styles xmi:type="notation:SortingStyle" xmi:id="_UA0JxtwiEeejAOHk8WtzmQ"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_UA0Jx9wiEeejAOHk8WtzmQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UA0JyNwiEeejAOHk8WtzmQ"/>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_UA0JxdwiEeejAOHk8WtzmQ" type="UseCase_ExtensionPointCompartment">
+        <styles xsi:type="notation:SortingStyle" xmi:id="_UA0JxtwiEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_UA0Jx9wiEeejAOHk8WtzmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_UA0JyNwiEeejAOHk8WtzmQ"/>
       </children>
-      <element xmi:type="uml:UseCase" href="ECb-JusticeLeague.uml#_UAy7oNwiEeejAOHk8WtzmQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UA0JwdwiEeejAOHk8WtzmQ" x="380" y="120"/>
+      <element href="ECb-JusticeLeague.uml#_UAy7oNwiEeejAOHk8WtzmQ"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_UA0JwdwiEeejAOHk8WtzmQ" x="380" y="120"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_utPJENwiEeejAOHk8WtzmQ" type="UseCase_Shape">
-      <children xmi:type="notation:DecorationNode" xmi:id="_utPwINwiEeejAOHk8WtzmQ" type="UseCase_NameLabel"/>
-      <children xmi:type="notation:DecorationNode" xmi:id="_utPwIdwiEeejAOHk8WtzmQ" type="UseCase_FloatingNameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_utPwItwiEeejAOHk8WtzmQ" y="15"/>
+    <children xsi:type="notation:Shape" xmi:id="_utPJENwiEeejAOHk8WtzmQ" type="UseCase_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_utPwINwiEeejAOHk8WtzmQ" type="UseCase_NameLabel"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_utPwIdwiEeejAOHk8WtzmQ" type="UseCase_FloatingNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_utPwItwiEeejAOHk8WtzmQ" y="15"/>
       </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_utPwI9wiEeejAOHk8WtzmQ" type="UseCase_ExtensionPointCompartment">
-        <styles xmi:type="notation:SortingStyle" xmi:id="_utPwJNwiEeejAOHk8WtzmQ"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_utPwJdwiEeejAOHk8WtzmQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_utPwJtwiEeejAOHk8WtzmQ"/>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_utPwI9wiEeejAOHk8WtzmQ" type="UseCase_ExtensionPointCompartment">
+        <styles xsi:type="notation:SortingStyle" xmi:id="_utPwJNwiEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_utPwJdwiEeejAOHk8WtzmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_utPwJtwiEeejAOHk8WtzmQ"/>
       </children>
-      <element xmi:type="uml:UseCase" href="ECb-JusticeLeague.uml#_utN68NwiEeejAOHk8WtzmQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_utPJEdwiEeejAOHk8WtzmQ" x="160" y="240"/>
+      <element href="ECb-JusticeLeague.uml#_utN68NwiEeejAOHk8WtzmQ"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_utPJEdwiEeejAOHk8WtzmQ" x="160" y="240"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_D-5I0NwjEeejAOHk8WtzmQ" type="UseCase_Shape">
-      <children xmi:type="notation:DecorationNode" xmi:id="_D-5v4NwjEeejAOHk8WtzmQ" type="UseCase_NameLabel"/>
-      <children xmi:type="notation:DecorationNode" xmi:id="_D-5v4dwjEeejAOHk8WtzmQ" type="UseCase_FloatingNameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_D-5v4twjEeejAOHk8WtzmQ" y="15"/>
+    <children xsi:type="notation:Shape" xmi:id="_D-5I0NwjEeejAOHk8WtzmQ" type="UseCase_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_D-5v4NwjEeejAOHk8WtzmQ" type="UseCase_NameLabel"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_D-5v4dwjEeejAOHk8WtzmQ" type="UseCase_FloatingNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_D-5v4twjEeejAOHk8WtzmQ" y="15"/>
       </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_D-5v49wjEeejAOHk8WtzmQ" type="UseCase_ExtensionPointCompartment">
-        <styles xmi:type="notation:SortingStyle" xmi:id="_D-5v5NwjEeejAOHk8WtzmQ"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_D-5v5dwjEeejAOHk8WtzmQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D-5v5twjEeejAOHk8WtzmQ"/>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_D-5v49wjEeejAOHk8WtzmQ" type="UseCase_ExtensionPointCompartment">
+        <styles xsi:type="notation:SortingStyle" xmi:id="_D-5v5NwjEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_D-5v5dwjEeejAOHk8WtzmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_D-5v5twjEeejAOHk8WtzmQ"/>
       </children>
-      <element xmi:type="uml:UseCase" href="ECb-JusticeLeague.uml#_D-4hwNwjEeejAOHk8WtzmQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D-5I0dwjEeejAOHk8WtzmQ" x="380" y="200"/>
+      <element href="ECb-JusticeLeague.uml#_D-4hwNwjEeejAOHk8WtzmQ"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_D-5I0dwjEeejAOHk8WtzmQ" x="380" y="200"/>
     </children>
-    <styles xmi:type="notation:StringValueStyle" xmi:id="_LIkAsdqjEee8kvK1yMzufA" name="diagram_compatibility_version" stringValue="1.3.0"/>
-    <styles xmi:type="notation:DiagramStyle" xmi:id="_LIkAstqjEee8kvK1yMzufA"/>
-    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_LIkAs9qjEee8kvK1yMzufA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.useCase">
-      <owner xmi:type="uml:Model" href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_LIkAsdqjEee8kvK1yMzufA" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_LIkAstqjEee8kvK1yMzufA"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_LIkAs9qjEee8kvK1yMzufA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.useCase">
+      <owner href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
     </styles>
-    <element xmi:type="uml:Model" href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
-    <edges xmi:type="notation:Connector" xmi:id="_MvhtcNwiEeejAOHk8WtzmQ" type="Association_Edge" source="_q0ZEsNwhEeejAOHk8WtzmQ" target="_6rguYNwhEeejAOHk8WtzmQ">
-      <children xmi:type="notation:DecorationNode" xmi:id="_Mvhtc9wiEeejAOHk8WtzmQ" type="Association_NameLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_NLfQsNwiEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_MvhtdNwiEeejAOHk8WtzmQ" x="-1" y="38"/>
+    <element href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <edges xsi:type="notation:Connector" xmi:id="_MvhtcNwiEeejAOHk8WtzmQ" type="Association_Edge" source="_q0ZEsNwhEeejAOHk8WtzmQ" target="_6rguYNwhEeejAOHk8WtzmQ">
+      <children xsi:type="notation:DecorationNode" xmi:id="_Mvhtc9wiEeejAOHk8WtzmQ" type="Association_NameLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_NLfQsNwiEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_MvhtdNwiEeejAOHk8WtzmQ" x="-1" y="38"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_MvhtddwiEeejAOHk8WtzmQ" type="Association_StereotypeLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_NLmlcNwiEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_MvhtdtwiEeejAOHk8WtzmQ" x="1" y="-19"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_MvhtddwiEeejAOHk8WtzmQ" type="Association_StereotypeLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_NLmlcNwiEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_MvhtdtwiEeejAOHk8WtzmQ" x="1" y="-19"/>
       </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_MvhtcdwiEeejAOHk8WtzmQ"/>
-      <element xmi:type="uml:Association" href="ECb-JusticeLeague.uml#_Mvf4QNwiEeejAOHk8WtzmQ"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MvhtctwiEeejAOHk8WtzmQ" points="[980, 270, -643984, -643984]$[740, 290, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Mv3rsNwiEeejAOHk8WtzmQ" id="(0.0,1.0)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Mv3rsdwiEeejAOHk8WtzmQ" id="(1.0,0.5)"/>
+      <styles xsi:type="notation:FontStyle" xmi:id="_MvhtcdwiEeejAOHk8WtzmQ"/>
+      <element href="ECb-JusticeLeague.uml#_Mvf4QNwiEeejAOHk8WtzmQ"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_MvhtctwiEeejAOHk8WtzmQ" points="[980, 270, -643984, -643984]$[740, 290, -643984, -643984]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_Mv3rsNwiEeejAOHk8WtzmQ" id="(0.0,1.0)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_Mv3rsdwiEeejAOHk8WtzmQ" id="(1.0,0.5)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_wQSQMNwiEeejAOHk8WtzmQ" type="Association_Edge" source="_utPJENwiEeejAOHk8WtzmQ" target="_UA0JwNwiEeejAOHk8WtzmQ">
-      <children xmi:type="notation:DecorationNode" xmi:id="_wQSQM9wiEeejAOHk8WtzmQ" type="Association_NameLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_1s0xYNwiEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_wQSQNNwiEeejAOHk8WtzmQ" x="26" y="8"/>
+    <edges xsi:type="notation:Connector" xmi:id="_wQSQMNwiEeejAOHk8WtzmQ" type="Association_Edge" source="_utPJENwiEeejAOHk8WtzmQ" target="_UA0JwNwiEeejAOHk8WtzmQ">
+      <children xsi:type="notation:DecorationNode" xmi:id="_wQSQM9wiEeejAOHk8WtzmQ" type="Association_NameLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_1s0xYNwiEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_wQSQNNwiEeejAOHk8WtzmQ" x="26" y="8"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_wQSQNdwiEeejAOHk8WtzmQ" type="Association_StereotypeLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_1s8GINwiEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_wQSQNtwiEeejAOHk8WtzmQ" x="-1" y="-17"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_wQSQNdwiEeejAOHk8WtzmQ" type="Association_StereotypeLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_1s8GINwiEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_wQSQNtwiEeejAOHk8WtzmQ" x="-1" y="-17"/>
       </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_wQSQMdwiEeejAOHk8WtzmQ"/>
-      <element xmi:type="uml:Association" href="ECb-JusticeLeague.uml#_wQRCENwiEeejAOHk8WtzmQ"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wQSQMtwiEeejAOHk8WtzmQ" points="[300, 290, -643984, -643984]$[444, 160, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wQiu4NwiEeejAOHk8WtzmQ" id="(1.0,0.5)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wQiu4dwiEeejAOHk8WtzmQ" id="(0.0,0.3333333333333333)"/>
+      <styles xsi:type="notation:FontStyle" xmi:id="_wQSQMdwiEeejAOHk8WtzmQ"/>
+      <element href="ECb-JusticeLeague.uml#_wQRCENwiEeejAOHk8WtzmQ"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_wQSQMtwiEeejAOHk8WtzmQ" points="[300, 290, -643984, -643984]$[444, 160, -643984, -643984]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_wQiu4NwiEeejAOHk8WtzmQ" id="(1.0,0.5)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_wQiu4dwiEeejAOHk8WtzmQ" id="(0.0,0.3333333333333333)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_xPXuoNwiEeejAOHk8WtzmQ" type="Association_Edge" source="_77BOcNwhEeejAOHk8WtzmQ" target="_utPJENwiEeejAOHk8WtzmQ">
-      <children xmi:type="notation:DecorationNode" xmi:id="_xPYVsNwiEeejAOHk8WtzmQ" type="Association_NameLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_1tEB8NwiEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_xPYVsdwiEeejAOHk8WtzmQ" x="29" y="57"/>
+    <edges xsi:type="notation:Connector" xmi:id="_xPXuoNwiEeejAOHk8WtzmQ" type="Association_Edge" source="_77BOcNwhEeejAOHk8WtzmQ" target="_utPJENwiEeejAOHk8WtzmQ">
+      <children xsi:type="notation:DecorationNode" xmi:id="_xPYVsNwiEeejAOHk8WtzmQ" type="Association_NameLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_1tEB8NwiEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_xPYVsdwiEeejAOHk8WtzmQ" x="29" y="57"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_xPYVstwiEeejAOHk8WtzmQ" type="Association_StereotypeLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_1tNL4NwiEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_xPYVs9wiEeejAOHk8WtzmQ" x="-1" y="-18"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_xPYVstwiEeejAOHk8WtzmQ" type="Association_StereotypeLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_1tNL4NwiEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_xPYVs9wiEeejAOHk8WtzmQ" x="-1" y="-18"/>
       </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_xPXuodwiEeejAOHk8WtzmQ"/>
-      <element xmi:type="uml:Association" href="ECb-JusticeLeague.uml#_xPWggNwiEeejAOHk8WtzmQ"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xPXuotwiEeejAOHk8WtzmQ" points="[500, 399, -643984, -643984]$[315, 280, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xPrQoNwiEeejAOHk8WtzmQ" id="(0.0,0.5)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xPr3sNwiEeejAOHk8WtzmQ" id="(1.0,0.5)"/>
+      <styles xsi:type="notation:FontStyle" xmi:id="_xPXuodwiEeejAOHk8WtzmQ"/>
+      <element href="ECb-JusticeLeague.uml#_xPWggNwiEeejAOHk8WtzmQ"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_xPXuotwiEeejAOHk8WtzmQ" points="[500, 399, -643984, -643984]$[315, 280, -643984, -643984]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_xPrQoNwiEeejAOHk8WtzmQ" id="(0.0,0.5)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_xPr3sNwiEeejAOHk8WtzmQ" id="(1.0,0.5)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_xwkXMNwiEeejAOHk8WtzmQ" type="Association_Edge" source="_8p_0UNwhEeejAOHk8WtzmQ" target="_utPJENwiEeejAOHk8WtzmQ">
-      <children xmi:type="notation:DecorationNode" xmi:id="_xwkXM9wiEeejAOHk8WtzmQ" type="Association_NameLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_1taAMNwiEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_xwkXNNwiEeejAOHk8WtzmQ" x="34" y="51"/>
+    <edges xsi:type="notation:Connector" xmi:id="_xwkXMNwiEeejAOHk8WtzmQ" type="Association_Edge" source="_8p_0UNwhEeejAOHk8WtzmQ" target="_utPJENwiEeejAOHk8WtzmQ">
+      <children xsi:type="notation:DecorationNode" xmi:id="_xwkXM9wiEeejAOHk8WtzmQ" type="Association_NameLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_1taAMNwiEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_xwkXNNwiEeejAOHk8WtzmQ" x="34" y="51"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_xwkXNdwiEeejAOHk8WtzmQ" type="Association_StereotypeLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_1tk_UNwiEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_xwkXNtwiEeejAOHk8WtzmQ" x="1" y="-18"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_xwkXNdwiEeejAOHk8WtzmQ" type="Association_StereotypeLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_1tk_UNwiEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_xwkXNtwiEeejAOHk8WtzmQ" x="1" y="-18"/>
       </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_xwkXMdwiEeejAOHk8WtzmQ"/>
-      <element xmi:type="uml:Association" href="ECb-JusticeLeague.uml#_xwjJENwiEeejAOHk8WtzmQ"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xwkXMtwiEeejAOHk8WtzmQ" points="[460, 429, -643984, -643984]$[300, 249, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xw3SINwiEeejAOHk8WtzmQ" id="(0.0,0.5)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xw3SIdwiEeejAOHk8WtzmQ" id="(1.0,0.5)"/>
+      <styles xsi:type="notation:FontStyle" xmi:id="_xwkXMdwiEeejAOHk8WtzmQ"/>
+      <element href="ECb-JusticeLeague.uml#_xwjJENwiEeejAOHk8WtzmQ"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_xwkXMtwiEeejAOHk8WtzmQ" points="[460, 429, -643984, -643984]$[300, 249, -643984, -643984]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_xw3SINwiEeejAOHk8WtzmQ" id="(0.0,0.5)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_xw3SIdwiEeejAOHk8WtzmQ" id="(1.0,0.5)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_8DQH8NwiEeejAOHk8WtzmQ" type="Association_Edge" source="_utPJENwiEeejAOHk8WtzmQ" target="_kV_d4NwhEeejAOHk8WtzmQ">
-      <children xmi:type="notation:DecorationNode" xmi:id="_8DQH89wiEeejAOHk8WtzmQ" type="Association_NameLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_9d7WMNwiEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_8DQH9NwiEeejAOHk8WtzmQ" x="1" y="38"/>
+    <edges xsi:type="notation:Connector" xmi:id="_8DQH8NwiEeejAOHk8WtzmQ" type="Association_Edge" source="_utPJENwiEeejAOHk8WtzmQ" target="_kV_d4NwhEeejAOHk8WtzmQ">
+      <children xsi:type="notation:DecorationNode" xmi:id="_8DQH89wiEeejAOHk8WtzmQ" type="Association_NameLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_9d7WMNwiEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_8DQH9NwiEeejAOHk8WtzmQ" x="1" y="38"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_8DQH9dwiEeejAOHk8WtzmQ" type="Association_StereotypeLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_9eCq8NwiEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_8DQH9twiEeejAOHk8WtzmQ" x="-1" y="-19"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_8DQH9dwiEeejAOHk8WtzmQ" type="Association_StereotypeLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_9eCq8NwiEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_8DQH9twiEeejAOHk8WtzmQ" x="-1" y="-19"/>
       </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_8DQH8dwiEeejAOHk8WtzmQ"/>
-      <element xmi:type="uml:Association" href="ECb-JusticeLeague.uml#_8DO50NwiEeejAOHk8WtzmQ"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8DQH8twiEeejAOHk8WtzmQ" points="[160, 270, -643984, -643984]$[90, 260, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8Djp8NwiEeejAOHk8WtzmQ" id="(0.0,0.5)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8Djp8dwiEeejAOHk8WtzmQ" id="(0.6666666666666666,1.0)"/>
+      <styles xsi:type="notation:FontStyle" xmi:id="_8DQH8dwiEeejAOHk8WtzmQ"/>
+      <element href="ECb-JusticeLeague.uml#_8DO50NwiEeejAOHk8WtzmQ"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_8DQH8twiEeejAOHk8WtzmQ" points="[160, 270, -643984, -643984]$[90, 260, -643984, -643984]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_8Djp8NwiEeejAOHk8WtzmQ" id="(0.0,0.5)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_8Djp8dwiEeejAOHk8WtzmQ" id="(0.6666666666666666,1.0)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_m_EuENwjEeejAOHk8WtzmQ" type="Include_Edge" source="_UA0JwNwiEeejAOHk8WtzmQ" target="_DO6S0NwiEeejAOHk8WtzmQ">
-      <children xmi:type="notation:DecorationNode" xmi:id="_m_EuE9wjEeejAOHk8WtzmQ" type="Include_KeywordLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zORO0NwjEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_m_EuFNwjEeejAOHk8WtzmQ" y="19"/>
+    <edges xsi:type="notation:Connector" xmi:id="_m_EuENwjEeejAOHk8WtzmQ" type="Include_Edge" source="_UA0JwNwiEeejAOHk8WtzmQ" target="_DO6S0NwiEeejAOHk8WtzmQ">
+      <children xsi:type="notation:DecorationNode" xmi:id="_m_EuE9wjEeejAOHk8WtzmQ" type="Include_KeywordLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_zORO0NwjEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_m_EuFNwjEeejAOHk8WtzmQ" y="19"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_m_EuFdwjEeejAOHk8WtzmQ" type="Include_StereotypeLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zOeqMNwjEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_m_EuFtwjEeejAOHk8WtzmQ" x="1" y="-18"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_m_EuFdwjEeejAOHk8WtzmQ" type="Include_StereotypeLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_zOeqMNwjEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_m_EuFtwjEeejAOHk8WtzmQ" x="1" y="-18"/>
       </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_m_EuEdwjEeejAOHk8WtzmQ"/>
-      <element xmi:type="uml:Include" href="ECb-JusticeLeague.uml#_m-7kINwjEeejAOHk8WtzmQ"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_m_EuEtwjEeejAOHk8WtzmQ" points="[500, 210, -643984, -643984]$[620, 249, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_m_3YQNwjEeejAOHk8WtzmQ" id="(1.0,0.5)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_m_3YQdwjEeejAOHk8WtzmQ" id="(0.14285714285714285,0.0)"/>
+      <styles xsi:type="notation:FontStyle" xmi:id="_m_EuEdwjEeejAOHk8WtzmQ"/>
+      <element href="ECb-JusticeLeague.uml#_m-7kINwjEeejAOHk8WtzmQ"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_m_EuEtwjEeejAOHk8WtzmQ" points="[500, 210, -643984, -643984]$[620, 249, -643984, -643984]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_m_3YQNwjEeejAOHk8WtzmQ" id="(1.0,0.5)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_m_3YQdwjEeejAOHk8WtzmQ" id="(0.14285714285714285,0.0)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_nuQIQNwjEeejAOHk8WtzmQ" type="Include_Edge" source="_DO6S0NwiEeejAOHk8WtzmQ" target="_6rguYNwhEeejAOHk8WtzmQ">
-      <children xmi:type="notation:DecorationNode" xmi:id="_nuQIQ9wjEeejAOHk8WtzmQ" type="Include_KeywordLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_nuQIRNwjEeejAOHk8WtzmQ" y="20"/>
+    <edges xsi:type="notation:Connector" xmi:id="_nuQIQNwjEeejAOHk8WtzmQ" type="Include_Edge" source="_DO6S0NwiEeejAOHk8WtzmQ" target="_6rguYNwhEeejAOHk8WtzmQ">
+      <children xsi:type="notation:DecorationNode" xmi:id="_nuQIQ9wjEeejAOHk8WtzmQ" type="Include_KeywordLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_nuQIRNwjEeejAOHk8WtzmQ" y="20"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_nuQIRdwjEeejAOHk8WtzmQ" type="Include_StereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_nuQIRtwjEeejAOHk8WtzmQ" y="-20"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_nuQIRdwjEeejAOHk8WtzmQ" type="Include_StereotypeLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_nuQIRtwjEeejAOHk8WtzmQ" y="-20"/>
       </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_nuQIQdwjEeejAOHk8WtzmQ"/>
-      <element xmi:type="uml:Include" href="ECb-JusticeLeague.uml#_nuIMcNwjEeejAOHk8WtzmQ"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nuQIQtwjEeejAOHk8WtzmQ" points="[735, 260, -643984, -643984]$[784, 260, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nuhOANwjEeejAOHk8WtzmQ" id="(1.0,0.5)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nuh1ENwjEeejAOHk8WtzmQ" id="(0.0,0.5)"/>
+      <styles xsi:type="notation:FontStyle" xmi:id="_nuQIQdwjEeejAOHk8WtzmQ"/>
+      <element href="ECb-JusticeLeague.uml#_nuIMcNwjEeejAOHk8WtzmQ"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_nuQIQtwjEeejAOHk8WtzmQ" points="[735, 260, -643984, -643984]$[784, 260, -643984, -643984]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_nuhOANwjEeejAOHk8WtzmQ" id="(1.0,0.5)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_nuh1ENwjEeejAOHk8WtzmQ" id="(0.0,0.5)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_oUxVsNwjEeejAOHk8WtzmQ" type="Include_Edge" source="_D-5I0NwjEeejAOHk8WtzmQ" target="_DO6S0NwiEeejAOHk8WtzmQ">
-      <children xmi:type="notation:DecorationNode" xmi:id="_oUxVs9wjEeejAOHk8WtzmQ" type="Include_KeywordLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zNAqkNwjEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_oUxVtNwjEeejAOHk8WtzmQ" y="19"/>
+    <edges xsi:type="notation:Connector" xmi:id="_oUxVsNwjEeejAOHk8WtzmQ" type="Include_Edge" source="_D-5I0NwjEeejAOHk8WtzmQ" target="_DO6S0NwiEeejAOHk8WtzmQ">
+      <children xsi:type="notation:DecorationNode" xmi:id="_oUxVs9wjEeejAOHk8WtzmQ" type="Include_KeywordLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_zNAqkNwjEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_oUxVtNwjEeejAOHk8WtzmQ" y="19"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_oUxVtdwjEeejAOHk8WtzmQ" type="Include_StereotypeLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zNImYNwjEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_oUxVttwjEeejAOHk8WtzmQ" x="1" y="-18"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_oUxVtdwjEeejAOHk8WtzmQ" type="Include_StereotypeLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_zNImYNwjEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_oUxVttwjEeejAOHk8WtzmQ" x="1" y="-18"/>
       </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_oUxVsdwjEeejAOHk8WtzmQ"/>
-      <element xmi:type="uml:Include" href="ECb-JusticeLeague.uml#_oUqA8NwjEeejAOHk8WtzmQ"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oUxVstwjEeejAOHk8WtzmQ" points="[500, 290, -643984, -643984]$[620, 290, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oVDCgNwjEeejAOHk8WtzmQ" id="(1.0,0.5)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oVDCgdwjEeejAOHk8WtzmQ" id="(0.0,0.3333333333333333)"/>
+      <styles xsi:type="notation:FontStyle" xmi:id="_oUxVsdwjEeejAOHk8WtzmQ"/>
+      <element href="ECb-JusticeLeague.uml#_oUqA8NwjEeejAOHk8WtzmQ"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_oUxVstwjEeejAOHk8WtzmQ" points="[500, 290, -643984, -643984]$[620, 290, -643984, -643984]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_oVDCgNwjEeejAOHk8WtzmQ" id="(1.0,0.5)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_oVDCgdwjEeejAOHk8WtzmQ" id="(0.0,0.3333333333333333)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_omszMNwjEeejAOHk8WtzmQ" type="Include_Edge" source="_77BOcNwhEeejAOHk8WtzmQ" target="_DO6S0NwiEeejAOHk8WtzmQ">
-      <children xmi:type="notation:DecorationNode" xmi:id="_omtaQNwjEeejAOHk8WtzmQ" type="Include_KeywordLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zNwRcNwjEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_omtaQdwjEeejAOHk8WtzmQ" y="19"/>
+    <edges xsi:type="notation:Connector" xmi:id="_omszMNwjEeejAOHk8WtzmQ" type="Include_Edge" source="_77BOcNwhEeejAOHk8WtzmQ" target="_DO6S0NwiEeejAOHk8WtzmQ">
+      <children xsi:type="notation:DecorationNode" xmi:id="_omtaQNwjEeejAOHk8WtzmQ" type="Include_KeywordLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_zNwRcNwjEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_omtaQdwjEeejAOHk8WtzmQ" y="19"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_omtaQtwjEeejAOHk8WtzmQ" type="Include_StereotypeLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zN8esNwjEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_omtaQ9wjEeejAOHk8WtzmQ" x="-22" y="-24"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_omtaQtwjEeejAOHk8WtzmQ" type="Include_StereotypeLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_zN8esNwjEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_omtaQ9wjEeejAOHk8WtzmQ" x="-22" y="-24"/>
       </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_omszMdwjEeejAOHk8WtzmQ"/>
-      <element xmi:type="uml:Include" href="ECb-JusticeLeague.uml#_omk3YNwjEeejAOHk8WtzmQ"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_omszMtwjEeejAOHk8WtzmQ" points="[480, 377, -643984, -643984]$[670, 300, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_om-gANwjEeejAOHk8WtzmQ" id="(1.0,0.5)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_om-gAdwjEeejAOHk8WtzmQ" id="(0.0,0.6666666666666666)"/>
+      <styles xsi:type="notation:FontStyle" xmi:id="_omszMdwjEeejAOHk8WtzmQ"/>
+      <element href="ECb-JusticeLeague.uml#_omk3YNwjEeejAOHk8WtzmQ"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_omszMtwjEeejAOHk8WtzmQ" points="[480, 377, -643984, -643984]$[670, 300, -643984, -643984]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_om-gANwjEeejAOHk8WtzmQ" id="(1.0,0.5)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_om-gAdwjEeejAOHk8WtzmQ" id="(0.0,0.6666666666666666)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_o9I9QNwjEeejAOHk8WtzmQ" type="Include_Edge" source="_8p_0UNwhEeejAOHk8WtzmQ" target="_DO6S0NwiEeejAOHk8WtzmQ">
-      <children xmi:type="notation:DecorationNode" xmi:id="_o9I9Q9wjEeejAOHk8WtzmQ" type="Include_KeywordLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zNXP4NwjEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_o9I9RNwjEeejAOHk8WtzmQ" y="19"/>
+    <edges xsi:type="notation:Connector" xmi:id="_o9I9QNwjEeejAOHk8WtzmQ" type="Include_Edge" source="_8p_0UNwhEeejAOHk8WtzmQ" target="_DO6S0NwiEeejAOHk8WtzmQ">
+      <children xsi:type="notation:DecorationNode" xmi:id="_o9I9Q9wjEeejAOHk8WtzmQ" type="Include_KeywordLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_zNXP4NwjEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_o9I9RNwjEeejAOHk8WtzmQ" y="19"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_o9I9RdwjEeejAOHk8WtzmQ" type="Include_StereotypeLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_zNgZ0NwjEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_o9I9RtwjEeejAOHk8WtzmQ" x="14" y="38"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_o9I9RdwjEeejAOHk8WtzmQ" type="Include_StereotypeLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_zNgZ0NwjEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_o9I9RtwjEeejAOHk8WtzmQ" x="14" y="38"/>
       </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_o9I9QdwjEeejAOHk8WtzmQ"/>
-      <element xmi:type="uml:Include" href="ECb-JusticeLeague.uml#_o9AaYNwjEeejAOHk8WtzmQ"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_o9I9QtwjEeejAOHk8WtzmQ" points="[515, 420, -643984, -643984]$[640, 297, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_o9dGUNwjEeejAOHk8WtzmQ" id="(1.0,0.3333333333333333)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_o9dGUdwjEeejAOHk8WtzmQ" id="(0.14285714285714285,1.0)"/>
+      <styles xsi:type="notation:FontStyle" xmi:id="_o9I9QdwjEeejAOHk8WtzmQ"/>
+      <element href="ECb-JusticeLeague.uml#_o9AaYNwjEeejAOHk8WtzmQ"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_o9I9QtwjEeejAOHk8WtzmQ" points="[515, 420, -643984, -643984]$[640, 297, -643984, -643984]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_o9dGUNwjEeejAOHk8WtzmQ" id="(1.0,0.3333333333333333)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_o9dGUdwjEeejAOHk8WtzmQ" id="(0.14285714285714285,1.0)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_1x5CINwjEeejAOHk8WtzmQ" type="Association_Edge" source="_D-5I0NwjEeejAOHk8WtzmQ" target="_utPJENwiEeejAOHk8WtzmQ">
-      <children xmi:type="notation:DecorationNode" xmi:id="_1x5CI9wjEeejAOHk8WtzmQ" type="Association_NameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_1x5CJNwjEeejAOHk8WtzmQ" y="40"/>
+    <edges xsi:type="notation:Connector" xmi:id="_1x5CINwjEeejAOHk8WtzmQ" type="Association_Edge" source="_D-5I0NwjEeejAOHk8WtzmQ" target="_utPJENwiEeejAOHk8WtzmQ">
+      <children xsi:type="notation:DecorationNode" xmi:id="_1x5CI9wjEeejAOHk8WtzmQ" type="Association_NameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_1x5CJNwjEeejAOHk8WtzmQ" y="40"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_1x5CJdwjEeejAOHk8WtzmQ" type="Association_StereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_1x5pMNwjEeejAOHk8WtzmQ" y="-20"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_1x5CJdwjEeejAOHk8WtzmQ" type="Association_StereotypeLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_1x5pMNwjEeejAOHk8WtzmQ" y="-20"/>
       </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_1x5CIdwjEeejAOHk8WtzmQ"/>
-      <element xmi:type="uml:Association" href="ECb-JusticeLeague.uml#_1x30ANwjEeejAOHk8WtzmQ"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1x5CItwjEeejAOHk8WtzmQ" points="[380, 230, -643984, -643984]$[300, 270, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1yKH4NwjEeejAOHk8WtzmQ" id="(0.0,0.5)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1yKH4dwjEeejAOHk8WtzmQ" id="(1.0,0.5)"/>
+      <styles xsi:type="notation:FontStyle" xmi:id="_1x5CIdwjEeejAOHk8WtzmQ"/>
+      <element href="ECb-JusticeLeague.uml#_1x30ANwjEeejAOHk8WtzmQ"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_1x5CItwjEeejAOHk8WtzmQ" points="[380, 230, -643984, -643984]$[300, 270, -643984, -643984]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_1yKH4NwjEeejAOHk8WtzmQ" id="(0.0,0.5)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_1yKH4dwjEeejAOHk8WtzmQ" id="(1.0,0.5)"/>
     </edges>
   </notation:Diagram>
   <nattable:Table xmi:id="_LJQkQNqjEee8kvK1yMzufA" name="Generic Table" currentRowAxisProvider="_LJQkQtqjEee8kvK1yMzufA" currentColumnAxisProvider="_LJQkQdqjEee8kvK1yMzufA" tableKindId="org.eclipse.papyrus.uml.table.generic">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LJTAgNqjEee8kvK1yMzufA" source="http://www.eclipse.org/papyrus/infra/nattable/version">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LJTAgdqjEee8kvK1yMzufA" key="version" value="1.3.0"/>
+    <eAnnotations xmi:id="_LJTAgNqjEee8kvK1yMzufA" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:id="_LJTAgdqjEee8kvK1yMzufA" key="version" value="1.3.0"/>
     </eAnnotations>
-    <context xmi:type="uml:Model" href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
-    <owner xmi:type="uml:Model" href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
-    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#/"/>
-    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_LJQkQdqjEee8kvK1yMzufA" description="This axis provider provides available columns according to the rows of the table (features of the object displayed on the other axis)" name="UML Feature axis provider"/>
-    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_LJQkQtqjEee8kvK1yMzufA" description="This axis provider contains the object dropped by the user into the table" name="DroppedElementAxisProvider"/>
+    <context href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <owner href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <tableConfiguration href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#/"/>
+    <columnAxisProvidersHistory xsi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_LJQkQdqjEee8kvK1yMzufA" description="This axis provider provides available columns according to the rows of the table (features of the object displayed on the other axis)" name="UML Feature axis provider"/>
+    <rowAxisProvidersHistory xsi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_LJQkQtqjEee8kvK1yMzufA" description="This axis provider contains the object dropped by the user into the table" name="DroppedElementAxisProvider"/>
   </nattable:Table>
-  <notation:Diagram xmi:id="_LJl7cNqjEee8kvK1yMzufA" type="PapyrusUMLClassDiagram" name="SysML 1.4 Block Definition Diagram" measurementUnit="Pixel">
-    <styles xmi:type="notation:StringValueStyle" xmi:id="_LJl7cdqjEee8kvK1yMzufA" name="diagram_compatibility_version" stringValue="1.3.0"/>
-    <styles xmi:type="notation:DiagramStyle" xmi:id="_LJl7ctqjEee8kvK1yMzufA"/>
-    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_LJl7c9qjEee8kvK1yMzufA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.blockdefinition">
-      <owner xmi:type="uml:Model" href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+  <notation:Diagram xmi:id="_LJl7cNqjEee8kvK1yMzufA" type="PapyrusUMLClassDiagram" name="Block Definition Diagram" measurementUnit="Pixel">
+    <children xsi:type="notation:Shape" xmi:id="_AO1zENwtEeejAOHk8WtzmQ" type="Class_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_AO1zEtwtEeejAOHk8WtzmQ" type="Class_NameLabel"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_AO1zE9wtEeejAOHk8WtzmQ" type="Class_FloatingNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_AO1zFNwtEeejAOHk8WtzmQ" y="5"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_AO1zFdwtEeejAOHk8WtzmQ" type="Class_AttributeCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_AO1zFtwtEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_AO1zF9wtEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_AO1zGNwtEeejAOHk8WtzmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_AO1zGdwtEeejAOHk8WtzmQ"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_AO1zGtwtEeejAOHk8WtzmQ" type="Class_OperationCompartment">
+        <eAnnotations xmi:id="_ItQJ0NwtEeejAOHk8WtzmQ" source="PapyrusCSSForceValue">
+          <details xmi:id="_ItQJ0dwtEeejAOHk8WtzmQ" key="collapsed" value="true"/>
+        </eAnnotations>
+        <children xsi:type="notation:Shape" xmi:id="_QvilQNwtEeejAOHk8WtzmQ" type="Operation_ClassOperationLabel">
+          <element href="ECb-JusticeLeague.uml#_Qvb3kNwtEeejAOHk8WtzmQ"/>
+          <layoutConstraint xsi:type="notation:Location" xmi:id="_QvilQdwtEeejAOHk8WtzmQ"/>
+        </children>
+        <children xsi:type="notation:Shape" xmi:id="_RAoVQNwtEeejAOHk8WtzmQ" type="Operation_ClassOperationLabel">
+          <element href="ECb-JusticeLeague.uml#_RAd9MNwtEeejAOHk8WtzmQ"/>
+          <layoutConstraint xsi:type="notation:Location" xmi:id="_RAoVQdwtEeejAOHk8WtzmQ"/>
+        </children>
+        <children xsi:type="notation:Shape" xmi:id="_RglnsNwtEeejAOHk8WtzmQ" type="Operation_ClassOperationLabel">
+          <element href="ECb-JusticeLeague.uml#_RgfhENwtEeejAOHk8WtzmQ"/>
+          <layoutConstraint xsi:type="notation:Location" xmi:id="_RglnsdwtEeejAOHk8WtzmQ"/>
+        </children>
+        <styles xsi:type="notation:TitleStyle" xmi:id="_AO1zG9wtEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_AO1zHNwtEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_AO1zHdwtEeejAOHk8WtzmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_AO1zHtwtEeejAOHk8WtzmQ"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_AO1zH9wtEeejAOHk8WtzmQ" type="Class_NestedClassifierCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_AO1zINwtEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_AO1zIdwtEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_AO1zItwtEeejAOHk8WtzmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_AO1zI9wtEeejAOHk8WtzmQ"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_AO42YNwtEeejAOHk8WtzmQ" type="StereotypeLabel">
+        <styles xsi:type="notation:StringValueStyle" xmi:id="_AO42YdwtEeejAOHk8WtzmQ" name="stereotype" stringValue="SysML::Blocks::Block"/>
+        <element href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_AO42YtwtEeejAOHk8WtzmQ"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_AO42Y9wtEeejAOHk8WtzmQ" type="StereotypeBrace">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_AO42ZNwtEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:StringValueStyle" xmi:id="_AO42ZdwtEeejAOHk8WtzmQ" name="stereotype" stringValue="SysML::Blocks::Block"/>
+        <element href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_AO42ZtwtEeejAOHk8WtzmQ"/>
+      </children>
+      <children xsi:type="notation:Compartment" xmi:id="_AO5dctwtEeejAOHk8WtzmQ" type="Flow Ports"/>
+      <children xsi:type="notation:Compartment" xmi:id="_AO5dc9wtEeejAOHk8WtzmQ" type="constraints"/>
+      <children xsi:type="notation:Compartment" xmi:id="_AO6EgNwtEeejAOHk8WtzmQ" type="Parts"/>
+      <children xsi:type="notation:Compartment" xmi:id="_AO6EgdwtEeejAOHk8WtzmQ" type="Proxy Ports"/>
+      <children xsi:type="notation:Compartment" xmi:id="_AO6EgtwtEeejAOHk8WtzmQ" type="Full Ports"/>
+      <children xsi:type="notation:Compartment" xmi:id="_AO6Eg9wtEeejAOHk8WtzmQ" type="References"/>
+      <children xsi:type="notation:Compartment" xmi:id="_AO6EhNwtEeejAOHk8WtzmQ" type="Flow Properties"/>
+      <children xsi:type="notation:Compartment" xmi:id="_AO6EhdwtEeejAOHk8WtzmQ" type="Parameters"/>
+      <element href="ECb-JusticeLeague.uml#_AOktUNwtEeejAOHk8WtzmQ"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_AO1zEdwtEeejAOHk8WtzmQ" x="320" y="80"/>
+    </children>
+    <children xsi:type="notation:Shape" xmi:id="_AO6EidwtEeejAOHk8WtzmQ" type="StereotypeComment">
+      <styles xsi:type="notation:TitleStyle" xmi:id="_AO6EitwtEeejAOHk8WtzmQ"/>
+      <styles xsi:type="notation:EObjectValueStyle" xmi:id="_AO6EjNwtEeejAOHk8WtzmQ" name="BASE_ELEMENT">
+        <eObjectValue href="ECb-JusticeLeague.uml#_AOktUNwtEeejAOHk8WtzmQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_AO6Ei9wtEeejAOHk8WtzmQ" x="200"/>
+    </children>
+    <children xsi:type="notation:Shape" xmi:id="_YSUaMNwtEeejAOHk8WtzmQ" type="Class_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_YSUaMtwtEeejAOHk8WtzmQ" type="Class_NameLabel"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_YSVBQNwtEeejAOHk8WtzmQ" type="Class_FloatingNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_YSVBQdwtEeejAOHk8WtzmQ" y="5"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_YSVBQtwtEeejAOHk8WtzmQ" type="Class_AttributeCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_YSVBQ9wtEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_YSVBRNwtEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_YSVBRdwtEeejAOHk8WtzmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_YSVBRtwtEeejAOHk8WtzmQ"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_YSVBR9wtEeejAOHk8WtzmQ" type="Class_OperationCompartment">
+        <children xsi:type="notation:Shape" xmi:id="_ZrInQNwtEeejAOHk8WtzmQ" type="Operation_ClassOperationLabel">
+          <element href="ECb-JusticeLeague.uml#_ZrArcNwtEeejAOHk8WtzmQ"/>
+          <layoutConstraint xsi:type="notation:Location" xmi:id="_ZrInQdwtEeejAOHk8WtzmQ"/>
+        </children>
+        <styles xsi:type="notation:TitleStyle" xmi:id="_YSVBSNwtEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_YSVBSdwtEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_YSVBStwtEeejAOHk8WtzmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_YSVBS9wtEeejAOHk8WtzmQ"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_YSVBTNwtEeejAOHk8WtzmQ" type="Class_NestedClassifierCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_YSVBTdwtEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_YSVBTtwtEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_YSVBT9wtEeejAOHk8WtzmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_YSVBUNwtEeejAOHk8WtzmQ"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_YSYEkNwtEeejAOHk8WtzmQ" type="StereotypeLabel">
+        <styles xsi:type="notation:StringValueStyle" xmi:id="_YSYEkdwtEeejAOHk8WtzmQ" name="stereotype" stringValue="SysML::Blocks::Block"/>
+        <element href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_YSYEktwtEeejAOHk8WtzmQ"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_YSYEk9wtEeejAOHk8WtzmQ" type="StereotypeBrace">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_YSYElNwtEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:StringValueStyle" xmi:id="_YSYEldwtEeejAOHk8WtzmQ" name="stereotype" stringValue="SysML::Blocks::Block"/>
+        <element href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_YSYEltwtEeejAOHk8WtzmQ"/>
+      </children>
+      <children xsi:type="notation:Compartment" xmi:id="_YSYrotwtEeejAOHk8WtzmQ" type="Flow Ports"/>
+      <children xsi:type="notation:Compartment" xmi:id="_YSYro9wtEeejAOHk8WtzmQ" type="constraints"/>
+      <children xsi:type="notation:Compartment" xmi:id="_YSYrpNwtEeejAOHk8WtzmQ" type="Parts"/>
+      <children xsi:type="notation:Compartment" xmi:id="_YSYrpdwtEeejAOHk8WtzmQ" type="Proxy Ports"/>
+      <children xsi:type="notation:Compartment" xmi:id="_YSYrptwtEeejAOHk8WtzmQ" type="Full Ports"/>
+      <children xsi:type="notation:Compartment" xmi:id="_YSZSsNwtEeejAOHk8WtzmQ" type="References"/>
+      <children xsi:type="notation:Compartment" xmi:id="_YSZSsdwtEeejAOHk8WtzmQ" type="Flow Properties"/>
+      <children xsi:type="notation:Compartment" xmi:id="_YSZSstwtEeejAOHk8WtzmQ" type="Parameters"/>
+      <element href="ECb-JusticeLeague.uml#_YSD7gNwtEeejAOHk8WtzmQ"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_YSUaMdwtEeejAOHk8WtzmQ" x="120" y="80"/>
+    </children>
+    <children xsi:type="notation:Shape" xmi:id="_YSZSttwtEeejAOHk8WtzmQ" type="StereotypeComment">
+      <styles xsi:type="notation:TitleStyle" xmi:id="_YSZSt9wtEeejAOHk8WtzmQ"/>
+      <styles xsi:type="notation:EObjectValueStyle" xmi:id="_YSZSudwtEeejAOHk8WtzmQ" name="BASE_ELEMENT">
+        <eObjectValue href="ECb-JusticeLeague.uml#_YSD7gNwtEeejAOHk8WtzmQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_YSZSuNwtEeejAOHk8WtzmQ" x="200"/>
+    </children>
+    <children xsi:type="notation:Shape" xmi:id="_bMYXkNwtEeejAOHk8WtzmQ" type="Class_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_bMYXktwtEeejAOHk8WtzmQ" type="Class_NameLabel"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_bMY-oNwtEeejAOHk8WtzmQ" type="Class_FloatingNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_bMY-odwtEeejAOHk8WtzmQ" y="5"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_bMY-otwtEeejAOHk8WtzmQ" type="Class_AttributeCompartment">
+        <children xsi:type="notation:Shape" xmi:id="_fMdh0NwtEeejAOHk8WtzmQ" type="Property_ClassAttributeLabel">
+          <element href="ECb-JusticeLeague.uml#_fMUX4NwtEeejAOHk8WtzmQ"/>
+          <layoutConstraint xsi:type="notation:Location" xmi:id="_fMdh0dwtEeejAOHk8WtzmQ"/>
+        </children>
+        <children xsi:type="notation:Shape" xmi:id="_gyKUUNwtEeejAOHk8WtzmQ" type="Property_ClassAttributeLabel">
+          <element href="ECb-JusticeLeague.uml#_gx8R4NwtEeejAOHk8WtzmQ"/>
+          <layoutConstraint xsi:type="notation:Location" xmi:id="_gyKUUdwtEeejAOHk8WtzmQ"/>
+        </children>
+        <styles xsi:type="notation:TitleStyle" xmi:id="_bMY-o9wtEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_bMY-pNwtEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_bMY-pdwtEeejAOHk8WtzmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_bMY-ptwtEeejAOHk8WtzmQ"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_bMY-p9wtEeejAOHk8WtzmQ" type="Class_OperationCompartment">
+        <children xsi:type="notation:Shape" xmi:id="_i8UewNwtEeejAOHk8WtzmQ" type="Operation_ClassOperationLabel">
+          <element href="ECb-JusticeLeague.uml#_i8GcUNwtEeejAOHk8WtzmQ"/>
+          <layoutConstraint xsi:type="notation:Location" xmi:id="_i8UewdwtEeejAOHk8WtzmQ"/>
+        </children>
+        <styles xsi:type="notation:TitleStyle" xmi:id="_bMY-qNwtEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_bMY-qdwtEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_bMY-qtwtEeejAOHk8WtzmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_bMY-q9wtEeejAOHk8WtzmQ"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_bMY-rNwtEeejAOHk8WtzmQ" type="Class_NestedClassifierCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_bMY-rdwtEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_bMY-rtwtEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_bMY-r9wtEeejAOHk8WtzmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_bMY-sNwtEeejAOHk8WtzmQ"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_bMcB8NwtEeejAOHk8WtzmQ" type="StereotypeLabel">
+        <styles xsi:type="notation:StringValueStyle" xmi:id="_bMcB8dwtEeejAOHk8WtzmQ" name="stereotype" stringValue="SysML::Blocks::Block"/>
+        <element href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_bMcB8twtEeejAOHk8WtzmQ"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_bMcB89wtEeejAOHk8WtzmQ" type="StereotypeBrace">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_bMcB9NwtEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:StringValueStyle" xmi:id="_bMcB9dwtEeejAOHk8WtzmQ" name="stereotype" stringValue="SysML::Blocks::Block"/>
+        <element href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_bMcB9twtEeejAOHk8WtzmQ"/>
+      </children>
+      <children xsi:type="notation:Compartment" xmi:id="_bMcpANwtEeejAOHk8WtzmQ" type="Flow Ports"/>
+      <children xsi:type="notation:Compartment" xmi:id="_bMcpAdwtEeejAOHk8WtzmQ" type="constraints"/>
+      <children xsi:type="notation:Compartment" xmi:id="_bMcpAtwtEeejAOHk8WtzmQ" type="Parts"/>
+      <children xsi:type="notation:Compartment" xmi:id="_bMcpA9wtEeejAOHk8WtzmQ" type="Proxy Ports"/>
+      <children xsi:type="notation:Compartment" xmi:id="_bMcpBNwtEeejAOHk8WtzmQ" type="Full Ports"/>
+      <children xsi:type="notation:Compartment" xmi:id="_bMcpBdwtEeejAOHk8WtzmQ" type="References"/>
+      <children xsi:type="notation:Compartment" xmi:id="_bMcpBtwtEeejAOHk8WtzmQ" type="Flow Properties"/>
+      <children xsi:type="notation:Compartment" xmi:id="_bMdQENwtEeejAOHk8WtzmQ" type="Parameters"/>
+      <element href="ECb-JusticeLeague.uml#_bMIf8NwtEeejAOHk8WtzmQ"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_bMYXkdwtEeejAOHk8WtzmQ" x="560" y="80"/>
+    </children>
+    <children xsi:type="notation:Shape" xmi:id="_kdTwYNwtEeejAOHk8WtzmQ" type="Class_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_kdUXcNwtEeejAOHk8WtzmQ" type="Class_NameLabel"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_kdUXcdwtEeejAOHk8WtzmQ" type="Class_FloatingNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_kdUXctwtEeejAOHk8WtzmQ" y="5"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_kdUXc9wtEeejAOHk8WtzmQ" type="Class_AttributeCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_kdUXdNwtEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_kdUXddwtEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_kdUXdtwtEeejAOHk8WtzmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_kdUXd9wtEeejAOHk8WtzmQ"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_kdUXeNwtEeejAOHk8WtzmQ" type="Class_OperationCompartment">
+        <children xsi:type="notation:Shape" xmi:id="_ltpW4NwtEeejAOHk8WtzmQ" type="Operation_ClassOperationLabel">
+          <element href="ECb-JusticeLeague.uml#_lteXwNwtEeejAOHk8WtzmQ"/>
+          <layoutConstraint xsi:type="notation:Location" xmi:id="_ltpW4dwtEeejAOHk8WtzmQ"/>
+        </children>
+        <styles xsi:type="notation:TitleStyle" xmi:id="_kdUXedwtEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_kdUXetwtEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_kdUXe9wtEeejAOHk8WtzmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_kdUXfNwtEeejAOHk8WtzmQ"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_kdUXfdwtEeejAOHk8WtzmQ" type="Class_NestedClassifierCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_kdUXftwtEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_kdUXf9wtEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_kdUXgNwtEeejAOHk8WtzmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_kdUXgdwtEeejAOHk8WtzmQ"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_kdZP8NwtEeejAOHk8WtzmQ" type="StereotypeLabel">
+        <styles xsi:type="notation:StringValueStyle" xmi:id="_kdZP8dwtEeejAOHk8WtzmQ" name="stereotype" stringValue="SysML::Blocks::Block"/>
+        <element href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_kdZP8twtEeejAOHk8WtzmQ"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_kdZP89wtEeejAOHk8WtzmQ" type="StereotypeBrace">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_kdZP9NwtEeejAOHk8WtzmQ"/>
+        <styles xsi:type="notation:StringValueStyle" xmi:id="_kdZP9dwtEeejAOHk8WtzmQ" name="stereotype" stringValue="SysML::Blocks::Block"/>
+        <element href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_kdZP9twtEeejAOHk8WtzmQ"/>
+      </children>
+      <children xsi:type="notation:Compartment" xmi:id="_kdZ3ANwtEeejAOHk8WtzmQ" type="Flow Ports"/>
+      <children xsi:type="notation:Compartment" xmi:id="_kdZ3AdwtEeejAOHk8WtzmQ" type="constraints"/>
+      <children xsi:type="notation:Compartment" xmi:id="_kdZ3AtwtEeejAOHk8WtzmQ" type="Parts"/>
+      <children xsi:type="notation:Compartment" xmi:id="_kdaeENwtEeejAOHk8WtzmQ" type="Proxy Ports"/>
+      <children xsi:type="notation:Compartment" xmi:id="_kdaeEdwtEeejAOHk8WtzmQ" type="Full Ports"/>
+      <children xsi:type="notation:Compartment" xmi:id="_kdaeEtwtEeejAOHk8WtzmQ" type="References"/>
+      <children xsi:type="notation:Compartment" xmi:id="_kdaeE9wtEeejAOHk8WtzmQ" type="Flow Properties"/>
+      <children xsi:type="notation:Compartment" xmi:id="_kdaeFNwtEeejAOHk8WtzmQ" type="Parameters"/>
+      <element href="ECb-JusticeLeague.uml#_kc6u0NwtEeejAOHk8WtzmQ"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_kdTwYdwtEeejAOHk8WtzmQ" x="340" y="340"/>
+    </children>
+    <children xsi:type="notation:Shape" xmi:id="_kdbFI9wtEeejAOHk8WtzmQ" type="StereotypeComment">
+      <styles xsi:type="notation:TitleStyle" xmi:id="_kdbFJNwtEeejAOHk8WtzmQ"/>
+      <styles xsi:type="notation:EObjectValueStyle" xmi:id="_kdbFJtwtEeejAOHk8WtzmQ" name="BASE_ELEMENT">
+        <eObjectValue href="ECb-JusticeLeague.uml#_kc6u0NwtEeejAOHk8WtzmQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_kdbFJdwtEeejAOHk8WtzmQ" x="200"/>
+    </children>
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_LJl7cdqjEee8kvK1yMzufA" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_LJl7ctqjEee8kvK1yMzufA"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_LJl7c9qjEee8kvK1yMzufA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.blockdefinition">
+      <owner href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
     </styles>
-    <element xmi:type="uml:Model" href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <element href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <edges xsi:type="notation:Connector" xmi:id="_AO6rkNwtEeejAOHk8WtzmQ" type="StereotypeCommentLink" source="_AO1zENwtEeejAOHk8WtzmQ" target="_AO6EidwtEeejAOHk8WtzmQ">
+      <styles xsi:type="notation:FontStyle" xmi:id="_AO6rkdwtEeejAOHk8WtzmQ"/>
+      <styles xsi:type="notation:EObjectValueStyle" xmi:id="_AO6rldwtEeejAOHk8WtzmQ" name="BASE_ELEMENT">
+        <eObjectValue href="ECb-JusticeLeague.uml#_AOktUNwtEeejAOHk8WtzmQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_AO6rktwtEeejAOHk8WtzmQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_AO6rk9wtEeejAOHk8WtzmQ"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_AO6rlNwtEeejAOHk8WtzmQ"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_YSZSutwtEeejAOHk8WtzmQ" type="StereotypeCommentLink" source="_YSUaMNwtEeejAOHk8WtzmQ" target="_YSZSttwtEeejAOHk8WtzmQ">
+      <styles xsi:type="notation:FontStyle" xmi:id="_YSZSu9wtEeejAOHk8WtzmQ"/>
+      <styles xsi:type="notation:EObjectValueStyle" xmi:id="_YSZSv9wtEeejAOHk8WtzmQ" name="BASE_ELEMENT">
+        <eObjectValue href="ECb-JusticeLeague.uml#_YSD7gNwtEeejAOHk8WtzmQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_YSZSvNwtEeejAOHk8WtzmQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_YSZSvdwtEeejAOHk8WtzmQ"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_YSZSvtwtEeejAOHk8WtzmQ"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_kdbFJ9wtEeejAOHk8WtzmQ" type="StereotypeCommentLink" source="_kdTwYNwtEeejAOHk8WtzmQ" target="_kdbFI9wtEeejAOHk8WtzmQ">
+      <styles xsi:type="notation:FontStyle" xmi:id="_kdbFKNwtEeejAOHk8WtzmQ"/>
+      <styles xsi:type="notation:EObjectValueStyle" xmi:id="_kdbsMNwtEeejAOHk8WtzmQ" name="BASE_ELEMENT">
+        <eObjectValue href="ECb-JusticeLeague.uml#_kc6u0NwtEeejAOHk8WtzmQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_kdbFKdwtEeejAOHk8WtzmQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_kdbFKtwtEeejAOHk8WtzmQ"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_kdbFK9wtEeejAOHk8WtzmQ"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_qnMfwNwtEeejAOHk8WtzmQ" type="Association_Edge" source="_AO1zENwtEeejAOHk8WtzmQ" target="_kdTwYNwtEeejAOHk8WtzmQ">
+      <children xsi:type="notation:DecorationNode" xmi:id="_qnNG0NwtEeejAOHk8WtzmQ" type="Association_StereotypeLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_qnNG0dwtEeejAOHk8WtzmQ" y="-20"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_qnNG0twtEeejAOHk8WtzmQ" type="Association_NameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_qnNG09wtEeejAOHk8WtzmQ" y="20"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_qnNG1NwtEeejAOHk8WtzmQ" type="Association_TargetRoleLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_qnNG1dwtEeejAOHk8WtzmQ" x="9" y="-49"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_qnNG1twtEeejAOHk8WtzmQ" type="Association_SourceRoleLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_qnNG19wtEeejAOHk8WtzmQ" x="1" y="39"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_qnNG2NwtEeejAOHk8WtzmQ" type="Association_SourceMultiplicityLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_qnNG2dwtEeejAOHk8WtzmQ" y="20"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_qnNG2twtEeejAOHk8WtzmQ" type="Association_TargetMultiplicityLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_qnNG29wtEeejAOHk8WtzmQ" x="1" y="-31"/>
+      </children>
+      <styles xsi:type="notation:FontStyle" xmi:id="_qnMfwdwtEeejAOHk8WtzmQ"/>
+      <element href="ECb-JusticeLeague.uml#_qm_EYNwtEeejAOHk8WtzmQ"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_qnMfwtwtEeejAOHk8WtzmQ" points="[400, 245, -643984, -643984]$[440, 440, -643984, -643984]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_qnjFENwtEeejAOHk8WtzmQ" id="(0.54421768707483,1.0)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_qnjFEdwtEeejAOHk8WtzmQ" id="(0.6,0.0)"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_q_56sNwtEeejAOHk8WtzmQ" type="Association_Edge" source="_AO1zENwtEeejAOHk8WtzmQ" target="_bMYXkNwtEeejAOHk8WtzmQ">
+      <children xsi:type="notation:DecorationNode" xmi:id="_q_56s9wtEeejAOHk8WtzmQ" type="Association_StereotypeLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_q_6hwNwtEeejAOHk8WtzmQ" y="-20"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_q_6hwdwtEeejAOHk8WtzmQ" type="Association_NameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_q_6hwtwtEeejAOHk8WtzmQ" y="20"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_q_6hw9wtEeejAOHk8WtzmQ" type="Association_TargetRoleLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_q_6hxNwtEeejAOHk8WtzmQ" y="-20"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_q_6hxdwtEeejAOHk8WtzmQ" type="Association_SourceRoleLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_q_6hxtwtEeejAOHk8WtzmQ" x="-19" y="27"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_q_6hx9wtEeejAOHk8WtzmQ" type="Association_SourceMultiplicityLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_q_6hyNwtEeejAOHk8WtzmQ" y="20"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_q_6hydwtEeejAOHk8WtzmQ" type="Association_TargetMultiplicityLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_q_6hytwtEeejAOHk8WtzmQ" y="-20"/>
+      </children>
+      <styles xsi:type="notation:FontStyle" xmi:id="_q_56sdwtEeejAOHk8WtzmQ"/>
+      <element href="ECb-JusticeLeague.uml#_q_kjgNwtEeejAOHk8WtzmQ"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_q_56stwtEeejAOHk8WtzmQ" points="[380, 245, -643984, -643984]$[560, 180, -643984, -643984]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_rAeicNwtEeejAOHk8WtzmQ" id="(1.0,0.36363636363636365)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_rAeicdwtEeejAOHk8WtzmQ" id="(0.0,0.36363636363636365)"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_rmmHQNwtEeejAOHk8WtzmQ" type="Association_Edge" source="_AO1zENwtEeejAOHk8WtzmQ" target="_YSUaMNwtEeejAOHk8WtzmQ">
+      <children xsi:type="notation:DecorationNode" xmi:id="_rmmHQ9wtEeejAOHk8WtzmQ" type="Association_StereotypeLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_sGQewNwtEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_rmmHRNwtEeejAOHk8WtzmQ" x="-1" y="-19"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_rmmHRdwtEeejAOHk8WtzmQ" type="Association_NameLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_sGZosNwtEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_rmmHRtwtEeejAOHk8WtzmQ" x="1" y="18"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_rmmHR9wtEeejAOHk8WtzmQ" type="Association_TargetRoleLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_sGiLkNwtEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_rmmHSNwtEeejAOHk8WtzmQ" x="29" y="-19"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_rmmHSdwtEeejAOHk8WtzmQ" type="Association_SourceRoleLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_sGrVgNwtEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_rmmHStwtEeejAOHk8WtzmQ" x="-29" y="18"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_rmmHS9wtEeejAOHk8WtzmQ" type="Association_SourceMultiplicityLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_sG0fcNwtEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_rmmHTNwtEeejAOHk8WtzmQ" x="15" y="13"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_rmmHTdwtEeejAOHk8WtzmQ" type="Association_TargetMultiplicityLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_sG9pYNwtEeejAOHk8WtzmQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_rmmHTtwtEeejAOHk8WtzmQ" x="-11" y="-27"/>
+      </children>
+      <styles xsi:type="notation:FontStyle" xmi:id="_rmmHQdwtEeejAOHk8WtzmQ"/>
+      <element href="ECb-JusticeLeague.uml#_rmYE0NwtEeejAOHk8WtzmQ"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_rmmHQtwtEeejAOHk8WtzmQ" points="[320, 180, -643984, -643984]$[120, 140, -643984, -643984]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_rnBlENwtEeejAOHk8WtzmQ" id="(0.0,0.36363636363636365)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_rnBlEdwtEeejAOHk8WtzmQ" id="(1.0,0.45112781954887216)"/>
+    </edges>
   </notation:Diagram>
   <nattable:Table xmi:id="_LKHf4NqjEee8kvK1yMzufA" name="SysML 1.4 Requirement Tree Table" currentRowAxisProvider="_LKHf5dqjEee8kvK1yMzufA" currentColumnAxisProvider="_LKHf4tqjEee8kvK1yMzufA" tableKindId="org.eclipse.papyrus.sysml14.table.requirementTree">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LKKjMNqjEee8kvK1yMzufA" source="http://www.eclipse.org/papyrus/infra/nattable/version">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LKKjMdqjEee8kvK1yMzufA" key="version" value="1.3.0"/>
+    <eAnnotations xmi:id="_LKKjMNqjEee8kvK1yMzufA" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:id="_LKKjMdqjEee8kvK1yMzufA" key="version" value="1.3.0"/>
     </eAnnotations>
-    <styles xmi:type="nattablestyle:IntListValueStyle" xmi:id="_LKHf4dqjEee8kvK1yMzufA" name="hiddenCategoriesByDepth">
+    <styles xsi:type="nattablestyle:IntListValueStyle" xmi:id="_LKHf4dqjEee8kvK1yMzufA" name="hiddenCategoriesByDepth">
       <intListValue>0</intListValue>
       <intListValue>1</intListValue>
       <intListValue>2</intListValue>
       <intListValue>3</intListValue>
       <intListValue>4</intListValue>
     </styles>
-    <context xmi:type="uml:Model" href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
-    <owner xmi:type="uml:Model" href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
-    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirementTree.nattableconfiguration#/"/>
-    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_LKHf4tqjEee8kvK1yMzufA" description="Provides the columns of the tables with a default configuration" name="Requirements Feature Columns Provider">
-      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_LKHf49qjEee8kvK1yMzufA" element="property_of_stereotype:/SysML::Requirements::Requirement::id">
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirementTree.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.1"/>
+    <context href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <owner href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <tableConfiguration href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirementTree.nattableconfiguration#/"/>
+    <columnAxisProvidersHistory xsi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_LKHf4tqjEee8kvK1yMzufA" description="Provides the columns of the tables with a default configuration" name="Requirements Feature Columns Provider">
+      <axis xsi:type="nattableaxis:FeatureIdAxis" xmi:id="_LKHf49qjEee8kvK1yMzufA" element="property_of_stereotype:/SysML::Requirements::Requirement::id">
+        <manager href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirementTree.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.1"/>
       </axis>
-      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_LKHf5NqjEee8kvK1yMzufA" element="property_of_stereotype:/SysML::Requirements::Requirement::text">
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirementTree.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.1"/>
+      <axis xsi:type="nattableaxis:FeatureIdAxis" xmi:id="_LKHf5NqjEee8kvK1yMzufA" element="property_of_stereotype:/SysML::Requirements::Requirement::text">
+        <manager href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirementTree.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.1"/>
       </axis>
     </columnAxisProvidersHistory>
-    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_LKHf5dqjEee8kvK1yMzufA" description="This axis provider manages the rows, according to the wanted hierarchy" name="HierarchicalRowAxisManager" disconnectSlave="true"/>
+    <rowAxisProvidersHistory xsi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_LKHf5dqjEee8kvK1yMzufA" description="This axis provider manages the rows, according to the wanted hierarchy" name="HierarchicalRowAxisManager" disconnectSlave="true"/>
   </nattable:Table>
   <nattable:Table xmi:id="_LKPbsNqjEee8kvK1yMzufA" name="Generic Tree Table" currentRowAxisProvider="_LKPbs9qjEee8kvK1yMzufA" currentColumnAxisProvider="_LKPbsdqjEee8kvK1yMzufA" tableKindId="org.eclipse.papyrus.uml.table.genericTree">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LKRQ4NqjEee8kvK1yMzufA" source="http://www.eclipse.org/papyrus/infra/nattable/version">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LKRQ4dqjEee8kvK1yMzufA" key="version" value="1.3.0"/>
+    <eAnnotations xmi:id="_LKRQ4NqjEee8kvK1yMzufA" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:id="_LKRQ4dqjEee8kvK1yMzufA" key="version" value="1.3.0"/>
     </eAnnotations>
-    <context xmi:type="uml:Model" href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
-    <owner xmi:type="uml:Model" href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
-    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.nattable/configs/genericTreeTable.nattableconfiguration#/"/>
-    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_LKPbsdqjEee8kvK1yMzufA" description="This axis provider provides available columns according to the rows of the table (features of the object displayed on the other axis)" name="UML Feature axis provider">
-      <axis xmi:type="nattableaxis:EStructuralFeatureAxis" xmi:id="_LKPbstqjEee8kvK1yMzufA">
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable/configs/genericTreeTable.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
-        <element xmi:type="ecore:EAttribute" href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement/name"/>
+    <context href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <owner href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <tableConfiguration href="platform:/plugin/org.eclipse.papyrus.uml.nattable/configs/genericTreeTable.nattableconfiguration#/"/>
+    <columnAxisProvidersHistory xsi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_LKPbsdqjEee8kvK1yMzufA" description="This axis provider provides available columns according to the rows of the table (features of the object displayed on the other axis)" name="UML Feature axis provider">
+      <axis xsi:type="nattableaxis:EStructuralFeatureAxis" xmi:id="_LKPbstqjEee8kvK1yMzufA">
+        <manager href="platform:/plugin/org.eclipse.papyrus.uml.nattable/configs/genericTreeTable.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+        <element xsi:type="ecore:EAttribute" href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement/name"/>
       </axis>
     </columnAxisProvidersHistory>
-    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_LKPbs9qjEee8kvK1yMzufA" description="This axis provider manages the rows, according to the wanted hierarchy" name="HierarchicalRowAxisManager" disconnectSlave="true"/>
+    <rowAxisProvidersHistory xsi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_LKPbs9qjEee8kvK1yMzufA" description="This axis provider manages the rows, according to the wanted hierarchy" name="HierarchicalRowAxisManager" disconnectSlave="true"/>
   </nattable:Table>
   <notation:Diagram xmi:id="_LMmMINqjEee8kvK1yMzufA" type="PapyrusUMLStateMachineDiagram" name="SysML 1.4 State Machine Diagram" measurementUnit="Pixel">
-    <children xmi:type="notation:Shape" xmi:id="_LMmMIdqjEee8kvK1yMzufA" type="StateMachine_Shape">
-      <children xmi:type="notation:DecorationNode" xmi:id="_LMmMItqjEee8kvK1yMzufA" type="StateMachine_NameLabel">
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LMmMI9qjEee8kvK1yMzufA" width="700" height="20"/>
+    <children xsi:type="notation:Shape" xmi:id="_LMmMIdqjEee8kvK1yMzufA" type="StateMachine_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_LMmMItqjEee8kvK1yMzufA" type="StateMachine_NameLabel">
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_LMmMI9qjEee8kvK1yMzufA" width="700" height="20"/>
       </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_LMmMJNqjEee8kvK1yMzufA" type="StateMachine_RegionCompartment">
-        <children xmi:type="notation:Shape" xmi:id="_LMmMJdqjEee8kvK1yMzufA" type="Region_Shape">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LMmMJtqjEee8kvK1yMzufA" source="RegionAnnotationKey">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LMmMJ9qjEee8kvK1yMzufA" key="RegionZoneKey" value=""/>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_LMmMJNqjEee8kvK1yMzufA" type="StateMachine_RegionCompartment">
+        <children xsi:type="notation:Shape" xmi:id="_LMmMJdqjEee8kvK1yMzufA" type="Region_Shape">
+          <eAnnotations xmi:id="_LMmMJtqjEee8kvK1yMzufA" source="RegionAnnotationKey">
+            <details xmi:id="_LMmMJ9qjEee8kvK1yMzufA" key="RegionZoneKey" value=""/>
           </eAnnotations>
-          <children xmi:type="notation:BasicCompartment" xmi:id="_LMmMKNqjEee8kvK1yMzufA" type="Region_SubvertexCompartment">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LMmMKdqjEee8kvK1yMzufA"/>
+          <children xsi:type="notation:BasicCompartment" xmi:id="_LMmMKNqjEee8kvK1yMzufA" type="Region_SubvertexCompartment">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_LMmMKdqjEee8kvK1yMzufA"/>
           </children>
-          <element xmi:type="uml:Region" href="ECb-JusticeLeague.uml#_LMdpQNqjEee8kvK1yMzufA"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LMmMKtqjEee8kvK1yMzufA" width="700" height="280"/>
+          <element href="ECb-JusticeLeague.uml#_LMdpQNqjEee8kvK1yMzufA"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_LMmMKtqjEee8kvK1yMzufA" width="700" height="280"/>
         </children>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LMmMK9qjEee8kvK1yMzufA" y="20" width="700" height="280"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_LMmMK9qjEee8kvK1yMzufA" y="20" width="700" height="280"/>
       </children>
-      <element xmi:type="uml:StateMachine" href="ECb-JusticeLeague.uml#_LLbHcNqjEee8kvK1yMzufA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LMmMLNqjEee8kvK1yMzufA" x="30" y="30" width="700" height="300"/>
+      <element href="ECb-JusticeLeague.uml#_LLbHcNqjEee8kvK1yMzufA"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_LMmMLNqjEee8kvK1yMzufA" x="30" y="30" width="700" height="300"/>
     </children>
-    <styles xmi:type="notation:StringValueStyle" xmi:id="_LMmMLdqjEee8kvK1yMzufA" name="diagram_compatibility_version" stringValue="1.3.0"/>
-    <styles xmi:type="notation:DiagramStyle" xmi:id="_LMmMLtqjEee8kvK1yMzufA"/>
-    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_LMmML9qjEee8kvK1yMzufA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.stateMachine">
-      <owner xmi:type="uml:Model" href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_LMmMLdqjEee8kvK1yMzufA" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_LMmMLtqjEee8kvK1yMzufA"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_LMmML9qjEee8kvK1yMzufA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.stateMachine">
+      <owner href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
     </styles>
-    <element xmi:type="uml:StateMachine" href="ECb-JusticeLeague.uml#_LLbHcNqjEee8kvK1yMzufA"/>
+    <element href="ECb-JusticeLeague.uml#_LLbHcNqjEee8kvK1yMzufA"/>
   </notation:Diagram>
   <notation:Diagram xmi:id="_LOXtwNqjEee8kvK1yMzufA" type="CompositeStructure" name="SysML 1.4 Parametric Diagram" measurementUnit="Pixel">
-    <children xmi:type="notation:Shape" xmi:id="_LOaKANqjEee8kvK1yMzufA" type="Class_Shape">
-      <children xmi:type="notation:DecorationNode" xmi:id="_LOaxENqjEee8kvK1yMzufA" type="Class_NameLabel"/>
-      <children xmi:type="notation:DecorationNode" xmi:id="_LOaxEdqjEee8kvK1yMzufA" type="Class_FloatingNameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_LOaxEtqjEee8kvK1yMzufA" y="15"/>
+    <children xsi:type="notation:Shape" xmi:id="_LOaKANqjEee8kvK1yMzufA" type="Class_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_LOaxENqjEee8kvK1yMzufA" type="Class_NameLabel"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_LOaxEdqjEee8kvK1yMzufA" type="Class_FloatingNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_LOaxEtqjEee8kvK1yMzufA" y="15"/>
       </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_LObYINqjEee8kvK1yMzufA" type="Class_StructureCompartment">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_LObYIdqjEee8kvK1yMzufA"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LObYItqjEee8kvK1yMzufA"/>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_LObYINqjEee8kvK1yMzufA" type="Class_StructureCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_LObYIdqjEee8kvK1yMzufA"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_LObYItqjEee8kvK1yMzufA"/>
       </children>
-      <element xmi:type="uml:Class" href="ECb-JusticeLeague.uml#_LMwkMNqjEee8kvK1yMzufA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LOaKAdqjEee8kvK1yMzufA" x="40" y="40" width="500" height="250"/>
+      <element href="ECb-JusticeLeague.uml#_LMwkMNqjEee8kvK1yMzufA"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_LOaKAdqjEee8kvK1yMzufA" x="40" y="40" width="500" height="250"/>
     </children>
-    <styles xmi:type="notation:StringValueStyle" xmi:id="_LOXtwdqjEee8kvK1yMzufA" name="diagram_compatibility_version" stringValue="1.3.0"/>
-    <styles xmi:type="notation:DiagramStyle" xmi:id="_LOXtwtqjEee8kvK1yMzufA"/>
-    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_LOXtw9qjEee8kvK1yMzufA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.parametric">
-      <owner xmi:type="uml:Model" href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_LOXtwdqjEee8kvK1yMzufA" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_LOXtwtqjEee8kvK1yMzufA"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_LOXtw9qjEee8kvK1yMzufA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.parametric">
+      <owner href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
     </styles>
-    <element xmi:type="uml:Class" href="ECb-JusticeLeague.uml#_LMwkMNqjEee8kvK1yMzufA"/>
+    <element href="ECb-JusticeLeague.uml#_LMwkMNqjEee8kvK1yMzufA"/>
   </notation:Diagram>
   <notation:Diagram xmi:id="_LPE4YNqjEee8kvK1yMzufA" type="PapyrusUMLActivityDiagram" name="SysML 1.4 Activity Diagram" measurementUnit="Pixel">
-    <children xmi:type="notation:Shape" xmi:id="_LPE4YdqjEee8kvK1yMzufA" type="Activity_Shape">
-      <children xmi:type="notation:DecorationNode" xmi:id="_LPE4YtqjEee8kvK1yMzufA" type="Activity_NameLabel"/>
-      <children xmi:type="notation:DecorationNode" xmi:id="_LPE4Y9qjEee8kvK1yMzufA" type="Activity_KeywordLabel"/>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_LPE4ZNqjEee8kvK1yMzufA" type="Activity_ParameterCompartment">
-        <styles xmi:type="notation:SortingStyle" xmi:id="_LPE4ZdqjEee8kvK1yMzufA"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_LPE4ZtqjEee8kvK1yMzufA"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LPE4Z9qjEee8kvK1yMzufA"/>
+    <children xsi:type="notation:Shape" xmi:id="_LPE4YdqjEee8kvK1yMzufA" type="Activity_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_LPE4YtqjEee8kvK1yMzufA" type="Activity_NameLabel"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_LPE4Y9qjEee8kvK1yMzufA" type="Activity_KeywordLabel"/>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_LPE4ZNqjEee8kvK1yMzufA" type="Activity_ParameterCompartment">
+        <styles xsi:type="notation:SortingStyle" xmi:id="_LPE4ZdqjEee8kvK1yMzufA"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_LPE4ZtqjEee8kvK1yMzufA"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_LPE4Z9qjEee8kvK1yMzufA"/>
       </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_LPE4aNqjEee8kvK1yMzufA" type="Activity_PreconditionCompartment">
-        <styles xmi:type="notation:SortingStyle" xmi:id="_LPE4adqjEee8kvK1yMzufA"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_LPE4atqjEee8kvK1yMzufA"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LPE4a9qjEee8kvK1yMzufA"/>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_LPE4aNqjEee8kvK1yMzufA" type="Activity_PreconditionCompartment">
+        <styles xsi:type="notation:SortingStyle" xmi:id="_LPE4adqjEee8kvK1yMzufA"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_LPE4atqjEee8kvK1yMzufA"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_LPE4a9qjEee8kvK1yMzufA"/>
       </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_LPE4bNqjEee8kvK1yMzufA" type="Activity_PostconditionCompartment">
-        <styles xmi:type="notation:SortingStyle" xmi:id="_LPE4bdqjEee8kvK1yMzufA"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_LPE4btqjEee8kvK1yMzufA"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LPE4b9qjEee8kvK1yMzufA"/>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_LPE4bNqjEee8kvK1yMzufA" type="Activity_PostconditionCompartment">
+        <styles xsi:type="notation:SortingStyle" xmi:id="_LPE4bdqjEee8kvK1yMzufA"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_LPE4btqjEee8kvK1yMzufA"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_LPE4b9qjEee8kvK1yMzufA"/>
       </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_LPE4cNqjEee8kvK1yMzufA" type="Activity_ActivityNodeCompartment">
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LPE4cdqjEee8kvK1yMzufA"/>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_LPE4cNqjEee8kvK1yMzufA" type="Activity_ActivityNodeCompartment">
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_LPE4cdqjEee8kvK1yMzufA"/>
       </children>
-      <element xmi:type="uml:Activity" href="ECb-JusticeLeague.uml#_LO0ZsNqjEee8kvK1yMzufA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LPE4ctqjEee8kvK1yMzufA"/>
+      <element href="ECb-JusticeLeague.uml#_LO0ZsNqjEee8kvK1yMzufA"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_LPE4ctqjEee8kvK1yMzufA"/>
     </children>
-    <styles xmi:type="notation:StringValueStyle" xmi:id="_LPE4c9qjEee8kvK1yMzufA" name="diagram_compatibility_version" stringValue="1.3.0"/>
-    <styles xmi:type="notation:DiagramStyle" xmi:id="_LPE4dNqjEee8kvK1yMzufA"/>
-    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_LPE4ddqjEee8kvK1yMzufA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.activity">
-      <owner xmi:type="uml:Model" href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_LPE4c9qjEee8kvK1yMzufA" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_LPE4dNqjEee8kvK1yMzufA"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_LPE4ddqjEee8kvK1yMzufA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.activity">
+      <owner href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
     </styles>
-    <element xmi:type="uml:Activity" href="ECb-JusticeLeague.uml#_LO0ZsNqjEee8kvK1yMzufA"/>
+    <element href="ECb-JusticeLeague.uml#_LO0ZsNqjEee8kvK1yMzufA"/>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_LPkAkNqjEee8kvK1yMzufA" type="PapyrusUMLSequenceDiagram" name="SysML 1.4 Sequence Diagram" measurementUnit="Pixel">
-    <children xmi:type="notation:Shape" xmi:id="_LPkAkdqjEee8kvK1yMzufA" type="Interaction_Shape">
-      <children xmi:type="notation:DecorationNode" xmi:id="_LPkAktqjEee8kvK1yMzufA" type="Interaction_NameLabel"/>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_LPkAk9qjEee8kvK1yMzufA" type="Interaction_SubfragmentCompartment">
-        <children xmi:type="notation:Shape" xmi:id="_qFB88NwkEeejAOHk8WtzmQ" type="Lifeline_Shape">
-          <children xmi:type="notation:DecorationNode" xmi:id="_qFCkANwkEeejAOHk8WtzmQ" type="Lifeline_NameLabel"/>
-          <element xmi:type="uml:Lifeline" href="ECb-JusticeLeague.uml#_qFAu0NwkEeejAOHk8WtzmQ"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qFB88dwkEeejAOHk8WtzmQ" x="14" y="10" height="700"/>
+  <notation:Diagram xmi:id="_LPkAkNqjEee8kvK1yMzufA" type="PapyrusUMLSequenceDiagram" name="Sequence Diagram" measurementUnit="Pixel">
+    <children xsi:type="notation:Shape" xmi:id="_LPkAkdqjEee8kvK1yMzufA" type="Interaction_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_LPkAktqjEee8kvK1yMzufA" type="Interaction_NameLabel"/>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_LPkAk9qjEee8kvK1yMzufA" type="Interaction_SubfragmentCompartment">
+        <children xsi:type="notation:Shape" xmi:id="_qFB88NwkEeejAOHk8WtzmQ" type="Lifeline_Shape">
+          <children xsi:type="notation:DecorationNode" xmi:id="_qFCkANwkEeejAOHk8WtzmQ" type="Lifeline_NameLabel"/>
+          <element href="ECb-JusticeLeague.uml#_qFAu0NwkEeejAOHk8WtzmQ"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_qFB88dwkEeejAOHk8WtzmQ" x="14" y="10" height="700"/>
         </children>
-        <children xmi:type="notation:Shape" xmi:id="_yVYpkNwkEeejAOHk8WtzmQ" type="Lifeline_Shape">
-          <children xmi:type="notation:DecorationNode" xmi:id="_yVYpktwkEeejAOHk8WtzmQ" type="Lifeline_NameLabel"/>
-          <children xmi:type="notation:BasicCompartment" xmi:id="_yVbs4NwkEeejAOHk8WtzmQ" type="compartment_shape_display">
-            <styles xmi:type="notation:TitleStyle" xmi:id="_yVbs4dwkEeejAOHk8WtzmQ"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yVbs4twkEeejAOHk8WtzmQ"/>
+        <children xsi:type="notation:Shape" xmi:id="_yVYpkNwkEeejAOHk8WtzmQ" type="Lifeline_Shape">
+          <children xsi:type="notation:DecorationNode" xmi:id="_yVYpktwkEeejAOHk8WtzmQ" type="Lifeline_NameLabel"/>
+          <children xsi:type="notation:BasicCompartment" xmi:id="_yVbs4NwkEeejAOHk8WtzmQ" type="compartment_shape_display">
+            <styles xsi:type="notation:TitleStyle" xmi:id="_yVbs4dwkEeejAOHk8WtzmQ"/>
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_yVbs4twkEeejAOHk8WtzmQ"/>
           </children>
-          <children xmi:type="notation:Shape" xmi:id="_OWdAQNwoEeejAOHk8WtzmQ" type="ActionExecutionSpecification_Shape">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OWdAQdwoEeejAOHk8WtzmQ" x="334" y="286" width="20" height="41"/>
+          <children xsi:type="notation:Shape" xmi:id="_OWdAQNwoEeejAOHk8WtzmQ" type="ActionExecutionSpecification_Shape">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_OWdAQdwoEeejAOHk8WtzmQ" x="334" y="286" width="20" height="41"/>
           </children>
-          <element xmi:type="uml:Lifeline" href="ECb-JusticeLeague.uml#_yVW0YNwkEeejAOHk8WtzmQ"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yVYpkdwkEeejAOHk8WtzmQ" x="194" y="10" width="121" height="700"/>
+          <element href="ECb-JusticeLeague.uml#_yVW0YNwkEeejAOHk8WtzmQ"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_yVYpkdwkEeejAOHk8WtzmQ" x="194" y="10" width="121" height="700"/>
         </children>
-        <children xmi:type="notation:Shape" xmi:id="_z9vugNwkEeejAOHk8WtzmQ" type="Lifeline_Shape">
-          <children xmi:type="notation:DecorationNode" xmi:id="_z9vugtwkEeejAOHk8WtzmQ" type="Lifeline_NameLabel"/>
-          <element xmi:type="uml:Lifeline" href="ECb-JusticeLeague.uml#_z9tSQNwkEeejAOHk8WtzmQ"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_z9vugdwkEeejAOHk8WtzmQ" x="414" y="10" height="700"/>
+        <children xsi:type="notation:Shape" xmi:id="_z9vugNwkEeejAOHk8WtzmQ" type="Lifeline_Shape">
+          <children xsi:type="notation:DecorationNode" xmi:id="_z9vugtwkEeejAOHk8WtzmQ" type="Lifeline_NameLabel"/>
+          <element href="ECb-JusticeLeague.uml#_z9tSQNwkEeejAOHk8WtzmQ"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_z9vugdwkEeejAOHk8WtzmQ" x="414" y="10" height="700"/>
         </children>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LPkAlNqjEee8kvK1yMzufA"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_LPkAlNqjEee8kvK1yMzufA"/>
       </children>
-      <element xmi:type="uml:Interaction" href="ECb-JusticeLeague.uml#_LPXzUNqjEee8kvK1yMzufA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LPkAldqjEee8kvK1yMzufA"/>
+      <element href="ECb-JusticeLeague.uml#_LPXzUNqjEee8kvK1yMzufA"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_LPkAldqjEee8kvK1yMzufA"/>
     </children>
-    <styles xmi:type="notation:StringValueStyle" xmi:id="_LPkAltqjEee8kvK1yMzufA" name="diagram_compatibility_version" stringValue="1.3.0"/>
-    <styles xmi:type="notation:DiagramStyle" xmi:id="_LPkAl9qjEee8kvK1yMzufA"/>
-    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_LPkAmNqjEee8kvK1yMzufA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.sequence">
-      <owner xmi:type="uml:Model" href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_LPkAltqjEee8kvK1yMzufA" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_LPkAl9qjEee8kvK1yMzufA"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_LPkAmNqjEee8kvK1yMzufA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.sequence">
+      <owner href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
     </styles>
-    <element xmi:type="uml:Interaction" href="ECb-JusticeLeague.uml#_LPXzUNqjEee8kvK1yMzufA"/>
-    <edges xmi:type="notation:Connector" xmi:id="_xb3gQNwnEeejAOHk8WtzmQ" type="Message_AsynchEdge" source="_z9vugNwkEeejAOHk8WtzmQ" target="_yVYpkNwkEeejAOHk8WtzmQ">
-      <children xmi:type="notation:DecorationNode" xmi:id="_xb4HUNwnEeejAOHk8WtzmQ" type="Message_AsynchNameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_xb4HUdwnEeejAOHk8WtzmQ" x="-2" y="13"/>
+    <element href="ECb-JusticeLeague.uml#_LPXzUNqjEee8kvK1yMzufA"/>
+    <edges xsi:type="notation:Connector" xmi:id="_xb3gQNwnEeejAOHk8WtzmQ" type="Message_AsynchEdge" source="_z9vugNwkEeejAOHk8WtzmQ" target="_yVYpkNwkEeejAOHk8WtzmQ">
+      <children xsi:type="notation:DecorationNode" xmi:id="_xb4HUNwnEeejAOHk8WtzmQ" type="Message_AsynchNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_xb4HUdwnEeejAOHk8WtzmQ" x="-2" y="13"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_xb4HUtwnEeejAOHk8WtzmQ" type="Message_AsynchStereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_xb4HU9wnEeejAOHk8WtzmQ" x="1" y="-33"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_xb4HUtwnEeejAOHk8WtzmQ" type="Message_AsynchStereotypeLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_xb4HU9wnEeejAOHk8WtzmQ" x="1" y="-33"/>
       </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_xb3gQdwnEeejAOHk8WtzmQ"/>
-      <styles xmi:type="notation:LineStyle" xmi:id="_xb4HVNwnEeejAOHk8WtzmQ"/>
-      <element xmi:type="uml:Message" href="ECb-JusticeLeague.uml#_xbz14NwnEeejAOHk8WtzmQ"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xb3gQtwnEeejAOHk8WtzmQ" points="[0, 0, 210, 0]$[-210, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xcZEsNwnEeejAOHk8WtzmQ" id="(0.5,0.09428571428571429)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xcZEsdwnEeejAOHk8WtzmQ" id="(0.5,0.09428571428571429)"/>
+      <styles xsi:type="notation:FontStyle" xmi:id="_xb3gQdwnEeejAOHk8WtzmQ"/>
+      <styles xsi:type="notation:LineStyle" xmi:id="_xb4HVNwnEeejAOHk8WtzmQ"/>
+      <element href="ECb-JusticeLeague.uml#_xbz14NwnEeejAOHk8WtzmQ"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_xb3gQtwnEeejAOHk8WtzmQ" points="[0, 0, 210, 0]$[-210, 0, 0, 0]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_xcZEsNwnEeejAOHk8WtzmQ" id="(0.5,0.09428571428571429)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_xcZEsdwnEeejAOHk8WtzmQ" id="(0.5,0.09428571428571429)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_6V2_wNwnEeejAOHk8WtzmQ" type="Message_AsynchEdge" source="_yVYpkNwkEeejAOHk8WtzmQ" target="_z9vugNwkEeejAOHk8WtzmQ">
-      <children xmi:type="notation:DecorationNode" xmi:id="_6V2_w9wnEeejAOHk8WtzmQ" type="Message_AsynchNameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_6V2_xNwnEeejAOHk8WtzmQ" x="1" y="-13"/>
+    <edges xsi:type="notation:Connector" xmi:id="_6V2_wNwnEeejAOHk8WtzmQ" type="Message_AsynchEdge" source="_yVYpkNwkEeejAOHk8WtzmQ" target="_z9vugNwkEeejAOHk8WtzmQ">
+      <children xsi:type="notation:DecorationNode" xmi:id="_6V2_w9wnEeejAOHk8WtzmQ" type="Message_AsynchNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_6V2_xNwnEeejAOHk8WtzmQ" x="1" y="-13"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_6V2_xdwnEeejAOHk8WtzmQ" type="Message_AsynchStereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_6V2_xtwnEeejAOHk8WtzmQ" x="1" y="-33"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_6V2_xdwnEeejAOHk8WtzmQ" type="Message_AsynchStereotypeLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_6V2_xtwnEeejAOHk8WtzmQ" x="1" y="-33"/>
       </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_6V2_wdwnEeejAOHk8WtzmQ"/>
-      <styles xmi:type="notation:LineStyle" xmi:id="_6V2_x9wnEeejAOHk8WtzmQ"/>
-      <element xmi:type="uml:Message" href="ECb-JusticeLeague.uml#_6VOGkNwnEeejAOHk8WtzmQ"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6V2_wtwnEeejAOHk8WtzmQ" points="[0, 0, -210, 0]$[210, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6V_ioNwnEeejAOHk8WtzmQ" id="(0.5,0.18)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6V_iodwnEeejAOHk8WtzmQ" id="(0.5,0.18)"/>
+      <styles xsi:type="notation:FontStyle" xmi:id="_6V2_wdwnEeejAOHk8WtzmQ"/>
+      <styles xsi:type="notation:LineStyle" xmi:id="_6V2_x9wnEeejAOHk8WtzmQ"/>
+      <element href="ECb-JusticeLeague.uml#_6VOGkNwnEeejAOHk8WtzmQ"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_6V2_wtwnEeejAOHk8WtzmQ" points="[0, 0, -210, 0]$[210, 0, 0, 0]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_6V_ioNwnEeejAOHk8WtzmQ" id="(0.5,0.18)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_6V_iodwnEeejAOHk8WtzmQ" id="(0.5,0.18)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_Al4MUNwoEeejAOHk8WtzmQ" type="Message_AsynchEdge" source="_z9vugNwkEeejAOHk8WtzmQ" target="_qFB88NwkEeejAOHk8WtzmQ">
-      <children xmi:type="notation:DecorationNode" xmi:id="_Al4MU9woEeejAOHk8WtzmQ" type="Message_AsynchNameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_Al4zYNwoEeejAOHk8WtzmQ" x="107" y="13"/>
+    <edges xsi:type="notation:Connector" xmi:id="_Al4MUNwoEeejAOHk8WtzmQ" type="Message_AsynchEdge" source="_z9vugNwkEeejAOHk8WtzmQ" target="_qFB88NwkEeejAOHk8WtzmQ">
+      <children xsi:type="notation:DecorationNode" xmi:id="_Al4MU9woEeejAOHk8WtzmQ" type="Message_AsynchNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_Al4zYNwoEeejAOHk8WtzmQ" x="107" y="13"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_Al4zYdwoEeejAOHk8WtzmQ" type="Message_AsynchStereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_Al4zYtwoEeejAOHk8WtzmQ" x="1" y="-33"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_Al4zYdwoEeejAOHk8WtzmQ" type="Message_AsynchStereotypeLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_Al4zYtwoEeejAOHk8WtzmQ" x="1" y="-33"/>
       </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_Al4MUdwoEeejAOHk8WtzmQ"/>
-      <styles xmi:type="notation:LineStyle" xmi:id="_Al4zY9woEeejAOHk8WtzmQ"/>
-      <element xmi:type="uml:Message" href="ECb-JusticeLeague.uml#_Al0h8NwoEeejAOHk8WtzmQ"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Al4MUtwoEeejAOHk8WtzmQ" points="[0, 0, 400, 0]$[-400, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AmCkYNwoEeejAOHk8WtzmQ" id="(0.5,0.26571428571428574)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AmCkYdwoEeejAOHk8WtzmQ" id="(0.5,0.26571428571428574)"/>
+      <styles xsi:type="notation:FontStyle" xmi:id="_Al4MUdwoEeejAOHk8WtzmQ"/>
+      <styles xsi:type="notation:LineStyle" xmi:id="_Al4zY9woEeejAOHk8WtzmQ"/>
+      <element href="ECb-JusticeLeague.uml#_Al0h8NwoEeejAOHk8WtzmQ"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_Al4MUtwoEeejAOHk8WtzmQ" points="[0, 0, 400, 0]$[-400, 0, 0, 0]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_AmCkYNwoEeejAOHk8WtzmQ" id="(0.5,0.26571428571428574)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_AmCkYdwoEeejAOHk8WtzmQ" id="(0.5,0.26571428571428574)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_RAin8NwoEeejAOHk8WtzmQ" type="Message_AsynchEdge" source="_z9vugNwkEeejAOHk8WtzmQ" target="_z9vugNwkEeejAOHk8WtzmQ">
-      <children xmi:type="notation:DecorationNode" xmi:id="_RAin89woEeejAOHk8WtzmQ" type="Message_AsynchNameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_RAin9NwoEeejAOHk8WtzmQ" x="-3" y="-57"/>
+    <edges xsi:type="notation:Connector" xmi:id="_RAin8NwoEeejAOHk8WtzmQ" type="Message_AsynchEdge" source="_z9vugNwkEeejAOHk8WtzmQ" target="_z9vugNwkEeejAOHk8WtzmQ">
+      <children xsi:type="notation:DecorationNode" xmi:id="_RAin89woEeejAOHk8WtzmQ" type="Message_AsynchNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_RAin9NwoEeejAOHk8WtzmQ" x="-3" y="-57"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_RAin9dwoEeejAOHk8WtzmQ" type="Message_AsynchStereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_RAin9twoEeejAOHk8WtzmQ" x="1" y="-33"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_RAin9dwoEeejAOHk8WtzmQ" type="Message_AsynchStereotypeLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_RAin9twoEeejAOHk8WtzmQ" x="1" y="-33"/>
       </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_RAin8dwoEeejAOHk8WtzmQ"/>
-      <styles xmi:type="notation:LineStyle" xmi:id="_RAin99woEeejAOHk8WtzmQ"/>
-      <element xmi:type="uml:Message" href="ECb-JusticeLeague.uml#_RAchUNwoEeejAOHk8WtzmQ"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RAin8twoEeejAOHk8WtzmQ" points="[0, 0, 0, -160]$[62, 0, 62, -160]$[62, 60, 62, -100]$[0, 60, 0, -100]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RAtnENwoEeejAOHk8WtzmQ" id="(0.5,0.32285714285714284)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RAtnEdwoEeejAOHk8WtzmQ" id="(0.5,0.4085714285714286)"/>
+      <styles xsi:type="notation:FontStyle" xmi:id="_RAin8dwoEeejAOHk8WtzmQ"/>
+      <styles xsi:type="notation:LineStyle" xmi:id="_RAin99woEeejAOHk8WtzmQ"/>
+      <element href="ECb-JusticeLeague.uml#_RAchUNwoEeejAOHk8WtzmQ"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_RAin8twoEeejAOHk8WtzmQ" points="[0, 0, 0, -160]$[62, 0, 62, -160]$[62, 60, 62, -100]$[0, 60, 0, -100]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_RAtnENwoEeejAOHk8WtzmQ" id="(0.5,0.32285714285714284)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_RAtnEdwoEeejAOHk8WtzmQ" id="(0.5,0.4085714285714286)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_dABRsNwoEeejAOHk8WtzmQ" type="Message_AsynchEdge" source="_z9vugNwkEeejAOHk8WtzmQ" target="_qFB88NwkEeejAOHk8WtzmQ">
-      <children xmi:type="notation:DecorationNode" xmi:id="_dABRs9woEeejAOHk8WtzmQ" type="Message_AsynchNameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_dABRtNwoEeejAOHk8WtzmQ" x="100" y="13"/>
+    <edges xsi:type="notation:Connector" xmi:id="_dABRsNwoEeejAOHk8WtzmQ" type="Message_AsynchEdge" source="_z9vugNwkEeejAOHk8WtzmQ" target="_qFB88NwkEeejAOHk8WtzmQ">
+      <children xsi:type="notation:DecorationNode" xmi:id="_dABRs9woEeejAOHk8WtzmQ" type="Message_AsynchNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_dABRtNwoEeejAOHk8WtzmQ" x="100" y="13"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_dABRtdwoEeejAOHk8WtzmQ" type="Message_AsynchStereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_dABRttwoEeejAOHk8WtzmQ" x="1" y="-33"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_dABRtdwoEeejAOHk8WtzmQ" type="Message_AsynchStereotypeLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_dABRttwoEeejAOHk8WtzmQ" x="1" y="-33"/>
       </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_dABRsdwoEeejAOHk8WtzmQ"/>
-      <styles xmi:type="notation:LineStyle" xmi:id="_dABRt9woEeejAOHk8WtzmQ"/>
-      <element xmi:type="uml:Message" href="ECb-JusticeLeague.uml#_c_7yINwoEeejAOHk8WtzmQ"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dABRstwoEeejAOHk8WtzmQ" points="[0, 0, 400, 0]$[-400, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dAP7MNwoEeejAOHk8WtzmQ" id="(0.5,0.4657142857142857)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dAP7MdwoEeejAOHk8WtzmQ" id="(0.5,0.4657142857142857)"/>
+      <styles xsi:type="notation:FontStyle" xmi:id="_dABRsdwoEeejAOHk8WtzmQ"/>
+      <styles xsi:type="notation:LineStyle" xmi:id="_dABRt9woEeejAOHk8WtzmQ"/>
+      <element href="ECb-JusticeLeague.uml#_c_7yINwoEeejAOHk8WtzmQ"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_dABRstwoEeejAOHk8WtzmQ" points="[0, 0, 400, 0]$[-400, 0, 0, 0]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_dAP7MNwoEeejAOHk8WtzmQ" id="(0.5,0.4657142857142857)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_dAP7MdwoEeejAOHk8WtzmQ" id="(0.5,0.4657142857142857)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_iw2A0NwoEeejAOHk8WtzmQ" type="Message_AsynchEdge" source="_z9vugNwkEeejAOHk8WtzmQ" target="_z9vugNwkEeejAOHk8WtzmQ">
-      <children xmi:type="notation:DecorationNode" xmi:id="_iw2A09woEeejAOHk8WtzmQ" type="Message_AsynchNameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_iw2A1NwoEeejAOHk8WtzmQ" x="-3" y="-112"/>
+    <edges xsi:type="notation:Connector" xmi:id="_iw2A0NwoEeejAOHk8WtzmQ" type="Message_AsynchEdge" source="_z9vugNwkEeejAOHk8WtzmQ" target="_z9vugNwkEeejAOHk8WtzmQ">
+      <children xsi:type="notation:DecorationNode" xmi:id="_iw2A09woEeejAOHk8WtzmQ" type="Message_AsynchNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_iw2A1NwoEeejAOHk8WtzmQ" x="-3" y="-112"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_iw2A1dwoEeejAOHk8WtzmQ" type="Message_AsynchStereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_iw2A1twoEeejAOHk8WtzmQ" x="1" y="-33"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_iw2A1dwoEeejAOHk8WtzmQ" type="Message_AsynchStereotypeLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_iw2A1twoEeejAOHk8WtzmQ" x="1" y="-33"/>
       </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_iw2A0dwoEeejAOHk8WtzmQ"/>
-      <styles xmi:type="notation:LineStyle" xmi:id="_iw2A19woEeejAOHk8WtzmQ"/>
-      <element xmi:type="uml:Message" href="ECb-JusticeLeague.uml#_iwxIUNwoEeejAOHk8WtzmQ"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_iw2A0twoEeejAOHk8WtzmQ" points="[0, 20, 0, -40]$[70, 20, 70, -40]$[70, 60, 70, 0]$[0, 60, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ixAY4NwoEeejAOHk8WtzmQ" id="(0.5,0.5228571428571429)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ixA_8NwoEeejAOHk8WtzmQ" id="(0.5,0.58)"/>
+      <styles xsi:type="notation:FontStyle" xmi:id="_iw2A0dwoEeejAOHk8WtzmQ"/>
+      <styles xsi:type="notation:LineStyle" xmi:id="_iw2A19woEeejAOHk8WtzmQ"/>
+      <element href="ECb-JusticeLeague.uml#_iwxIUNwoEeejAOHk8WtzmQ"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_iw2A0twoEeejAOHk8WtzmQ" points="[0, 20, 0, -40]$[70, 20, 70, -40]$[70, 60, 70, 0]$[0, 60, 0, 0]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_ixAY4NwoEeejAOHk8WtzmQ" id="(0.5,0.5228571428571429)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_ixA_8NwoEeejAOHk8WtzmQ" id="(0.5,0.58)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_dRd8INwqEeejAOHk8WtzmQ" type="Message_AsynchEdge" source="_z9vugNwkEeejAOHk8WtzmQ" target="_qFB88NwkEeejAOHk8WtzmQ">
-      <children xmi:type="notation:DecorationNode" xmi:id="_dRd8I9wqEeejAOHk8WtzmQ" type="Message_AsynchNameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_dRd8JNwqEeejAOHk8WtzmQ" x="100" y="13"/>
+    <edges xsi:type="notation:Connector" xmi:id="_dRd8INwqEeejAOHk8WtzmQ" type="Message_AsynchEdge" source="_z9vugNwkEeejAOHk8WtzmQ" target="_qFB88NwkEeejAOHk8WtzmQ">
+      <children xsi:type="notation:DecorationNode" xmi:id="_dRd8I9wqEeejAOHk8WtzmQ" type="Message_AsynchNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_dRd8JNwqEeejAOHk8WtzmQ" x="100" y="13"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_dRd8JdwqEeejAOHk8WtzmQ" type="Message_AsynchStereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_dRd8JtwqEeejAOHk8WtzmQ" x="1" y="-33"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_dRd8JdwqEeejAOHk8WtzmQ" type="Message_AsynchStereotypeLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_dRd8JtwqEeejAOHk8WtzmQ" x="1" y="-33"/>
       </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_dRd8IdwqEeejAOHk8WtzmQ"/>
-      <styles xmi:type="notation:LineStyle" xmi:id="_dRd8J9wqEeejAOHk8WtzmQ"/>
-      <element xmi:type="uml:Message" href="ECb-JusticeLeague.uml#_dRX1gNwqEeejAOHk8WtzmQ"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dRd8ItwqEeejAOHk8WtzmQ" points="[0, 0, 400, 0]$[-400, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dRpiUNwqEeejAOHk8WtzmQ" id="(0.5,0.6371428571428571)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dRpiUdwqEeejAOHk8WtzmQ" id="(0.5,0.6371428571428571)"/>
+      <styles xsi:type="notation:FontStyle" xmi:id="_dRd8IdwqEeejAOHk8WtzmQ"/>
+      <styles xsi:type="notation:LineStyle" xmi:id="_dRd8J9wqEeejAOHk8WtzmQ"/>
+      <element href="ECb-JusticeLeague.uml#_dRX1gNwqEeejAOHk8WtzmQ"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_dRd8ItwqEeejAOHk8WtzmQ" points="[0, 0, 400, 0]$[-400, 0, 0, 0]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_dRpiUNwqEeejAOHk8WtzmQ" id="(0.5,0.6371428571428571)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_dRpiUdwqEeejAOHk8WtzmQ" id="(0.5,0.6371428571428571)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_gWwSENwqEeejAOHk8WtzmQ" type="Message_AsynchEdge" source="_z9vugNwkEeejAOHk8WtzmQ" target="_z9vugNwkEeejAOHk8WtzmQ">
-      <children xmi:type="notation:DecorationNode" xmi:id="_gWwSE9wqEeejAOHk8WtzmQ" type="Message_AsynchNameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_gWwSFNwqEeejAOHk8WtzmQ" x="-3" y="-88"/>
+    <edges xsi:type="notation:Connector" xmi:id="_gWwSENwqEeejAOHk8WtzmQ" type="Message_AsynchEdge" source="_z9vugNwkEeejAOHk8WtzmQ" target="_z9vugNwkEeejAOHk8WtzmQ">
+      <children xsi:type="notation:DecorationNode" xmi:id="_gWwSE9wqEeejAOHk8WtzmQ" type="Message_AsynchNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_gWwSFNwqEeejAOHk8WtzmQ" x="-3" y="-88"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_gWwSFdwqEeejAOHk8WtzmQ" type="Message_AsynchStereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_gWwSFtwqEeejAOHk8WtzmQ" x="1" y="-33"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_gWwSFdwqEeejAOHk8WtzmQ" type="Message_AsynchStereotypeLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_gWwSFtwqEeejAOHk8WtzmQ" x="1" y="-33"/>
       </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_gWwSEdwqEeejAOHk8WtzmQ"/>
-      <styles xmi:type="notation:LineStyle" xmi:id="_gWwSF9wqEeejAOHk8WtzmQ"/>
-      <element xmi:type="uml:Message" href="ECb-JusticeLeague.uml#_gWpkYNwqEeejAOHk8WtzmQ"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gWwSEtwqEeejAOHk8WtzmQ" points="[0, -60, 0, -120]$[62, -60, 62, -120]$[62, 60, 62, 0]$[0, 60, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gW8fUNwqEeejAOHk8WtzmQ" id="(0.5,0.6942857142857143)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gW8fUdwqEeejAOHk8WtzmQ" id="(0.5,0.8657142857142858)"/>
+      <styles xsi:type="notation:FontStyle" xmi:id="_gWwSEdwqEeejAOHk8WtzmQ"/>
+      <styles xsi:type="notation:LineStyle" xmi:id="_gWwSF9wqEeejAOHk8WtzmQ"/>
+      <element href="ECb-JusticeLeague.uml#_gWpkYNwqEeejAOHk8WtzmQ"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_gWwSEtwqEeejAOHk8WtzmQ" points="[0, -60, 0, -120]$[62, -60, 62, -120]$[62, 60, 62, 0]$[0, 60, 0, 0]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_gW8fUNwqEeejAOHk8WtzmQ" id="(0.5,0.6942857142857143)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_gW8fUdwqEeejAOHk8WtzmQ" id="(0.5,0.8657142857142858)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_mT3wwNwqEeejAOHk8WtzmQ" type="Message_AsynchEdge" source="_z9vugNwkEeejAOHk8WtzmQ" target="_qFB88NwkEeejAOHk8WtzmQ">
-      <children xmi:type="notation:DecorationNode" xmi:id="_mT4X0NwqEeejAOHk8WtzmQ" type="Message_AsynchNameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_mT4X0dwqEeejAOHk8WtzmQ" x="109" y="13"/>
+    <edges xsi:type="notation:Connector" xmi:id="_mT3wwNwqEeejAOHk8WtzmQ" type="Message_AsynchEdge" source="_z9vugNwkEeejAOHk8WtzmQ" target="_qFB88NwkEeejAOHk8WtzmQ">
+      <children xsi:type="notation:DecorationNode" xmi:id="_mT4X0NwqEeejAOHk8WtzmQ" type="Message_AsynchNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_mT4X0dwqEeejAOHk8WtzmQ" x="109" y="13"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_mT4X0twqEeejAOHk8WtzmQ" type="Message_AsynchStereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_mT4X09wqEeejAOHk8WtzmQ" x="1" y="-33"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_mT4X0twqEeejAOHk8WtzmQ" type="Message_AsynchStereotypeLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_mT4X09wqEeejAOHk8WtzmQ" x="1" y="-33"/>
       </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_mT3wwdwqEeejAOHk8WtzmQ"/>
-      <styles xmi:type="notation:LineStyle" xmi:id="_mT4X1NwqEeejAOHk8WtzmQ"/>
-      <element xmi:type="uml:Message" href="ECb-JusticeLeague.uml#_mTyRMNwqEeejAOHk8WtzmQ"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mT3wwtwqEeejAOHk8WtzmQ" points="[0, 0, 400, 0]$[-400, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mUFzMNwqEeejAOHk8WtzmQ" id="(0.5,0.9228571428571428)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mUFzMdwqEeejAOHk8WtzmQ" id="(0.5,0.9228571428571428)"/>
+      <styles xsi:type="notation:FontStyle" xmi:id="_mT3wwdwqEeejAOHk8WtzmQ"/>
+      <styles xsi:type="notation:LineStyle" xmi:id="_mT4X1NwqEeejAOHk8WtzmQ"/>
+      <element href="ECb-JusticeLeague.uml#_mTyRMNwqEeejAOHk8WtzmQ"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_mT3wwtwqEeejAOHk8WtzmQ" points="[0, 0, 400, 0]$[-400, 0, 0, 0]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_mUFzMNwqEeejAOHk8WtzmQ" id="(0.5,0.9228571428571428)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_mUFzMdwqEeejAOHk8WtzmQ" id="(0.5,0.9228571428571428)"/>
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_LPqHMNqjEee8kvK1yMzufA" type="PapyrusUMLClassDiagram" name="SysML 1.4 Package Diagram" measurementUnit="Pixel">
-    <styles xmi:type="notation:StringValueStyle" xmi:id="_LPqHMdqjEee8kvK1yMzufA" name="diagram_compatibility_version" stringValue="1.3.0"/>
-    <styles xmi:type="notation:DiagramStyle" xmi:id="_LPqHMtqjEee8kvK1yMzufA"/>
-    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_LPqHM9qjEee8kvK1yMzufA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.package">
-      <owner xmi:type="uml:Model" href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_LPqHMdqjEee8kvK1yMzufA" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_LPqHMtqjEee8kvK1yMzufA"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_LPqHM9qjEee8kvK1yMzufA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.package">
+      <owner href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
     </styles>
-    <element xmi:type="uml:Model" href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <element href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
   </notation:Diagram>
   <notation:Diagram xmi:id="_LPwN0NqjEee8kvK1yMzufA" type="PapyrusUMLClassDiagram" name="SysML 1.4 Requirement Diagram" measurementUnit="Pixel">
-    <styles xmi:type="notation:StringValueStyle" xmi:id="_LPwN0dqjEee8kvK1yMzufA" name="diagram_compatibility_version" stringValue="1.3.0"/>
-    <styles xmi:type="notation:DiagramStyle" xmi:id="_LPwN0tqjEee8kvK1yMzufA"/>
-    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_LPwN09qjEee8kvK1yMzufA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.requirement">
-      <owner xmi:type="uml:Model" href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_LPwN0dqjEee8kvK1yMzufA" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_LPwN0tqjEee8kvK1yMzufA"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_LPwN09qjEee8kvK1yMzufA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.requirement">
+      <owner href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
     </styles>
-    <element xmi:type="uml:Model" href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <element href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
   </notation:Diagram>
   <nattable:Table xmi:id="_LP2UcNqjEee8kvK1yMzufA" name="SysML 1.4 Allocation Table" currentRowAxisProvider="_LP2UddqjEee8kvK1yMzufA" currentColumnAxisProvider="_LP2UcdqjEee8kvK1yMzufA" tableKindId="org.eclipse.papyrus.sysml14.table.allocation">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LP3ikNqjEee8kvK1yMzufA" source="http://www.eclipse.org/papyrus/infra/nattable/version">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LP3ikdqjEee8kvK1yMzufA" key="version" value="1.3.0"/>
+    <eAnnotations xmi:id="_LP3ikNqjEee8kvK1yMzufA" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:id="_LP3ikdqjEee8kvK1yMzufA" key="version" value="1.3.0"/>
     </eAnnotations>
-    <context xmi:type="uml:Model" href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
-    <owner xmi:type="uml:Model" href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
-    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.allocation/resources/allocation.nattableconfiguration#/"/>
-    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_LP2UcdqjEee8kvK1yMzufA" description="This provider provides the default columns for the SysML Allocation Table" name="SysMLAllocationFeatureProvider">
-      <axis xmi:type="nattableaxis:EStructuralFeatureAxis" xmi:id="_LP2UctqjEee8kvK1yMzufA">
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.allocation/resources/allocation.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
-        <element xmi:type="ecore:EAttribute" href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement/name"/>
+    <context href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <owner href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <tableConfiguration href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.allocation/resources/allocation.nattableconfiguration#/"/>
+    <columnAxisProvidersHistory xsi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_LP2UcdqjEee8kvK1yMzufA" description="This provider provides the default columns for the SysML Allocation Table" name="SysMLAllocationFeatureProvider">
+      <axis xsi:type="nattableaxis:EStructuralFeatureAxis" xmi:id="_LP2UctqjEee8kvK1yMzufA">
+        <manager href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.allocation/resources/allocation.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+        <element xsi:type="ecore:EAttribute" href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement/name"/>
       </axis>
-      <axis xmi:type="nattableaxis:EStructuralFeatureAxis" xmi:id="_LP2Uc9qjEee8kvK1yMzufA">
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.allocation/resources/allocation.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
-        <element xmi:type="ecore:EReference" href="http://www.eclipse.org/uml2/5.0.0/UML#//Dependency/client"/>
+      <axis xsi:type="nattableaxis:EStructuralFeatureAxis" xmi:id="_LP2Uc9qjEee8kvK1yMzufA">
+        <manager href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.allocation/resources/allocation.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+        <element xsi:type="ecore:EReference" href="http://www.eclipse.org/uml2/5.0.0/UML#//Dependency/client"/>
       </axis>
-      <axis xmi:type="nattableaxis:EStructuralFeatureAxis" xmi:id="_LP2UdNqjEee8kvK1yMzufA">
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.allocation/resources/allocation.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
-        <element xmi:type="ecore:EReference" href="http://www.eclipse.org/uml2/5.0.0/UML#//Dependency/supplier"/>
+      <axis xsi:type="nattableaxis:EStructuralFeatureAxis" xmi:id="_LP2UdNqjEee8kvK1yMzufA">
+        <manager href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.allocation/resources/allocation.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+        <element xsi:type="ecore:EReference" href="http://www.eclipse.org/uml2/5.0.0/UML#//Dependency/supplier"/>
       </axis>
     </columnAxisProvidersHistory>
-    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_LP2UddqjEee8kvK1yMzufA" description="This row providers allows to display all Allocation in a Table" name="SysMLAllocationProvider" disconnectSlave="true"/>
+    <rowAxisProvidersHistory xsi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_LP2UddqjEee8kvK1yMzufA" description="This row providers allows to display all Allocation in a Table" name="SysMLAllocationProvider" disconnectSlave="true"/>
   </nattable:Table>
   <nattable:Table xmi:id="_LP7M8NqjEee8kvK1yMzufA" name="View Table" currentRowAxisProvider="_LP7M9tqjEee8kvK1yMzufA" currentColumnAxisProvider="_LP7M8dqjEee8kvK1yMzufA" tableKindId="org.eclipse.papyrus.uml.table.view">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LP8bENqjEee8kvK1yMzufA" source="http://www.eclipse.org/papyrus/infra/nattable/version">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LP8bEdqjEee8kvK1yMzufA" key="version" value="1.3.0"/>
+    <eAnnotations xmi:id="_LP8bENqjEee8kvK1yMzufA" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:id="_LP8bEdqjEee8kvK1yMzufA" key="version" value="1.3.0"/>
     </eAnnotations>
-    <context xmi:type="uml:Model" href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
-    <owner xmi:type="uml:Model" href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
-    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.infra.nattable.views.config/resources/viewpage.nattableconfiguration#/"/>
-    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_LP7M8dqjEee8kvK1yMzufA" description="Provides the features of the views" name="Papyrus Views feature provider">
-      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_LP7M8tqjEee8kvK1yMzufA" element="nattable_editor_pages:/name">
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.infra.nattable.views.config/resources/viewpage.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+    <context href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <owner href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <tableConfiguration href="platform:/plugin/org.eclipse.papyrus.infra.nattable.views.config/resources/viewpage.nattableconfiguration#/"/>
+    <columnAxisProvidersHistory xsi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_LP7M8dqjEee8kvK1yMzufA" description="Provides the features of the views" name="Papyrus Views feature provider">
+      <axis xsi:type="nattableaxis:FeatureIdAxis" xmi:id="_LP7M8tqjEee8kvK1yMzufA" element="nattable_editor_pages:/name">
+        <manager href="platform:/plugin/org.eclipse.papyrus.infra.nattable.views.config/resources/viewpage.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
       </axis>
-      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_LP7M89qjEee8kvK1yMzufA" element="nattable_editor_pages:/context">
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.infra.nattable.views.config/resources/viewpage.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+      <axis xsi:type="nattableaxis:FeatureIdAxis" xmi:id="_LP7M89qjEee8kvK1yMzufA" element="nattable_editor_pages:/context">
+        <manager href="platform:/plugin/org.eclipse.papyrus.infra.nattable.views.config/resources/viewpage.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
       </axis>
-      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_LP7M9NqjEee8kvK1yMzufA" element="nattable_editor_pages:/isOpen">
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.infra.nattable.views.config/resources/viewpage.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+      <axis xsi:type="nattableaxis:FeatureIdAxis" xmi:id="_LP7M9NqjEee8kvK1yMzufA" element="nattable_editor_pages:/isOpen">
+        <manager href="platform:/plugin/org.eclipse.papyrus.infra.nattable.views.config/resources/viewpage.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
       </axis>
-      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_LP7M9dqjEee8kvK1yMzufA" element="nattable_editor_pages:/type">
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.infra.nattable.views.config/resources/viewpage.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+      <axis xsi:type="nattableaxis:FeatureIdAxis" xmi:id="_LP7M9dqjEee8kvK1yMzufA" element="nattable_editor_pages:/type">
+        <manager href="platform:/plugin/org.eclipse.papyrus.infra.nattable.views.config/resources/viewpage.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
       </axis>
     </columnAxisProvidersHistory>
-    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_LP7M9tqjEee8kvK1yMzufA"/>
+    <rowAxisProvidersHistory xsi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_LP7M9tqjEee8kvK1yMzufA"/>
   </nattable:Table>
   <nattable:Table xmi:id="_LQEW4NqjEee8kvK1yMzufA" name="Class Tree Table" currentRowAxisProvider="_LQEW49qjEee8kvK1yMzufA" currentColumnAxisProvider="_LQEW4dqjEee8kvK1yMzufA" tableKindId="org.eclipse.papyrus.uml.table.classTree">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LQFlANqjEee8kvK1yMzufA" source="http://www.eclipse.org/papyrus/infra/nattable/version">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LQFlAdqjEee8kvK1yMzufA" key="version" value="1.3.0"/>
+    <eAnnotations xmi:id="_LQFlANqjEee8kvK1yMzufA" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:id="_LQFlAdqjEee8kvK1yMzufA" key="version" value="1.3.0"/>
     </eAnnotations>
-    <context xmi:type="uml:Model" href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
-    <owner xmi:type="uml:Model" href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
-    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.clazz.config/configs/class_synchronized_tree.nattableconfiguration#/"/>
-    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_LQEW4dqjEee8kvK1yMzufA" description="This axis provider provides available columns according to the rows of the table (features of the object displayed on the other axis)" name="UML Feature axis provider">
-      <axis xmi:type="nattableaxis:EStructuralFeatureAxis" xmi:id="_LQEW4tqjEee8kvK1yMzufA">
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.clazz.config/configs/class_synchronized_tree.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
-        <element xmi:type="ecore:EAttribute" href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement/name"/>
+    <context href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <owner href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <tableConfiguration href="platform:/plugin/org.eclipse.papyrus.uml.nattable.clazz.config/configs/class_synchronized_tree.nattableconfiguration#/"/>
+    <columnAxisProvidersHistory xsi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_LQEW4dqjEee8kvK1yMzufA" description="This axis provider provides available columns according to the rows of the table (features of the object displayed on the other axis)" name="UML Feature axis provider">
+      <axis xsi:type="nattableaxis:EStructuralFeatureAxis" xmi:id="_LQEW4tqjEee8kvK1yMzufA">
+        <manager href="platform:/plugin/org.eclipse.papyrus.uml.nattable.clazz.config/configs/class_synchronized_tree.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+        <element xsi:type="ecore:EAttribute" href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement/name"/>
       </axis>
     </columnAxisProvidersHistory>
-    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_LQEW49qjEee8kvK1yMzufA" description="This axis provider manages the rows, according to the wanted hierarchy" name="HierarchicalRowaAxisManager" disconnectSlave="true"/>
+    <rowAxisProvidersHistory xsi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_LQEW49qjEee8kvK1yMzufA" description="This axis provider manages the rows, according to the wanted hierarchy" name="HierarchicalRowaAxisManager" disconnectSlave="true"/>
   </nattable:Table>
   <nattable:Table xmi:id="_LQKdgNqjEee8kvK1yMzufA" name="Relationship Generic Matrix" currentRowAxisProvider="_LQKdg9qjEee8kvK1yMzufA" currentColumnAxisProvider="_LQKdgtqjEee8kvK1yMzufA" tableKindId="org.eclipse.papyrus.uml.table.matrix">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LQMSsNqjEee8kvK1yMzufA" source="http://www.eclipse.org/papyrus/infra/nattable/version">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LQMSsdqjEee8kvK1yMzufA" key="version" value="1.3.0"/>
+    <eAnnotations xmi:id="_LQMSsNqjEee8kvK1yMzufA" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:id="_LQMSsdqjEee8kvK1yMzufA" key="version" value="1.3.0"/>
     </eAnnotations>
-    <styles xmi:type="nattablestyle:IntListValueStyle" xmi:id="_LQKdgdqjEee8kvK1yMzufA" name="hiddenCategoriesByDepth">
+    <styles xsi:type="nattablestyle:IntListValueStyle" xmi:id="_LQKdgdqjEee8kvK1yMzufA" name="hiddenCategoriesByDepth">
       <intListValue>1</intListValue>
     </styles>
-    <context xmi:type="uml:Model" href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
-    <owner xmi:type="uml:Model" href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
-    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#/"/>
-    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_LQKdgtqjEee8kvK1yMzufA" description="This axis provider manages the columns, according to the wanted hierarchy" name="HierarchicalColumnsAxisManager" disconnectSlave="true"/>
-    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_LQKdg9qjEee8kvK1yMzufA" description="This axis provider manages the rows, according to the wanted hierarchy" name="HierarchicalRowAxisManager" disconnectSlave="true"/>
-    <ownedCellEditorConfigurations xmi:type="nattablecelleditor:GenericRelationshipMatrixCellEditorConfiguration" xmi:id="_LQLEkNqjEee8kvK1yMzufA" cellEditorId="GenericRelationshipMatrixEditorConfiguration"/>
+    <context href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <owner href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <tableConfiguration href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#/"/>
+    <columnAxisProvidersHistory xsi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_LQKdgtqjEee8kvK1yMzufA" description="This axis provider manages the columns, according to the wanted hierarchy" name="HierarchicalColumnsAxisManager" disconnectSlave="true"/>
+    <rowAxisProvidersHistory xsi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_LQKdg9qjEee8kvK1yMzufA" description="This axis provider manages the rows, according to the wanted hierarchy" name="HierarchicalRowAxisManager" disconnectSlave="true"/>
+    <ownedCellEditorConfigurations xsi:type="nattablecelleditor:GenericRelationshipMatrixCellEditorConfiguration" xmi:id="_LQLEkNqjEee8kvK1yMzufA" cellEditorId="GenericRelationshipMatrixEditorConfiguration"/>
   </nattable:Table>
   <notation:Diagram xmi:id="_LRHfwNqjEee8kvK1yMzufA" type="CompositeStructure" name="SysML 1.4 Internal Block Diagram" measurementUnit="Pixel">
-    <children xmi:type="notation:Shape" xmi:id="_LRIG0NqjEee8kvK1yMzufA" type="Class_Shape">
-      <children xmi:type="notation:DecorationNode" xmi:id="_LRIG0tqjEee8kvK1yMzufA" type="Class_NameLabel"/>
-      <children xmi:type="notation:DecorationNode" xmi:id="_LRIG09qjEee8kvK1yMzufA" type="Class_FloatingNameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_LRIG1NqjEee8kvK1yMzufA" y="15"/>
+    <children xsi:type="notation:Shape" xmi:id="_LRIG0NqjEee8kvK1yMzufA" type="Class_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_LRIG0tqjEee8kvK1yMzufA" type="Class_NameLabel"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_LRIG09qjEee8kvK1yMzufA" type="Class_FloatingNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_LRIG1NqjEee8kvK1yMzufA" y="15"/>
       </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_LRIG1dqjEee8kvK1yMzufA" type="Class_StructureCompartment">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_LRIG1tqjEee8kvK1yMzufA"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LRIG19qjEee8kvK1yMzufA"/>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_LRIG1dqjEee8kvK1yMzufA" type="Class_StructureCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_LRIG1tqjEee8kvK1yMzufA"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_LRIG19qjEee8kvK1yMzufA"/>
       </children>
-      <element xmi:type="uml:Class" href="ECb-JusticeLeague.uml#_LQSZUNqjEee8kvK1yMzufA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LRIG0dqjEee8kvK1yMzufA" x="40" y="40" width="500" height="250"/>
+      <element href="ECb-JusticeLeague.uml#_LQSZUNqjEee8kvK1yMzufA"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_LRIG0dqjEee8kvK1yMzufA" x="40" y="40" width="500" height="250"/>
     </children>
-    <styles xmi:type="notation:StringValueStyle" xmi:id="_LRHfwdqjEee8kvK1yMzufA" name="diagram_compatibility_version" stringValue="1.3.0"/>
-    <styles xmi:type="notation:DiagramStyle" xmi:id="_LRHfwtqjEee8kvK1yMzufA"/>
-    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_LRHfw9qjEee8kvK1yMzufA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.internalblock">
-      <owner xmi:type="uml:Model" href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_LRHfwdqjEee8kvK1yMzufA" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_LRHfwtqjEee8kvK1yMzufA"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_LRHfw9qjEee8kvK1yMzufA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.internalblock">
+      <owner href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
     </styles>
-    <element xmi:type="uml:Class" href="ECb-JusticeLeague.uml#_LQSZUNqjEee8kvK1yMzufA"/>
+    <element href="ECb-JusticeLeague.uml#_LQSZUNqjEee8kvK1yMzufA"/>
   </notation:Diagram>
   <nattable:Table xmi:id="_LRaasNqjEee8kvK1yMzufA" name="Stereotype Display Tree Table" currentRowAxisProvider="_LRaavdqjEee8kvK1yMzufA" currentColumnAxisProvider="_LRaastqjEee8kvK1yMzufA" tableKindId="org.eclipse.papyrus.uml.table.stereotypeDisplayTree">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LRbo0NqjEee8kvK1yMzufA" source="http://www.eclipse.org/papyrus/infra/nattable/version">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LRbo0dqjEee8kvK1yMzufA" key="version" value="1.3.0"/>
+    <eAnnotations xmi:id="_LRbo0NqjEee8kvK1yMzufA" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:id="_LRbo0dqjEee8kvK1yMzufA" key="version" value="1.3.0"/>
     </eAnnotations>
-    <styles xmi:type="nattablestyle:IntListValueStyle" xmi:id="_LRaasdqjEee8kvK1yMzufA" name="hiddenCategoriesByDepth">
+    <styles xsi:type="nattablestyle:IntListValueStyle" xmi:id="_LRaasdqjEee8kvK1yMzufA" name="hiddenCategoriesByDepth">
       <intListValue>1</intListValue>
       <intListValue>2</intListValue>
       <intListValue>3</intListValue>
     </styles>
-    <context xmi:type="uml:Model" href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
-    <owner xmi:type="uml:Model" href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
-    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.stereotype.display/config/stereotype.nattableconfiguration#/"/>
-    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_LRaastqjEee8kvK1yMzufA" description="This axis provider provides available columns according to the columns of the table ( features of the object displayed on the other axis)" name="Stereotype display properties axis provider">
-      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_LRaas9qjEee8kvK1yMzufA" alias="Name Depth" element="stereotype_display_properties:/nameDepth">
-        <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_LRaatNqjEee8kvK1yMzufA" name="axisWidth" intValue="17"/>
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.stereotype.display/config/stereotype.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+    <context href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <owner href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <tableConfiguration href="platform:/plugin/org.eclipse.papyrus.uml.nattable.stereotype.display/config/stereotype.nattableconfiguration#/"/>
+    <columnAxisProvidersHistory xsi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_LRaastqjEee8kvK1yMzufA" description="This axis provider provides available columns according to the columns of the table ( features of the object displayed on the other axis)" name="Stereotype display properties axis provider">
+      <axis xsi:type="nattableaxis:FeatureIdAxis" xmi:id="_LRaas9qjEee8kvK1yMzufA" alias="Name Depth" element="stereotype_display_properties:/nameDepth">
+        <styles xsi:type="nattablestyle:IntValueStyle" xmi:id="_LRaatNqjEee8kvK1yMzufA" name="axisWidth" intValue="17"/>
+        <manager href="platform:/plugin/org.eclipse.papyrus.uml.nattable.stereotype.display/config/stereotype.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
       </axis>
-      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_LRaatdqjEee8kvK1yMzufA" alias="Visible" element="stereotype_display_properties:/isDisplayed">
-        <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_LRaattqjEee8kvK1yMzufA" name="axisWidth" intValue="17"/>
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.stereotype.display/config/stereotype.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+      <axis xsi:type="nattableaxis:FeatureIdAxis" xmi:id="_LRaatdqjEee8kvK1yMzufA" alias="Visible" element="stereotype_display_properties:/isDisplayed">
+        <styles xsi:type="nattablestyle:IntValueStyle" xmi:id="_LRaattqjEee8kvK1yMzufA" name="axisWidth" intValue="17"/>
+        <manager href="platform:/plugin/org.eclipse.papyrus.uml.nattable.stereotype.display/config/stereotype.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
       </axis>
-      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_LRaat9qjEee8kvK1yMzufA" alias="In Braces" element="stereotype_display_properties:/isDisplayedInBraces">
-        <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_LRaauNqjEee8kvK1yMzufA" name="axisWidth" intValue="22"/>
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.stereotype.display/config/stereotype.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+      <axis xsi:type="nattableaxis:FeatureIdAxis" xmi:id="_LRaat9qjEee8kvK1yMzufA" alias="In Braces" element="stereotype_display_properties:/isDisplayedInBraces">
+        <styles xsi:type="nattablestyle:IntValueStyle" xmi:id="_LRaauNqjEee8kvK1yMzufA" name="axisWidth" intValue="22"/>
+        <manager href="platform:/plugin/org.eclipse.papyrus.uml.nattable.stereotype.display/config/stereotype.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
       </axis>
-      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_LRaaudqjEee8kvK1yMzufA" alias="In Comment" element="stereotype_display_properties:/isDisplayedInComment">
-        <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_LRaautqjEee8kvK1yMzufA" name="axisWidth" intValue="22"/>
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.stereotype.display/config/stereotype.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+      <axis xsi:type="nattableaxis:FeatureIdAxis" xmi:id="_LRaaudqjEee8kvK1yMzufA" alias="In Comment" element="stereotype_display_properties:/isDisplayedInComment">
+        <styles xsi:type="nattablestyle:IntValueStyle" xmi:id="_LRaautqjEee8kvK1yMzufA" name="axisWidth" intValue="22"/>
+        <manager href="platform:/plugin/org.eclipse.papyrus.uml.nattable.stereotype.display/config/stereotype.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
       </axis>
-      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_LRaau9qjEee8kvK1yMzufA" alias="In Compartment" element="stereotype_display_properties:/isDisplayedInCompartment">
-        <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_LRaavNqjEee8kvK1yMzufA" name="axisWidth" intValue="22"/>
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.stereotype.display/config/stereotype.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+      <axis xsi:type="nattableaxis:FeatureIdAxis" xmi:id="_LRaau9qjEee8kvK1yMzufA" alias="In Compartment" element="stereotype_display_properties:/isDisplayedInCompartment">
+        <styles xsi:type="nattablestyle:IntValueStyle" xmi:id="_LRaavNqjEee8kvK1yMzufA" name="axisWidth" intValue="22"/>
+        <manager href="platform:/plugin/org.eclipse.papyrus.uml.nattable.stereotype.display/config/stereotype.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
       </axis>
     </columnAxisProvidersHistory>
-    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_LRaavdqjEee8kvK1yMzufA" description="This axis provider manages the rows, according to the wanted hierarchy" name="HierarchicalRowAxisManager" disconnectSlave="true"/>
+    <rowAxisProvidersHistory xsi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_LRaavdqjEee8kvK1yMzufA" description="This axis provider manages the rows, according to the wanted hierarchy" name="HierarchicalRowAxisManager" disconnectSlave="true"/>
   </nattable:Table>
   <nattable:Table xmi:id="_LRfTMNqjEee8kvK1yMzufA" name="SysML 1.4 Requirement Table" currentRowAxisProvider="_LRfTNNqjEee8kvK1yMzufA" currentColumnAxisProvider="_LRfTMdqjEee8kvK1yMzufA" tableKindId="org.eclipse.papyrus.sysml14.table.requirement">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LRf6QNqjEee8kvK1yMzufA" source="http://www.eclipse.org/papyrus/infra/nattable/version">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LRf6QdqjEee8kvK1yMzufA" key="version" value="1.3.0"/>
+    <eAnnotations xmi:id="_LRf6QNqjEee8kvK1yMzufA" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:id="_LRf6QdqjEee8kvK1yMzufA" key="version" value="1.3.0"/>
     </eAnnotations>
-    <context xmi:type="uml:Model" href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
-    <owner xmi:type="uml:Model" href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
-    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirement.nattableconfiguration#/"/>
-    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_LRfTMdqjEee8kvK1yMzufA" description="Provides the columns of the tables with a default configuration" name="Requirements Feature Columns Provider">
-      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_LRfTMtqjEee8kvK1yMzufA" element="property_of_stereotype:/SysML::Requirements::Requirement::id">
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirement.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.1"/>
+    <context href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <owner href="ECb-JusticeLeague.uml#_KhdkcNqjEee8kvK1yMzufA"/>
+    <tableConfiguration href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirement.nattableconfiguration#/"/>
+    <columnAxisProvidersHistory xsi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_LRfTMdqjEee8kvK1yMzufA" description="Provides the columns of the tables with a default configuration" name="Requirements Feature Columns Provider">
+      <axis xsi:type="nattableaxis:FeatureIdAxis" xmi:id="_LRfTMtqjEee8kvK1yMzufA" element="property_of_stereotype:/SysML::Requirements::Requirement::id">
+        <manager href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirement.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.1"/>
       </axis>
-      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_LRfTM9qjEee8kvK1yMzufA" element="property_of_stereotype:/SysML::Requirements::Requirement::text">
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirement.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.1"/>
+      <axis xsi:type="nattableaxis:FeatureIdAxis" xmi:id="_LRfTM9qjEee8kvK1yMzufA" element="property_of_stereotype:/SysML::Requirements::Requirement::text">
+        <manager href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirement.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.1"/>
       </axis>
     </columnAxisProvidersHistory>
-    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_LRfTNNqjEee8kvK1yMzufA" description="Provides the requirements directly owned by the context of the table" name="Requirement Axis Provider" disconnectSlave="true"/>
+    <rowAxisProvidersHistory xsi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_LRfTNNqjEee8kvK1yMzufA" description="Provides the requirements directly owned by the context of the table" name="Requirement Axis Provider" disconnectSlave="true"/>
   </nattable:Table>
+  <ecore:EAnnotation xmi:id="_lN8_oNwsEeejAOHk8WtzmQ" source="Internationalization">
+    <details xmi:id="_lN8_odwsEeejAOHk8WtzmQ" key="use" value="true"/>
+    <details xmi:id="_lN8_otwsEeejAOHk8WtzmQ" key="language" value="fr_FR"/>
+  </ecore:EAnnotation>
 </xmi:XMI>
